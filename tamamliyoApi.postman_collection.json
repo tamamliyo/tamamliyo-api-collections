@@ -1041,7 +1041,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v2/komplikasyon-sigortasi/odeme-yap",
+							"raw": "https://api-test.tamamliyo.com/partner/v2/ogrenci-calisan-yurtdisi-sigortasi/odeme-yap",
 							"protocol": "https",
 							"host": [
 								"api-test",
@@ -1051,7 +1051,7 @@
 							"path": [
 								"partner",
 								"v2",
-								"komplikasyon-sigortasi",
+								"ogrenci-calisan-yurtdisi-sigortasi",
 								"odeme-yap"
 							]
 						}
@@ -1079,7 +1079,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v2/komplikasyon-sigortasi/police-olustur",
+							"raw": "https://api-test.tamamliyo.com/partner/v2/ogrenci-calisan-yurtdisi-sigortasi/police-olustur",
 							"protocol": "https",
 							"host": [
 								"api-test",
@@ -1089,7 +1089,7 @@
 							"path": [
 								"partner",
 								"v2",
-								"komplikasyon-sigortasi",
+								"ogrenci-calisan-yurtdisi-sigortasi",
 								"police-olustur"
 							]
 						}
@@ -1117,7 +1117,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v2/komplikasyon-sigortasi/police-pdf",
+							"raw": "https://api-test.tamamliyo.com/partner/v2/ogrenci-calisan-yurtdisi-sigortasi/police-pdf",
 							"protocol": "https",
 							"host": [
 								"api-test",
@@ -1127,7 +1127,7 @@
 							"path": [
 								"partner",
 								"v2",
-								"komplikasyon-sigortasi",
+								"ogrenci-calisan-yurtdisi-sigortasi",
 								"police-pdf"
 							]
 						}
