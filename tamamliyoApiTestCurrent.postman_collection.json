@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "9e18554c-a403-45a1-90b8-2e1ea6a2dbfe",
+		"_postman_id": "90c86355-d5a0-4b84-8210-ff175633953d",
 		"name": "tamamliyoApiTestCurrent",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "13407317"
+		"_exporter_id": "18078459"
 	},
 	"item": [
 		{
@@ -2510,6 +2510,148 @@
 							"response": []
 						}
 					]
+				}
+			]
+		},
+		{
+			"name": "iptal-iade-servis",
+			"item": [
+				{
+					"name": "beklemede-iptal-iadeler",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/iptal-servis/v1/iptal-talepleri/beklemede",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"iptal-servis",
+								"v1",
+								"iptal-talepleri",
+								"beklemede"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "iptal-edildi-iadeler",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/iptal-servis/iptal-talepleri/iptal-edildi",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"iptal-servis",
+								"iptal-talepleri",
+								"iptal-edildi"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "iptal-talepleri-listele",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/iptal-servis/v1/iptal-talepleri",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"iptal-servis",
+								"v1",
+								"iptal-talepleri"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "iptal-talep-olustur",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \n            \"teklif_id\" : 8,\n            \"tc_kimlik_no\" : 99371873838,\n            \"musteri_adi\" : \"Musa\",\n            \"musteri_email\" : \"musa@tamamliyo.com\",\n            \"musteri_telefon\" : 5357864320\n        \n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/iptal-servis/v1/iptal-talepleri/olustur",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"iptal-servis",
+								"v1",
+								"iptal-talepleri",
+								"olustur"
+							]
+						}
+					},
+					"response": []
 				}
 			]
 		},
