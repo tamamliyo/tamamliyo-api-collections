@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "90c86355-d5a0-4b84-8210-ff175633953d",
-		"name": "tamamliyoApiTestCurrent",
+		"_postman_id": "96dd54dc-5806-4dc5-a884-4ac9fc7d103a",
+		"name": "tamamliyoApiTestCurrent Copy",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "18078459"
+		"_exporter_id": "13407317"
 	},
 	"item": [
 		{
@@ -2518,6 +2518,9 @@
 			"item": [
 				{
 					"name": "beklemede-iptal-iadeler",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
 					"request": {
 						"method": "GET",
 						"header": [
@@ -2526,8 +2529,22 @@
 								"value": "",
 								"type": "text",
 								"disabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
 							}
 						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
 						"url": {
 							"raw": "https://api-test.tamamliyo.com/iptal-servis/v1/iptal-talepleri/beklemede",
 							"protocol": "https",
@@ -2556,10 +2573,15 @@
 								"value": "",
 								"type": "text",
 								"disabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
 							}
 						],
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/iptal-servis/iptal-talepleri/iptal-edildi",
+							"raw": "https://api-test.tamamliyo.com/iptal-servis/v1/iptal-talepleri/iptal-edildi",
 							"protocol": "https",
 							"host": [
 								"api-test",
@@ -2568,6 +2590,7 @@
 							],
 							"path": [
 								"iptal-servis",
+								"v1",
 								"iptal-talepleri",
 								"iptal-edildi"
 							]
@@ -2582,7 +2605,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "",
+								"value": ",",
 								"type": "text",
 								"disabled": true
 							}
@@ -2628,7 +2651,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{ \n            \"teklif_id\" : 8,\n            \"tc_kimlik_no\" : 99371873838,\n            \"musteri_adi\" : \"Musa\",\n            \"musteri_email\" : \"musa@tamamliyo.com\",\n            \"musteri_telefon\" : 5357864320\n        \n}",
+							"raw": "{ \n            \"teklif_id\" : 9,\n            \"tc_kimlik_no\" : 99371873838,\n            \"musteri_adi\" : \"Musa\",\n            \"musteri_email\" : \"musa@tamamliyo.com\",\n            \"musteri_telefon\" : 5357864320\n        \n}",
 							"options": {
 								"raw": {
 									"language": "json"
