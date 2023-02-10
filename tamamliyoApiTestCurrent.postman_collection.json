@@ -2689,6 +2689,273 @@
 			]
 		},
 		{
+			"name": "yabanci-sağlık-sigorta V1",
+			"item": [
+				{
+					"name": "urunler",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "ace2bb8ebd02c6dab0530458b2bc1637",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"teklifId\" : 9194\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://laravel-api.test/partner/v1/yabanci-saglik-sigortasi/urunler",
+							"protocol": "http",
+							"host": [
+								"laravel-api",
+								"test"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"yabanci-saglik-sigortasi",
+								"urunler"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "fiyat-al",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "ace2bb8ebd02c6dab0530458b2bc1637",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"baslangicTarihi\" : \"2023-03-10\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://laravel-api.test/partner/v1/yabanci-saglik-sigortasi/fiyat-al",
+							"protocol": "http",
+							"host": [
+								"laravel-api",
+								"test"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"yabanci-saglik-sigortasi",
+								"fiyat-al"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "teklif olustur",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "5ac96f1dbcc523873c902ccb0e445e25",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \r\n    \"pasaportNo\": \"0106140\",\r\n    \"dogumTarihi\": \"1998-12-31\",\r\n    \"ad\": \"Musa\",\r\n    \"soyad\": \"Swaray\",\r\n    \"cinsiyet\": \"E\",\r\n    \"uyruk\": 33,\r\n    \"babaAdi\": \"Samuka\",\r\n    \"dogumYeri\": \"Monrovia\",\r\n    \"baslangicTarihi\": \"2023-03-06\",\r\n    \"email\": \"omo@omo.com\",\r\n    \"gsmNo\": \"5357864320 \",\r\n    \"bitisTarihi\": \"2025-11-24\",\r\n    \"urunId\": 85,\r\n    \"sorguTipi\": 2\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://laravel-api.test/partner/v1/yabanci-saglik-sigortasi/teklif-olustur",
+							"protocol": "http",
+							"host": [
+								"laravel-api",
+								"test"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"yabanci-saglik-sigortasi",
+								"teklif-olustur"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "odeme-yap",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "5ac96f1dbcc523873c902ccb0e445e25",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"odemeTipi\" : 1,\r\n    \"teklifId\" : 3722,\r\n    \"krediKartiCvv\" : \"401\",\r\n    \"krediKartiNo\" : \"5235290466268433\",\r\n    \"krediKartiBitisTarihi\" : \"2024-09-01\",\r\n    \"krediKartiAd\" : \"Musa\",\r\n    \"krediKartiSoyad\" : \"Swaray\",\r\n    \"donusUrl\" : \"https://tamamliyo.com\",\r\n    \"ulkeId\" : 1,\r\n    \"ilId\" : 34,\r\n    \"ilceId\" : 1,\r\n    \"adres\": \"Kartal\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://laravel-api.test/partner/v1/yabanci-saglik-sigortasi/odeme-yap",
+							"protocol": "http",
+							"host": [
+								"laravel-api",
+								"test"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"yabanci-saglik-sigortasi",
+								"odeme-yap"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "police-olustur",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "5ac96f1dbcc523873c902ccb0e445e25",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"teklifId\" : 2453\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://laravel-api.test/partner/v1/yabanci-saglik-sigortasi/police-olustur",
+							"protocol": "http",
+							"host": [
+								"laravel-api",
+								"test"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"yabanci-saglik-sigortasi",
+								"police-olustur"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "police-pdf",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "5ac96f1dbcc523873c902ccb0e445e25",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"teklifId\" : 2453\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://laravel-api.test/partner/v1/yabanci-saglik-sigortasi/police-pdf",
+							"protocol": "http",
+							"host": [
+								"laravel-api",
+								"test"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"yabanci-saglik-sigortasi",
+								"police-pdf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "makbuz-pdf",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "5ac96f1dbcc523873c902ccb0e445e25",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"teklifId\" : 2453\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://laravel-api.test/partner/v1/yabanci-saglik-sigortasi/police-pdf",
+							"protocol": "http",
+							"host": [
+								"laravel-api",
+								"test"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"yabanci-saglik-sigortasi",
+								"police-pdf"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
 			"name": "yurt ici seyahat birden fazla sigortali",
 			"request": {
 				"method": "POST",
