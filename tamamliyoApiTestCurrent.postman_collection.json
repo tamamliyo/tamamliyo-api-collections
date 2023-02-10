@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "96dd54dc-5806-4dc5-a884-4ac9fc7d103a",
+		"_postman_id": "ae306472-a7be-4019-94e7-12f8c7837a30",
 		"name": "tamamliyoApiTestCurrent Copy",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "13407317"
@@ -2701,13 +2701,19 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "ace2bb8ebd02c6dab0530458b2bc1637",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"teklifId\" : 9194\r\n}",
+							"raw": "",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2715,11 +2721,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://laravel-api.test/partner/v1/yabanci-saglik-sigortasi/urunler",
-							"protocol": "http",
+							"raw": "https://api-test.tamamliyo.com/partner/v1/yabanci-saglik-sigortasi/urunler",
+							"protocol": "https",
 							"host": [
-								"laravel-api",
-								"test"
+								"api-test",
+								"tamamliyo",
+								"com"
 							],
 							"path": [
 								"partner",
@@ -2738,8 +2745,9 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "ace2bb8ebd02c6dab0530458b2bc1637",
-								"type": "text"
+								"value": "",
+								"type": "text",
+								"disabled": true
 							}
 						],
 						"body": {
@@ -2752,11 +2760,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://laravel-api.test/partner/v1/yabanci-saglik-sigortasi/fiyat-al",
-							"protocol": "http",
+							"raw": "https://api-test.tamamliyo.com/partner/v1/yabanci-saglik-sigortasi/fiyat-al",
+							"protocol": "https",
 							"host": [
-								"laravel-api",
-								"test"
+								"api-test",
+								"tamamliyo",
+								"com"
 							],
 							"path": [
 								"partner",
@@ -2775,8 +2784,9 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "5ac96f1dbcc523873c902ccb0e445e25",
-								"type": "text"
+								"value": "",
+								"type": "text",
+								"disabled": true
 							}
 						],
 						"body": {
@@ -2789,11 +2799,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://laravel-api.test/partner/v1/yabanci-saglik-sigortasi/teklif-olustur",
-							"protocol": "http",
+							"raw": "https://api-test.tamamliyo.com/partner/v1/yabanci-saglik-sigortasi/teklif-olustur",
+							"protocol": "https",
 							"host": [
-								"laravel-api",
-								"test"
+								"api-test",
+								"tamamliyo",
+								"com"
 							],
 							"path": [
 								"partner",
@@ -2812,13 +2823,19 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "5ac96f1dbcc523873c902ccb0e445e25",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"odemeTipi\" : 1,\r\n    \"teklifId\" : 3722,\r\n    \"krediKartiCvv\" : \"401\",\r\n    \"krediKartiNo\" : \"5235290466268433\",\r\n    \"krediKartiBitisTarihi\" : \"2024-09-01\",\r\n    \"krediKartiAd\" : \"Musa\",\r\n    \"krediKartiSoyad\" : \"Swaray\",\r\n    \"donusUrl\" : \"https://tamamliyo.com\",\r\n    \"ulkeId\" : 1,\r\n    \"ilId\" : 34,\r\n    \"ilceId\" : 1,\r\n    \"adres\": \"Kartal\"\r\n\r\n}",
+							"raw": "{\r\n    \"odemeTipi\" : 1,\r\n    \"teklifId\" : 15231,\r\n    \"krediKartiCvv\" : \"401\",\r\n    \"krediKartiNo\" : \"5235290466268433\",\r\n    \"krediKartiBitisTarihi\" : \"2024-09-01\",\r\n    \"krediKartiAd\" : \"Musa\",\r\n    \"krediKartiSoyad\" : \"Swaray\",\r\n    \"donusUrl\" : \"https://tamamliyo.com\",\r\n    \"ulkeId\" : 1,\r\n    \"ilId\" : 34,\r\n    \"ilceId\" : 1,\r\n    \"adres\": \"Kartal\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2826,11 +2843,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://laravel-api.test/partner/v1/yabanci-saglik-sigortasi/odeme-yap",
-							"protocol": "http",
+							"raw": "https://api-test.tamamliyo.com/partner/v1/yabanci-saglik-sigortasi/odeme-yap",
+							"protocol": "https",
 							"host": [
-								"laravel-api",
-								"test"
+								"api-test",
+								"tamamliyo",
+								"com"
 							],
 							"path": [
 								"partner",
@@ -2849,13 +2867,19 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "5ac96f1dbcc523873c902ccb0e445e25",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"teklifId\" : 2453\r\n}",
+							"raw": "{\r\n    \"teklifId\" : 15228,\r\n    \"orderId\" : 146722\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2863,11 +2887,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://laravel-api.test/partner/v1/yabanci-saglik-sigortasi/police-olustur",
-							"protocol": "http",
+							"raw": "https://api-test.tamamliyo.com/partner/v1/yabanci-saglik-sigortasi/police-olustur",
+							"protocol": "https",
 							"host": [
-								"laravel-api",
-								"test"
+								"api-test",
+								"tamamliyo",
+								"com"
 							],
 							"path": [
 								"partner",
@@ -2886,13 +2911,19 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "5ac96f1dbcc523873c902ccb0e445e25",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"teklifId\" : 2453\r\n}",
+							"raw": "{\r\n    \"teklifId\" : 15228\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2900,11 +2931,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://laravel-api.test/partner/v1/yabanci-saglik-sigortasi/police-pdf",
-							"protocol": "http",
+							"raw": "https://api-test.tamamliyo.com/partner/v1/yabanci-saglik-sigortasi/police-pdf",
+							"protocol": "https",
 							"host": [
-								"laravel-api",
-								"test"
+								"api-test",
+								"tamamliyo",
+								"com"
 							],
 							"path": [
 								"partner",
@@ -2923,13 +2955,19 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "5ac96f1dbcc523873c902ccb0e445e25",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"teklifId\" : 2453\r\n}",
+							"raw": "{\r\n    \"teklifId\" : 15228\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2937,11 +2975,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://laravel-api.test/partner/v1/yabanci-saglik-sigortasi/police-pdf",
-							"protocol": "http",
+							"raw": "https://api-test.tamamliyo.com/partner/v1/yabanci-saglik-sigortasi/police-pdf",
+							"protocol": "https",
 							"host": [
-								"laravel-api",
-								"test"
+								"api-test",
+								"tamamliyo",
+								"com"
 							],
 							"path": [
 								"partner",
