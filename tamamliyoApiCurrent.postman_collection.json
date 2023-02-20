@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "ae306472-a7be-4019-94e7-12f8c7837a30",
-		"name": "tamamliyoApiTestCurrent Copy",
+		"name": "tamamliyoApiCurrent",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "13407317"
 	},
@@ -16,7 +16,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "",
+								"value": "31236467a9554a92e0930c457b329f79",
 								"type": "text"
 							}
 						],
@@ -1709,12 +1709,13 @@
 							{
 								"key": "token",
 								"value": "",
-								"type": "text"
+								"type": "text",
+								"disabled": true
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"sigortaEttiren\": {\r\n            \"tcKimlikNo\": \"14993697604\",\r\n            \"dogumTarihi\": \"2001-03-17\"\r\n    },\r\n    \"sigortali\": [\r\n        {\r\n            \"tcKimlikNo\": \"14993697604\",\r\n            \"dogumTarihi\": \"2001-03-17\",\r\n            \"relationTypeId\" : \"F\"\r\n        }\r\n    ],\r\n    \"baslangicTarihi\": \"2023-02-27\",\r\n    \"bitisTarihi\": \"2023-03-25\",\r\n    \"email\": \"bilgi@tamamliyo.com\",\r\n    \"gsmNo\": \"+2805448202338\",\r\n    \"urunKodu\" : 1,\r\n    \"ad\" : \"Yunus Emre\",\r\n    \"soyad\" : \"Çınar\",\r\n    \"cinsiyet\" : \"E\"\r\n}",
+							"raw": "{\r\n    \"sigortaEttiren\": {\r\n            \"tcKimlikNo\": \"14993697604\",\r\n            \"dogumTarihi\": \"2001-03-17\"\r\n    },\r\n    \"sigortali\": [\r\n        {\r\n            \"tcKimlikNo\": \"14993697604\",\r\n            \"dogumTarihi\": \"2001-03-17\"\r\n        }\r\n    ],\r\n    \"baslangicTarihi\": \"2023-02-16\",\r\n    \"bitisTarihi\": \"2023-02-18\",\r\n    \"email\": \"musa@tamamliyo.com\",\r\n    \"gsmNo\": \"5357864320\",\r\n    \"urunKodu\" : 3,\r\n    \"cinsiyet\" : \"E\",\r\n    \"ad\" : \"Musa\",\r\n    \"soyad\" : \"Swaray\",\r\n    \"bolge\" : \"3\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1942,7 +1943,8 @@
 							{
 								"key": "token",
 								"value": "",
-								"type": "text"
+								"type": "text",
+								"disabled": true
 							}
 						],
 						"body": {
@@ -2661,7 +2663,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{ \n            \"teklif_id\" : 15,\n            \"tc_kimlik_no\" : 99371873838,\n            \"musteri_adi\" : \"Musa\",\n            \"musteri_email\" : \"musa@tamamliyo.com\",\n            \"musteri_telefon\" : 5357864320\n        \n}",
+							"raw": "{ \n            \"teklif_id\" : 17,\n            \"tc_kimlik_no\" : 99371873838,\n            \"musteri_adi\" : \"Musa\",\n            \"musteri_email\" : \"musa@tamamliyo.com\",\n            \"musteri_telefon\" : 5357864320,\n            \"partner_email\" : \"ornek@ornek.com\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
