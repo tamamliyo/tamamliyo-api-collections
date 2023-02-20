@@ -16,8 +16,9 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
-								"type": "text"
+								"value": "",
+								"type": "text",
+								"disabled": true
 							}
 						],
 						"body": {
@@ -1492,6 +1493,49 @@
 					"response": []
 				},
 				{
+					"name": "urunler",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/partner/v2/pati-sigortasi/urunler/",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v2",
+								"pati-sigortasi",
+								"urunler",
+								""
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "pati turleri",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -2155,12 +2199,13 @@
 									{
 										"key": "token",
 										"value": "",
-										"type": "text"
+										"type": "text",
+										"disabled": true
 									}
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{ \n    \"urunId\": 2,\n    \"tcKimlikNo\": \"18908499536\",\n    \"dogumTarihi\": \"1989-02-07\",\n    \"boy\": 188,\n    \"kilo\": 77,\n    \"email\": \" musa@tamamliyo.com\",\n    \"gsmNo\": \"5357864320\",\n    \"ad\" : \"Yunus Emre\",\n    \"soyad\" : \"Çınar\",\n    \"cinsiyet\" : \"E\"\n\n}",
+									"raw": "{\n    \"urunId\" : 2,\n    \"tcKimlikNo\": \"14993697604\",\n    \"dogumTarihi\": \"2001-03-17\",\n    \"gsmNo\" : \"5357864320\",\n    \"boy\" : 188,\n    \"kilo\" : 1,\n    \"email\" : \"test@tamamliyo.com\",\n    \"ad\" : \"test\",\n    \"soyad\" : \"test\",\n    \"cinsiyet\" : \"K\"\n}\n",
 									"options": {
 										"raw": {
 											"language": "json"
