@@ -2176,397 +2176,392 @@
 			]
 		},
 		{
-			"name": "Demir Sigorta",
+			"name": "Tamamlayıcı-Sigorta",
 			"item": [
 				{
-					"name": "Tamamlayıcı-Sigorta",
-					"item": [
-						{
-							"name": "teklif-olustur",
-							"protocolProfileBehavior": {
-								"disabledSystemHeaders": {
-									"accept": true
-								}
-							},
-							"request": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "Accept",
-										"value": "application/json",
-										"type": "text"
-									},
-									{
-										"key": "token",
-										"value": "",
-										"type": "text",
-										"disabled": true
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"urunId\" : 2,\n    \"tcKimlikNo\": \"14993697604\",\n    \"dogumTarihi\": \"2001-03-17\",\n    \"gsmNo\" : \"5357864320\",\n    \"boy\" : 188,\n    \"kilo\" : 1,\n    \"email\" : \"test@tamamliyo.com\",\n    \"ad\" : \"test\",\n    \"soyad\" : \"test\",\n    \"cinsiyet\" : \"K\"\n}\n",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": {
-									"raw": "https://api-test.tamamliyo.com/partner/v1/tamamlayici-saglik-sigortasi/teklif-olustur",
-									"protocol": "https",
-									"host": [
-										"api-test",
-										"tamamliyo",
-										"com"
-									],
-									"path": [
-										"partner",
-										"v1",
-										"tamamlayici-saglik-sigortasi",
-										"teklif-olustur"
-									]
-								}
-							},
-							"response": []
-						},
-						{
-							"name": "3D ile odeme-yap",
-							"protocolProfileBehavior": {
-								"disabledSystemHeaders": {
-									"accept": true
-								}
-							},
-							"request": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "Accept",
-										"value": "application/json",
-										"type": "text"
-									},
-									{
-										"key": "token",
-										"value": "",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{    \n    \"teklifId\": 15112,\n    \"odemeTipi\": 1,\n    \"krediKartiNo\": \"5406697543211173\",\n    \"krediKartiBitisTarihi\": \"2023-03-01\",\n    \"krediKartiCvv\": \"465\",\n    \"krediKartiAd\": \"Musa\",\n    \"krediKartiSoyad\": \"Tamamliyo\",\n    \"donusUrl\": \"https://wwww.adres.com/\",\n    \"ulkeId\": 1,\n    \"ilId\": 1,\n    \"ilceId\": 1,\n    \"adres\": \" nilüfer\"\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": {
-									"raw": "https://api-test.tamamliyo.com/partner/v1/tamamlayici-saglik-sigortasi/odeme-yap",
-									"protocol": "https",
-									"host": [
-										"api-test",
-										"tamamliyo",
-										"com"
-									],
-									"path": [
-										"partner",
-										"v1",
-										"tamamlayici-saglik-sigortasi",
-										"odeme-yap"
-									]
-								}
-							},
-							"response": []
-						},
-						{
-							"name": "odeme-yap",
-							"protocolProfileBehavior": {
-								"disabledSystemHeaders": {
-									"accept": true
-								}
-							},
-							"request": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "token",
-										"value": "",
-										"type": "text"
-									},
-									{
-										"key": "Accept",
-										"value": "application/json",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{    \n    \"teklifId\": 15112,\n    \"odemeTipi\": 2,\n    \"krediKartiNo\": \"5406697543211173\",\n    \"krediKartiBitisTarihi\": \"2023-03-01\",\n    \"krediKartiCvv\": \"465\",\n    \"krediKartiAd\": \"Musa\",\n    \"krediKartiSoyad\": \"Tamamliyo\",\n    \"donusUrl\": \"https://wwww.adres.com/\",\n    \"ulkeId\": 1,\n    \"ilId\": 1,\n    \"ilceId\": 1,\n    \"adres\": \" nilüfer\"\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": {
-									"raw": "https://api-test.tamamliyo.com/partner/v1/tamamlayici-saglik-sigortasi/odeme-yap",
-									"protocol": "https",
-									"host": [
-										"api-test",
-										"tamamliyo",
-										"com"
-									],
-									"path": [
-										"partner",
-										"v1",
-										"tamamlayici-saglik-sigortasi",
-										"odeme-yap"
-									]
-								}
-							},
-							"response": []
-						},
-						{
-							"name": "police-olustur",
-							"protocolProfileBehavior": {
-								"disabledSystemHeaders": {
-									"accept": true
-								}
-							},
-							"request": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "token",
-										"value": "",
-										"type": "text"
-									},
-									{
-										"key": "Accept",
-										"value": "application/json",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"teklifId\": 15112,\n    \"orderId\": \"146663\"\n}\n\n\n",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": {
-									"raw": "https://api-test.tamamliyo.com/partner/v1/tamamlayici-saglik-sigortasi/police-olustur",
-									"protocol": "https",
-									"host": [
-										"api-test",
-										"tamamliyo",
-										"com"
-									],
-									"path": [
-										"partner",
-										"v1",
-										"tamamlayici-saglik-sigortasi",
-										"police-olustur"
-									]
-								}
-							},
-							"response": []
-						},
-						{
-							"name": "Poliçe-PDF",
-							"protocolProfileBehavior": {
-								"disabledSystemHeaders": {
-									"accept": true
-								}
-							},
-							"request": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "token",
-										"value": "",
-										"type": "text"
-									},
-									{
-										"key": "Accept",
-										"value": "application/json",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{    \n    \"teklifId\": 15112\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": {
-									"raw": "https://api-test.tamamliyo.com/partner/v1/tamamlayici-saglik-sigortasi/police-pdf",
-									"protocol": "https",
-									"host": [
-										"api-test",
-										"tamamliyo",
-										"com"
-									],
-									"path": [
-										"partner",
-										"v1",
-										"tamamlayici-saglik-sigortasi",
-										"police-pdf"
-									]
-								}
-							},
-							"response": []
-						},
-						{
-							"name": "Makbuz-PDF",
-							"protocolProfileBehavior": {
-								"disabledSystemHeaders": {
-									"accept": true
-								}
-							},
-							"request": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "token",
-										"value": "",
-										"type": "text"
-									},
-									{
-										"key": "Accept",
-										"value": "application/json",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{    \n    \"teklifId\": 15027\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": {
-									"raw": "https://api-test.tamamliyo.com/partner/v1/tamamlayici-saglik-sigortasi/makbuz-pdf",
-									"protocol": "https",
-									"host": [
-										"api-test",
-										"tamamliyo",
-										"com"
-									],
-									"path": [
-										"partner",
-										"v1",
-										"tamamlayici-saglik-sigortasi",
-										"makbuz-pdf"
-									]
-								}
-							},
-							"response": []
-						},
-						{
-							"name": "Teklif-bilgiler-getir",
-							"protocolProfileBehavior": {
-								"disabledSystemHeaders": {
-									"accept": true
-								}
-							},
-							"request": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "token",
-										"value": "",
-										"type": "text"
-									},
-									{
-										"key": "Accept",
-										"value": "application/json",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{    \n    \"teklifId\": 15026   \n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": {
-									"raw": "https://api-test.tamamliyo.com/partner/v1/tamamlayici-saglik-sigortasi/teklif-bilgileri",
-									"protocol": "https",
-									"host": [
-										"api-test",
-										"tamamliyo",
-										"com"
-									],
-									"path": [
-										"partner",
-										"v1",
-										"tamamlayici-saglik-sigortasi",
-										"teklif-bilgileri"
-									]
-								}
-							},
-							"response": []
-						},
-						{
-							"name": "urunler-getir",
-							"protocolProfileBehavior": {
-								"disabledSystemHeaders": {
-									"accept": true
-								}
-							},
-							"request": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "token",
-										"value": "",
-										"type": "text"
-									},
-									{
-										"key": "Accept",
-										"value": "application/json",
-										"type": "text"
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": {
-									"raw": "https://api-test.tamamliyo.com/partner/v1/tamamlayici-saglik-sigortasi/urunler",
-									"protocol": "https",
-									"host": [
-										"api-test",
-										"tamamliyo",
-										"com"
-									],
-									"path": [
-										"partner",
-										"v1",
-										"tamamlayici-saglik-sigortasi",
-										"urunler"
-									]
-								}
-							},
-							"response": []
+					"name": "teklif-olustur",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
 						}
-					]
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "token",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"urunId\" : 2,\n    \"tcKimlikNo\": \"14993697604\",\n    \"dogumTarihi\": \"2001-03-17\",\n    \"gsmNo\" : \"5357864320\",\n    \"boy\" : 188,\n    \"kilo\" : 1,\n    \"email\" : \"test@tamamliyo.com\",\n    \"ad\" : \"test\",\n    \"soyad\" : \"test\",\n    \"cinsiyet\" : \"K\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/partner/v1/tamamlayici-saglik-sigortasi/teklif-olustur",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"tamamlayici-saglik-sigortasi",
+								"teklif-olustur"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "3D ile odeme-yap",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{    \n    \"teklifId\": 15112,\n    \"odemeTipi\": 1,\n    \"krediKartiNo\": \"5406697543211173\",\n    \"krediKartiBitisTarihi\": \"2023-03-01\",\n    \"krediKartiCvv\": \"465\",\n    \"krediKartiAd\": \"Musa\",\n    \"krediKartiSoyad\": \"Tamamliyo\",\n    \"donusUrl\": \"https://wwww.adres.com/\",\n    \"ulkeId\": 1,\n    \"ilId\": 1,\n    \"ilceId\": 1,\n    \"adres\": \" nilüfer\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/partner/v1/tamamlayici-saglik-sigortasi/odeme-yap",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"tamamlayici-saglik-sigortasi",
+								"odeme-yap"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "odeme-yap",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{    \n    \"teklifId\": 15112,\n    \"odemeTipi\": 2,\n    \"krediKartiNo\": \"5406697543211173\",\n    \"krediKartiBitisTarihi\": \"2023-03-01\",\n    \"krediKartiCvv\": \"465\",\n    \"krediKartiAd\": \"Musa\",\n    \"krediKartiSoyad\": \"Tamamliyo\",\n    \"donusUrl\": \"https://wwww.adres.com/\",\n    \"ulkeId\": 1,\n    \"ilId\": 1,\n    \"ilceId\": 1,\n    \"adres\": \" nilüfer\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/partner/v1/tamamlayici-saglik-sigortasi/odeme-yap",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"tamamlayici-saglik-sigortasi",
+								"odeme-yap"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "police-olustur",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"teklifId\": 15112,\n    \"orderId\": \"146663\"\n}\n\n\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/partner/v1/tamamlayici-saglik-sigortasi/police-olustur",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"tamamlayici-saglik-sigortasi",
+								"police-olustur"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Poliçe-PDF",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{    \n    \"teklifId\": 15112\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/partner/v1/tamamlayici-saglik-sigortasi/police-pdf",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"tamamlayici-saglik-sigortasi",
+								"police-pdf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Makbuz-PDF",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{    \n    \"teklifId\": 15027\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/partner/v1/tamamlayici-saglik-sigortasi/makbuz-pdf",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"tamamlayici-saglik-sigortasi",
+								"makbuz-pdf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Teklif-bilgiler-getir",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{    \n    \"teklifId\": 15026   \n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/partner/v1/tamamlayici-saglik-sigortasi/teklif-bilgileri",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"tamamlayici-saglik-sigortasi",
+								"teklif-bilgileri"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "urunler-getir",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/partner/v1/tamamlayici-saglik-sigortasi/urunler",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"tamamlayici-saglik-sigortasi",
+								"urunler"
+							]
+						}
+					},
+					"response": []
 				}
 			]
 		},
