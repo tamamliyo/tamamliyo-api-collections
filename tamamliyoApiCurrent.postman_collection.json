@@ -440,7 +440,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"sigortaEttiren\": {\r\n        \"tcKimlikNo\" : \"33535449488\",\r\n        \"dogumTarihi\": \"2001-05-26\"\r\n    },\r\n    \"artiTeminatIsteniyormu\" : true,\r\n    \"teminatKodu\"  : 1,\r\n    \"binaMetreKare\" : 120,\r\n    \"camKirilmasiBedeli\" : 1000,\r\n    \"yapiKodu\" : \"A\",\r\n    \"uavtKodu\" : \"2941938389\",\r\n    \"esyaYanginBedeli\" : 50000,\r\n    \"dainiMurtehinVarmi\" : false,\r\n    \"dainiMurtehinKurumTipi\" : \"\",\r\n    \"dainiMurtehinBankaKodu\" : \"\",\r\n    \"dainiMurtehinBankaSubeKodu\" : \"\",\r\n    \"dainiMurtehinFinansKodu\" : \"\",\r\n    \"daskaTabimi\" : \"false\",\r\n    \"doluTeminatiIsteniyormu\" : false,\r\n    \"elektronikCihazBedeli\" : 500,\r\n    \"esyaDepremTeminatiIsteniyormu\": true,\r\n    \"ferdiKazaBedeli\" : 1000,\r\n    \"katKodu\" : \"Z\",\r\n    \"ucAydanFazlaBosmu\" : false,\r\n    \"ucuncuSahisSorumlulukBedeli\" : 1000,\r\n    \"makinaKirilmasiTeminatiIsteniyormu\" : false,\r\n    \"gsmNo\" : \"5370117045\",\r\n    \"email\" :\"musa@tamamliyo.com\",\r\n    \"urunId\" : 114,\r\n    \"ad\" : \"Yunus Emre\",\r\n    \"soyad\": \"Çınar\",\r\n    \"cinsiyet\" : \"E\"\r\n}",
+							"raw": "{\r\n    \"sigortaEttiren\": {\r\n        \"tcKimlikNo\" : \"33535449488\",\r\n        \"dogumTarihi\": \"2001-05-26\"\r\n    },\r\n    \"artiTeminatIsteniyormu\" : true,\r\n    \"teminatKodu\"  : 1,\r\n    \"binaMetreKare\" : 120,\r\n    \"camKirilmasiBedeli\" : 1000,\r\n    \"yapiKodu\" : \"A\",\r\n    \"uavtKodu\" : \"2941938389\",\r\n    \"esyaYanginBedeli\" : 50000,\r\n    \"dainiMurtehinVarmi\" : false,\r\n    \"dainiMurtehinKurumTipi\" : \"\",\r\n    \"dainiMurtehinBankaKodu\" : \"\",\r\n    \"dainiMurtehinBankaSubeKodu\" : \"\",\r\n    \"dainiMurtehinFinansKodu\" : \"\",\r\n    \"daskaTabimi\" : \"false\",\r\n    \"doluTeminatiIsteniyormu\" : false,\r\n    \"elektronikCihazBedeli\" : 500,\r\n    \"esyaDepremTeminatiIsteniyormu\": true,\r\n    \"ferdiKazaBedeli\" : 1000,\r\n    \"katKodu\" : \"Z\",\r\n    \"ucAydanFazlaBosmu\" : false,\r\n    \"ucuncuSahisSorumlulukBedeli\" : 1000,\r\n    \"makinaKirilmasiTeminatiIsteniyormu\" : false,\r\n    \"gsmNo\" : \"5370117045\",\r\n    \"email\" :\"musa@tamamliyo.com\",\r\n    \"urunId\" : 114\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -607,7 +607,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"sigortaEttiren\": {\r\n        \"tcKimlikNo\": \"14993697604\",\r\n        \"dogumTarihi\": \"2001-03-17\"\r\n    },\r\n    \"sigortali\": [\r\n        {\r\n            \"tcKimlikNo\": \"14993697604\",\r\n            \"dogumTarihi\": \"2001-03-17\",\r\n            \"relationTypeId\" : \"F\"\r\n        }\r\n    ],\r\n    \"baslangicTarihi\": \"2023-02-25\",\r\n    \"email\": \"bilgi@tamamliyo.com\",\r\n    \"gsmNo\": \"5448202338\",\r\n    \"bitisTarihi\": \"2023-02-27\",\r\n    \"urunId\": 110,\r\n    \"ad\" : \"Yunus Emre\",\r\n    \"soyad\" : \"Çınar\",\r\n    \"cinsiyet\" : \"E\",\r\n    \"sorguTipi\": 1\r\n\r\n}",
+							"raw": "{\r\n    \"sigortaEttiren\": {\r\n        \"tcKimlikNo\": \"14993697604\",\r\n        \"dogumTarihi\": \"2001-03-17\"\r\n    },\r\n    \"sigortali\": [\r\n        {\r\n            \"tcKimlikNo\": \"14993697604\",\r\n            \"dogumTarihi\": \"2001-03-17\",\r\n            \"relationTypeId\" : \"F\"\r\n        }\r\n    ],\r\n    \"baslangicTarihi\": \"2023-02-25\",\r\n    \"email\": \"bilgi@tamamliyo.com\",\r\n    \"gsmNo\": \"5448202338\",\r\n    \"bitisTarihi\": \"2023-02-27\",\r\n    \"urunId\": 110,\r\n    \"sorguTipi\": 1\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -774,7 +774,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"sigortaEttiren\": {\r\n        \"tcKimlikNo\": \"14993697604\",\r\n        \"dogumTarihi\": \"2001-03-17\"\r\n    },\r\n    \"sigortali\": [\r\n        {\r\n            \"tcKimlikNo\": \"14993697604\",\r\n            \"dogumTarihi\": \"2001-03-17\",\r\n            \"relationTypeId\" : \"F\"\r\n        }\r\n    ],\r\n    \"baslangicTarihi\": \"2023-03-06\",\r\n    \"email\": \"bilgi@tamamliyo.com\",\r\n    \"gsmNo\": \"5448202338\",\r\n    \"bitisTarihi\": \"2023-04-10\",\r\n    \"urunId\": 110,\r\n    \"sorguTipi\" : 1,\r\n    \"ad\" : \"Yunus Emre\",\r\n    \"soyad\" : \"Çınar\",\r\n    \"cinsiyet\" : \"E\"\r\n}",
+							"raw": "{\r\n    \"sigortaEttiren\": {\r\n        \"tcKimlikNo\": \"14993697604\",\r\n        \"dogumTarihi\": \"2001-03-17\"\r\n    },\r\n    \"sigortali\": [\r\n        {\r\n            \"tcKimlikNo\": \"14993697604\",\r\n            \"dogumTarihi\": \"2001-03-17\",\r\n            \"relationTypeId\" : \"F\"\r\n        }\r\n    ],\r\n    \"baslangicTarihi\": \"2023-03-06\",\r\n    \"email\": \"bilgi@tamamliyo.com\",\r\n    \"gsmNo\": \"5448202338\",\r\n    \"bitisTarihi\": \"2023-04-10\",\r\n    \"urunId\": 110,\r\n    \"sorguTipi\" : 1\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1007,7 +1007,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\"sigortaEttiren\": {\r\n \"tcKimlikNo\": \"14993697604\",\r\n  \"dogumTarihi\": \"2001-03-17\"\r\n},\r\n\"sigortali\": [\r\n{\r\n      \"tcKimlikNo\": \"14993697604\",\r\n      \"dogumTarihi\": \"2001-03-17\",\r\n      \"relationTypeId\" : \"F\"\r\n}\r\n],\r\n\"baslangicTarihi\": \"2023-02-25\",\r\n\"email\": \"bilgi@tamamliyo.com\",\r\n\"gsmNo\": \"5357864320\",\r\n\"bitisTarihi\": \"2023-02-30\",\r\n\"ad\" : \"musa\",\r\n\"soyad\" : \"swaray\",\r\n\"cinsiyet\" : \"K\",\r\n\"urunId\": 112,\r\n\"sorguTipi\" : 1,\r\n\"bolge\" : 2,\r\n\"urunTipi\" : 1\r\n}",
+							"raw": "{\r\n\"sigortaEttiren\": {\r\n \"tcKimlikNo\": \"14993697604\",\r\n  \"dogumTarihi\": \"2001-03-17\"\r\n},\r\n\"sigortali\": [\r\n{\r\n      \"tcKimlikNo\": \"14993697604\",\r\n      \"dogumTarihi\": \"2001-03-17\",\r\n      \"relationTypeId\" : \"F\"\r\n}\r\n],\r\n\"baslangicTarihi\": \"2023-02-25\",\r\n\"email\": \"bilgi@tamamliyo.com\",\r\n\"gsmNo\": \"5357864320\",\r\n\"bitisTarihi\": \"2023-02-30\",\r\n\"urunId\": 112,\r\n\"sorguTipi\" : 1,\r\n\"bolge\" : 2,\r\n\"urunTipi\" : 1\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1210,7 +1210,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"sigortaEttiren\": {\r\n        \"dogumTarihi\": \"2001-03-17\",\r\n        \"tcKimlikNo\": \"14993697604\"\r\n    },\r\n    \"baslangicTarihi\": \"2023-02-22\",\r\n    \"cinsId\": \"2\",\r\n    \"turId\": \"14\",\r\n    \"cinsiyetId\": \"1\",\r\n    \"yasGrubuId\": \"6\",\r\n    \"evcilHayvanAdi\": \"test\",\r\n    \"gsmNo\": \"5467147063\",\r\n    \"email\": \"soner@mail.com\",\r\n    \"urunId\": \"113\",\r\n    \"ad\" : \"Yunus Emre\",\r\n    \"soyad\" : \"Çınar\",\r\n    \"cinsiyet\" : \"E\"\r\n}",
+							"raw": "{\r\n    \"sigortaEttiren\": {\r\n        \"dogumTarihi\": \"2001-03-17\",\r\n        \"tcKimlikNo\": \"14993697604\"\r\n    },\r\n    \"baslangicTarihi\": \"2023-02-22\",\r\n    \"cinsId\": \"2\",\r\n    \"turId\": \"14\",\r\n    \"cinsiyetId\": \"1\",\r\n    \"yasGrubuId\": \"6\",\r\n    \"evcilHayvanAdi\": \"test\",\r\n    \"gsmNo\": \"5467147063\",\r\n    \"email\": \"soner@mail.com\",\r\n    \"urunId\": \"113\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1248,7 +1248,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"sigortaEttiren\": {\r\n        \"dogumTarihi\": \"2001-03-17\",\r\n        \"tcKimlikNo\": \"14993697604\"\r\n    },\r\n    \"baslangicTarihi\": \"2023-02-22\",\r\n    \"cinsId\": \"2\",\r\n    \"turId\": \"14\",\r\n    \"cinsiyetId\": \"1\",\r\n    \"yasGrubuId\": \"6\",\r\n    \"evcilHayvanAdi\": \"test\",\r\n    \"gsmNo\": \"5467147063\",\r\n    \"email\": \"soner@mail.com\",\r\n    \"urunId\": 55,\r\n    \"ad\" : \"Yunus Emre\",\r\n    \"soyad\" : \"Çınar\",\r\n    \"cinsiyet\" : \"E\"\r\n}",
+							"raw": "{\r\n    \"sigortaEttiren\": {\r\n        \"dogumTarihi\": \"2001-03-17\",\r\n        \"tcKimlikNo\": \"14993697604\"\r\n    },\r\n    \"baslangicTarihi\": \"2023-02-22\",\r\n    \"cinsId\": \"2\",\r\n    \"turId\": \"14\",\r\n    \"cinsiyetId\": \"1\",\r\n    \"yasGrubuId\": \"6\",\r\n    \"evcilHayvanAdi\": \"test\",\r\n    \"gsmNo\": \"5467147063\",\r\n    \"email\": \"soner@mail.com\",\r\n    \"urunId\": 55\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1766,7 +1766,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"sigortaEttiren\": {\r\n            \"tcKimlikNo\": \"14993697604\",\r\n            \"dogumTarihi\": \"2001-03-17\"\r\n    },\r\n    \"sigortali\": [\r\n        {\r\n            \"tcKimlikNo\": \"14993697604\",\r\n            \"dogumTarihi\": \"2001-03-17\"\r\n        }\r\n    ],\r\n    \"baslangicTarihi\": \"2023-02-22\",\r\n    \"bitisTarihi\": \"2023-02-30\",\r\n    \"email\": \"musa@tamamliyo.com\",\r\n    \"gsmNo\": \"5370117045\",\r\n    \"urunKodu\" : 3,\r\n    \"cinsiyet\" : \"E\",\r\n    \"ad\" : \"Musa\",\r\n    \"soyad\" : \"Swaray\",\r\n    \"bolge\" : \"3\"\r\n}",
+							"raw": "{\r\n    \"sigortaEttiren\": {\r\n            \"tcKimlikNo\": \"14993697604\",\r\n            \"dogumTarihi\": \"2001-03-17\"\r\n    },\r\n    \"sigortali\": [\r\n        {\r\n            \"tcKimlikNo\": \"14993697604\",\r\n            \"dogumTarihi\": \"2001-03-17\"\r\n        }\r\n    ],\r\n    \"baslangicTarihi\": \"2023-02-22\",\r\n    \"bitisTarihi\": \"2023-02-30\",\r\n    \"email\": \"musa@tamamliyo.com\",\r\n    \"gsmNo\": \"5370117045\",\r\n    \"urunKodu\" : 3,\r\n    \"bolge\" : \"3\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2207,7 +2207,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"urunId\" : 2,\n    \"tcKimlikNo\": \"14993697604\",\n    \"dogumTarihi\": \"2001-03-17\",\n    \"gsmNo\" : \"5357864320\",\n    \"boy\" : 188,\n    \"kilo\" : 1,\n    \"email\" : \"test@tamamliyo.com\",\n    \"ad\" : \"test\",\n    \"soyad\" : \"test\",\n    \"cinsiyet\" : \"K\"\n}\n",
+							"raw": "{\n    \"urunId\" : 2,\n    \"tcKimlikNo\": \"14993697604\",\n    \"dogumTarihi\": \"2001-03-17\",\n    \"gsmNo\" : \"5357864320\",\n    \"boy\" : 188,\n    \"kilo\" : 1,\n    \"email\" : \"test@tamamliyo.com\"\n}\n",
 							"options": {
 								"raw": {
 									"language": "json"
