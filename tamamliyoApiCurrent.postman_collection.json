@@ -2186,29 +2186,12 @@
 			"item": [
 				{
 					"name": "teklif olustur",
-					"protocolProfileBehavior": {
-						"disabledSystemHeaders": {
-							"accept": true
-						}
-					},
 					"request": {
 						"method": "POST",
-						"header": [
-							{
-								"key": "token",
-								"value": "",
-								"type": "text",
-								"disabled": true
-							},
-							{
-								"key": "Accept",
-								"value": "application/json",
-								"type": "text"
-							}
-						],
+						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n     \"kimlikNo\": \"33535449488\",\n     \"dogumTarihi\": \"2001-05-26\",\n     \"imeiNo\": \"35729309737144\",\n     \"marka\": \"Iphone\",\n     \"model\": \"XR\",\n     \"teminatTutari\": 1000,\n     \"telefonNo\" : \"5357864320\",\n     \"email\": \"sheriffmusa42@gmail.com\" ,\n     \"urunId\": \"87\",\n     \"cinsiyet\" : \"E\",\n     \"ad\" : \"Yunus Emre\",\n     \"soyad\" : \"Çinar\",\n     \"ilKodu\" : \"34\",\n     \"Ilce\" : \"KARTAL\",\n     \"semt\" : \"SEMT\",\n     \"mahalle\": \"mahalle\"\n}",
+							"raw": "{\r\n     \"urunId\": \"87\",\r\n     \"kimlikNo\": \"33535449488\",\r\n     \"dogumTarihi\": \"2001-05-26\",\r\n     \"imeiNo\": \"355807142173821\",\r\n     \"marka\": \"Samsung\",\r\n     \"model\": \"S5\",\r\n     \"teminatTutari\": 30000,\r\n     \"email\": \"musa@tamamliyo.com\",\r\n     \"ilKodu\" : \"34\",\r\n     \"Ilce\" : \"KARTAL\",\r\n     \"telefonNo\" : \"5357864320\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2216,7 +2199,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v1/cep-telefonu-sigortasi/teklif-olustur",
+							"raw": "https://api-test.tamamliyo.com/tamamliyo/v1/tamamliyo-cep-koruma-paket/teklif-olustur",
 							"protocol": "https",
 							"host": [
 								"api-test",
@@ -2224,17 +2207,10 @@
 								"com"
 							],
 							"path": [
-								"partner",
+								"tamamliyo",
 								"v1",
-								"cep-telefonu-sigortasi",
+								"tamamliyo-cep-koruma-paket",
 								"teklif-olustur"
-							],
-							"query": [
-								{
-									"key": "",
-									"value": "",
-									"disabled": true
-								}
 							]
 						}
 					},
