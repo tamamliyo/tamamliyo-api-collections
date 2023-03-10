@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "f15d0457-4e4c-4b0c-b16b-621ae19c21a1",
+		"_postman_id": "e799e141-6fbb-45a0-8f05-1d178f2c02c2",
 		"name": "tamamliyoApiCurrent",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "13407317"
@@ -2336,15 +2336,13 @@
 							}
 						},
 						"url": {
-							"raw": "http://127.0.0.1:8000/tamamliyo/v1/tamamliyo-cep-koruma-paket/police-pdf",
-							"protocol": "http",
+							"raw": "https://api-test.tamamliyo.com/tamamliyo/v1/tamamliyo-cep-koruma-paket/police-pdf",
+							"protocol": "https",
 							"host": [
-								"127",
-								"0",
-								"0",
-								"1"
+								"api-test",
+								"tamamliyo",
+								"com"
 							],
-							"port": "8000",
 							"path": [
 								"tamamliyo",
 								"v1",
