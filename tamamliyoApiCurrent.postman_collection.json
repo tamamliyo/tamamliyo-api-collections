@@ -2217,6 +2217,62 @@
 					"response": []
 				},
 				{
+					"name": "teklif olustur imeisiz",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n     \"urunId\": \"87\",\n     \"kimlikNo\": \"33535449488\",\n     \"dogumTarihi\": \"2001-05-26\",\n     \"imeiNo\": \"355807142173821\",\n     \"marka\": \"Samsung\",\n     \"model\": \"S5\",\n     \"teminatTutari\": 30000,\n     \"email\": \"musa@tamamliyo.com\",\n     \"ilKodu\" : \"34\",\n     \"Ilce\" : \"KARTAL\",\n     \"telefonNo\" : \"5357864320\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/tamamliyo/v1/tamamliyo-cep-koruma-paket/teklif-olustur",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"tamamliyo",
+								"v1",
+								"tamamliyo-cep-koruma-paket",
+								"teklif-olustur"
+							],
+							"query": [
+								{
+									"key": "token",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "odeme-yap",
 					"protocolProfileBehavior": {
 						"disabledSystemHeaders": {
@@ -2310,6 +2366,50 @@
 					"response": []
 				},
 				{
+					"name": "police olustur imeisiz",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"teklifId\" : \"15956\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/tamamliyo/v1/tamamliyo-cep-koruma-paket/police-olustur",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"tamamliyo",
+								"v1",
+								"tamamliyo-cep-koruma-paket",
+								"police-olustur"
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "police pdf",
 					"request": {
 						"method": "POST",
@@ -2348,6 +2448,50 @@
 								"v1",
 								"tamamliyo-cep-koruma-paket",
 								"police-pdf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tanimla-link-gonder",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"teklifId\" : \"15956\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/tamamliyo/v1/tamamliyo-cep-koruma-paket/police-olustur",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"tamamliyo",
+								"v1",
+								"tamamliyo-cep-koruma-paket",
+								"police-olustur"
 							]
 						}
 					},
