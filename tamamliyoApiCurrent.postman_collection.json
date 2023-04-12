@@ -2191,7 +2191,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n     \"urunId\": \"87\",\r\n     \"kimlikNo\": \"33535449488\",\r\n     \"dogumTarihi\": \"2001-05-26\",\r\n     \"imeiNo\": \"355807142173821\",\r\n     \"marka\": \"Samsung\",\r\n     \"model\": \"S5\",\r\n     \"teminatTutari\": 30000,\r\n     \"email\": \"musa@tamamliyo.com\",\r\n     \"ilKodu\" : \"34\",\r\n     \"Ilce\" : \"KARTAL\",\r\n     \"telefonNo\" : \"5357864320\"\r\n}",
+							"raw": "{\r\n     \"urunId\": \"87\",\r\n     \"baslangicTarihi\": \"2023-03-15\",\r\n     \"kimlikNo\": \"33535449488\",\r\n     \"dogumTarihi\": \"2001-05-26\",\r\n     \"imeiNo\": \"35729309737144\",\r\n     \"marka\": 1,\r\n     \"model\": 2,\r\n     \"email\": \"yazilim@tamamliyo.com\",\r\n     \"ilKodu\" : \"34\",\r\n     \"ilceKodu\" : \"16\",\r\n     \"telefonNo\" : \"5357864320\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2240,7 +2240,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n     \"urunId\": \"87\",\n     \"kimlikNo\": \"33535449488\",\n     \"dogumTarihi\": \"2001-05-26\",\n     \"imeiNo\": \"355807142173821\",\n     \"marka\": \"Samsung\",\n     \"model\": \"S5\",\n     \"teminatTutari\": 30000,\n     \"email\": \"musa@tamamliyo.com\",\n     \"ilKodu\" : \"34\",\n     \"Ilce\" : \"KARTAL\",\n     \"telefonNo\" : \"5357864320\"\n}",
+							"raw": "{\n     \"urunId\": \"87\",\n     \"baslangicTarihi\": \"2023-03-15\",\n     \"kimlikNo\": \"33535449488\",\n     \"dogumTarihi\": \"2001-05-26\",\n     \"imeisiz\": \"EVET\",\n     \"marka_id\": 4,\n     \"model\": 12,\n     \"email\": \"yazilim@tamamliyo.com\",\n     \"ilKodu\" : \"16\",\n     \"ilceKodu\" : \"97\",\n     \"telefonNo\" : \"5357864320\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2264,7 +2264,7 @@
 							"query": [
 								{
 									"key": "token",
-									"value": "",
+									"value": "31236467a9554a92e0930c457b329f79",
 									"disabled": true
 								}
 							]
@@ -2296,7 +2296,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"teklifId\": 15921,\n    \"odemeTipi\" : 1,\n    \"kartNo\" : \"5406675406675403\",\n    \"kartSonKullanmaTarihi\" : \"2026-12-01\",\n    \"kartSahibi\" : \"Musa A Swaray\",\n    \"kartCvv\" : \"000\",\n    \"cancelUrl\" : \"null\",\n    \"successUrl\": \"null\"\n}",
+							"raw": "{\n    \"teklifId\":  29038,\n    \"odemeTipi\" : 1,\n    \"taksitSayisi\" : 1,\n    \"kartNo\" : \"5406675406675403\",\n    \"kartSonKullanmaTarihi\" : \"2026-12-01\",\n    \"kartSahibi\" : \"Musa A Swaray\",\n    \"kartCvv\" : \"000\",\n    \"adres\" : \"Bardnersville\",\n    \"cancelUrl\" : \"http:///localhost/cancel-url\",\n    \"successUrl\": \"http:///localhost/success-url\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2492,6 +2492,118 @@
 								"v1",
 								"tamamliyo-cep-koruma-paket",
 								"police-olustur"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "markaları listele",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/tamamliyo/v1/tamamliyo-cep-koruma-paket/cep-markalar/?pagination=false",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"tamamliyo",
+								"v1",
+								"tamamliyo-cep-koruma-paket",
+								"cep-markalar",
+								""
+							],
+							"query": [
+								{
+									"key": "pagination",
+									"value": "false"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "modelleri listele",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/tamamliyo/v1/tamamliyo-cep-koruma-paket/cep-modeller/?pagination=true&marka_id=10",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"tamamliyo",
+								"v1",
+								"tamamliyo-cep-koruma-paket",
+								"cep-modeller",
+								""
+							],
+							"query": [
+								{
+									"key": "pagination",
+									"value": "true"
+								},
+								{
+									"key": "marka_id",
+									"value": "10"
+								}
 							]
 						}
 					},
