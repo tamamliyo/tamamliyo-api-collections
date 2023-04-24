@@ -448,10 +448,10 @@
 							}
 						},
 						"url": {
-							"raw": "https://api.tamamliyo.com/partner/v2/konut-sigortasi/teklif-olustur",
+							"raw": "https://api-test.tamamliyo.com/partner/v2/konut-sigortasi/teklif-olustur",
 							"protocol": "https",
 							"host": [
-								"api",
+								"api-test",
 								"tamamliyo",
 								"com"
 							],
@@ -1885,7 +1885,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"sigortaEttiren\": {\r\n            \"tcKimlikNo\": \"14993697604\",\r\n            \"dogumTarihi\": \"2001-03-17\"\r\n    },\r\n    \"sigortali\": [\r\n        {\r\n            \"tcKimlikNo\": \"14993697604\",\r\n            \"dogumTarihi\": \"2001-03-17\",\r\n            \"relationTypeId\" : \"F\"\r\n        }\r\n    ],\r\n    \"baslangicTarihi\": \"2022-11-12\",\r\n    \"bitisTarihi\": \"2022-12-20\",\r\n    \"email\": \"bilgi@tamamliyo.com\",\r\n    \"gsmNo\": \"5448202338\",\r\n    \"urunKodu\" : 4,\r\n    \"teklifId\" : 14866\r\n}",
+							"raw": "{\r\n    \"teklifId\" : 14866\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2240,7 +2240,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n     \"urunId\": \"87\",\n     \"baslangicTarihi\": \"2023-03-15\",\n     \"kimlikNo\": \"33535449488\",\n     \"dogumTarihi\": \"2001-05-26\",\n     \"imeisiz\": \"EVET\",\n     \"marka_id\": 4,\n     \"model\": 12,\n     \"email\": \"yazilim@tamamliyo.com\",\n     \"ilKodu\" : \"16\",\n     \"ilceKodu\" : \"97\",\n     \"telefonNo\" : \"5357864320\"\n}",
+							"raw": "{\n     \"urunId\": \"87\",\n     \"baslangicTarihi\": \"2023-03-15\",\n     \"kimlikNo\": \"33535449488\",\n     \"dogumTarihi\": \"2001-05-26\",\n     \"imeisiz\": \"EVET\",\n     \"marka\": 4,\n     \"model\": 12,\n     \"email\": \"yazilim@tamamliyo.com\",\n     \"ilKodu\" : \"16\",\n     \"ilceKodu\" : \"97\",\n     \"telefonNo\" : \"5357864320\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2492,6 +2492,50 @@
 								"v1",
 								"tamamliyo-cep-koruma-paket",
 								"police-olustur"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "hasar servis",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"referansNo\" : \"29615\",\r\n    \"hasarDurumu\": \"Ekran Kırılması\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/tamamliyo/v1/tamamliyo-cep-koruma-paket/hasar-servis",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"tamamliyo",
+								"v1",
+								"tamamliyo-cep-koruma-paket",
+								"hasar-servis"
 							]
 						}
 					},
@@ -3348,7 +3392,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"teklifId\" : 15228\r\n}",
+							"raw": "{\r\n    \"teklifId\" : 15228,\r\n    \"orderId\": 146989\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
