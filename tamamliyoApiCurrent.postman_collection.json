@@ -2498,50 +2498,6 @@
 					"response": []
 				},
 				{
-					"name": "hasar servis",
-					"request": {
-						"method": "POST",
-						"header": [
-							{
-								"key": "token",
-								"value": "",
-								"type": "text",
-								"disabled": true
-							},
-							{
-								"key": "Accept",
-								"value": "application/json",
-								"type": "text"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "{\r\n    \"referansNo\" : \"29615\",\r\n    \"hasarDurumu\": \"Ekran Kırılması\"\r\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": {
-							"raw": "https://api-test.tamamliyo.com/tamamliyo/v1/tamamliyo-cep-koruma-paket/hasar-servis",
-							"protocol": "https",
-							"host": [
-								"api-test",
-								"tamamliyo",
-								"com"
-							],
-							"path": [
-								"tamamliyo",
-								"v1",
-								"tamamliyo-cep-koruma-paket",
-								"hasar-servis"
-							]
-						}
-					},
-					"response": []
-				},
-				{
 					"name": "markaları listele",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
