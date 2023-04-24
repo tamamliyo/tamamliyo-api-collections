@@ -3460,6 +3460,355 @@
 					"response": []
 				}
 			]
+		},
+		{
+			"name": "Scooter Sigortası",
+			"item": [
+				{
+					"name": "teklif-olustur",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"tcKimlikNo\": \"43888576526\",\r\n    \"dogumTarihi\": \"1986-02-07\",\r\n    \"ulkeKodu\": \"TR\",\r\n    \"urunId\": \"116\",\r\n    \"gsmNo\": \"5438524999\",\r\n    \"email\": \"yunus@tamamliyo.com\",\r\n    \"baslagicTarihi\": \"2023-04-25\",\r\n    \"bitisTarihi\": \"2023-04-30\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/partner/v1/scooter-kiralama-sigortasi/teklif-olustur",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"scooter-kiralama-sigortasi",
+								"teklif-olustur"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "odeme-yap",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"teklifId\":\"30332\",\r\n    \"krediKartiCvv\":\"401\",\r\n    \"krediKartiNo\": \"5235290466268433\",\r\n    \"krediKartiBitisTarihi\" : \"2024-09-01\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/partner/v1/scooter-kiralama-sigortasi/odeme-yap",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"scooter-kiralama-sigortasi",
+								"odeme-yap"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "police-olustur",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"teklifId\": \"30331\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/partner/v1/scooter-kiralama-sigortasi/police-olustur",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"scooter-kiralama-sigortasi",
+								"police-olustur"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "teklif-bilgileri",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"teklifId\": \"30331\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/partner/v1/scooter-kiralama-sigortasi/teklif-bilgileri",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"scooter-kiralama-sigortasi",
+								"teklif-bilgileri"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "police-pdf",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"teklifId\": \"30331\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/partner/v1/scooter-kiralama-sigortasi/police-pdf",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"scooter-kiralama-sigortasi",
+								"police-pdf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "makbuz-pdf",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"teklifId\": \"30331\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/partner/v1/scooter-kiralama-sigortasi/makbuz-pdf",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"scooter-kiralama-sigortasi",
+								"makbuz-pdf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "urunler",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						},
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/partner/v1/scooter-kiralama-sigortasi/urunler",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"scooter-kiralama-sigortasi",
+								"urunler"
+							]
+						}
+					},
+					"response": []
+				}
+			]
 		}
 	]
 }
