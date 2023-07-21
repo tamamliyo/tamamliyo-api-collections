@@ -17,7 +17,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -54,7 +54,7 @@
 								"header": [
 									{
 										"key": "token",
-										"value": "31236467a9554a92e0930c457b329f79",
+										"value": "",
 										"type": "text"
 									}
 								],
@@ -148,7 +148,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -191,7 +191,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -237,7 +237,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -278,7 +278,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -319,7 +319,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -360,7 +360,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -401,7 +401,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -442,7 +442,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -483,7 +483,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -521,7 +521,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -559,7 +559,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -597,7 +597,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -640,7 +640,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -688,7 +688,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -726,13 +726,13 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"sigortaEttiren\": {\r\n        \"pasaportNo\": \"307110789\",\r\n        \"dogumTarihi\": \"1996-10-13\",\r\n        \"ad\": \"DOUNIA\",\r\n        \"soyad\": \"BELKHIR\",\r\n        \"cinsiyet\": \"K\",\r\n        \"uyruk\": \"33\",\r\n        \"babaAdi\": \"MOHAMED HAIDAR\",\r\n        \"dogumYeri\": \"SETIF\"\r\n    },\r\n    \"sigortali\": [\r\n        {\r\n            \"pasaportNo\": \"307110789\",\r\n            \"ad\": \"DOUNIA\",\r\n            \"soyad\": \"BELKHIR\",\r\n            \"cinsiyet\": \"K\",\r\n            \"dogumTarihi\": \"1996-10-13\",\r\n            \"uyruk\": \"33\",\r\n            \"babaAdi\": \"MOHAMED HAIDAR\",\r\n            \"dogumYeri\": \"SETIF\",\r\n            \"relationTypeId\": \"F\"\r\n        }\r\n    ],\r\n    \"baslangicTarihi\": \"2023-04-24\",\r\n    \"email\": \"bilgi@tamamliyo.com\",\r\n    \"gsmNo\": \"5448202338\",\r\n    \"bitisTarihi\": \"2023-04-25\",\r\n    \"urunId\": 110,\r\n    \"sorguTipi\": 2\r\n}",
+							"raw": "{\r\n    \"sigortaEttiren\": {\r\n        \"pasaportNo\": \"307110789\",\r\n        \"dogumTarihi\": \"1996-10-13\",\r\n        \"ad\": \"DOUNIA\",\r\n        \"soyad\": \"BELKHIR\",\r\n        \"cinsiyet\": \"K\",\r\n        \"uyruk\": \"33\",\r\n        \"babaAdi\": \"MOHAMED HAIDAR\",\r\n        \"dogumYeri\": \"SETIF\"\r\n    },\r\n    \"sigortali\": [\r\n        {\r\n            \"pasaportNo\": \"307110789\",\r\n            \"ad\": \"DOUNIA\",\r\n            \"soyad\": \"BELKHIR\",\r\n            \"cinsiyet\": \"K\",\r\n            \"dogumTarihi\": \"1996-10-13\",\r\n            \"uyruk\": \"33\",\r\n            \"babaAdi\": \"MOHAMED HAIDAR\",\r\n            \"dogumYeri\": \"SETIF\",\r\n            \"relationTypeId\": \"F\"\r\n        }\r\n    ],\r\n    \"baslangicTarihi\": \"2023-08-24\",\r\n    \"email\": \"bilgi@tamamliyo.com\",\r\n    \"gsmNo\": \"5448202338\",\r\n    \"bitisTarihi\": \"2023-08-25\",\r\n    \"urunId\": 110,\r\n    \"sorguTipi\": 2\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -740,10 +740,10 @@
 							}
 						},
 						"url": {
-							"raw": "https://apitest.tamamliyo.com/partner/v2/incoming-sigortasi/teklif-olustur",
+							"raw": "https://api-test.tamamliyo.com/partner/v2/incoming-sigortasi/teklif-olustur",
 							"protocol": "https",
 							"host": [
-								"apitest",
+								"api-test",
 								"tamamliyo",
 								"com"
 							],
@@ -764,7 +764,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -775,7 +775,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"odemeTipi\" : 2,\r\n    \"teklifId\" : 38545,\r\n    \"krediKartiCvv\" : \"401\",\r\n    \"krediKartiNo\" : \"5235290466268433\",\r\n    \"krediKartiBitisTarihi\" : \"2024-09-01\",\r\n    \"krediKartiAd\" : \"SONER\",\r\n    \"krediKartiSoyad\" : \"TUĞAN\",\r\n    \"donusUrl\" : \"null\"\r\n}",
+							"raw": "{\r\n    \"odemeTipi\" : 2,\r\n    \"teklifId\" : 43675,\r\n    \"krediKartiCvv\" : \"401\",\r\n    \"krediKartiNo\" : \"5235290466268433\",\r\n    \"krediKartiBitisTarihi\" : \"2024-09-01\",\r\n    \"krediKartiAd\" : \"TEST\",\r\n    \"krediKartiSoyad\" : \"TEST\",\r\n    \"donusUrl\" : \"null\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -783,10 +783,10 @@
 							}
 						},
 						"url": {
-							"raw": "https://apitest.tamamliyo.com/partner/v2/incoming-sigortasi/odeme-yap",
+							"raw": "https://api-test.tamamliyo.com/partner/v2/incoming-sigortasi/odeme-yap",
 							"protocol": "https",
 							"host": [
-								"apitest",
+								"api-test",
 								"tamamliyo",
 								"com"
 							],
@@ -807,7 +807,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -845,7 +845,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -888,7 +888,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -931,7 +931,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -969,7 +969,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -1007,7 +1007,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -1045,7 +1045,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -1086,7 +1086,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -1129,7 +1129,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -1167,7 +1167,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -1205,7 +1205,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -1243,7 +1243,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -1284,7 +1284,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -1326,13 +1326,340 @@
 			"name": "Dask-Sigorta",
 			"item": [
 				{
+					"name": "uvatServisler Copy",
+					"item": [
+						{
+							"name": "get-uvat-kodu",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "",
+										"type": "text"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"uavtNo\" : \"1882012246\"\n   \n}\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://api-test.tamamliyo.com/partner/v1/dask-sigortasi/get-uavt-kodu-address",
+									"protocol": "https",
+									"host": [
+										"api-test",
+										"tamamliyo",
+										"com"
+									],
+									"path": [
+										"partner",
+										"v1",
+										"dask-sigortasi",
+										"get-uavt-kodu-address"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get-uvat-city-kod",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "",
+										"type": "text"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n \n \"ilKodu\" : 32\n   \n}\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://apitest.tamamliyo.com/partner/v1/dask-sigortasi/get-uavt-city-list",
+									"protocol": "https",
+									"host": [
+										"apitest",
+										"tamamliyo",
+										"com"
+									],
+									"path": [
+										"partner",
+										"v1",
+										"dask-sigortasi",
+										"get-uavt-city-list"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "et-uavt-municipal-list",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "",
+										"type": "text"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"ilKodu\" : \"32\",\n    \"ilceKodu\" : \"1648\"\n   \n}\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://apitest.tamamliyo.com/partner/v1/dask-sigortasi/get-uavt-municipal-list",
+									"protocol": "https",
+									"host": [
+										"apitest",
+										"tamamliyo",
+										"com"
+									],
+									"path": [
+										"partner",
+										"v1",
+										"dask-sigortasi",
+										"get-uavt-municipal-list"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get-uavt-quarter-list",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "",
+										"type": "text"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"beldeKodu\" : \"15935\"\n   \n}\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://apitest.tamamliyo.com/partner/v1/dask-sigortasi/get-uavt-quarter-list",
+									"protocol": "https",
+									"host": [
+										"apitest",
+										"tamamliyo",
+										"com"
+									],
+									"path": [
+										"partner",
+										"v1",
+										"dask-sigortasi",
+										"get-uavt-quarter-list"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get-uavt-street-list",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "",
+										"type": "text"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"mahalleKodu\" : \"31582\"\n   \n}\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://apitest.tamamliyo.com/partner/v1/dask-sigortasi/get-uavt-street-list",
+									"protocol": "https",
+									"host": [
+										"apitest",
+										"tamamliyo",
+										"com"
+									],
+									"path": [
+										"partner",
+										"v1",
+										"dask-sigortasi",
+										"get-uavt-street-list"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get-uavt-building-list",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "",
+										"type": "text"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \n     \"quarterCode\":31582,\n     \"streetCode\":189158,\n     \"outdoorNumber\":\"43\"\n}\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://api-test.tamamliyo.com/partner/v1/dask-sigortasi/get-uavt-building-list",
+									"protocol": "https",
+									"host": [
+										"api-test",
+										"tamamliyo",
+										"com"
+									],
+									"path": [
+										"partner",
+										"v1",
+										"dask-sigortasi",
+										"get-uavt-building-list"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get-uavt-building-number-list",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "",
+										"type": "text"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"binaKodu\" : \"21910042\"\n   \n}\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://apitest.tamamliyo.com/partner/v1/dask-sigortasi/get-uavt-building-number-list",
+									"protocol": "https",
+									"host": [
+										"apitest",
+										"tamamliyo",
+										"com"
+									],
+									"path": [
+										"partner",
+										"v1",
+										"dask-sigortasi",
+										"get-uavt-building-number-list"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
 					"name": "teklif-oluştur",
 					"request": {
 						"method": "POST",
 						"header": [
 							{
 								"key": "token",
-								"value": "1a18886587c2efa7b720554ff646d482",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -1343,7 +1670,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"urunId\": 133,\n    \"tcKimlikNo\": \"18908499536\",\n    \"dogumTarihi\": \"1989-02-07\",\n    \"email\" : \"yazilim@tamamliyo.com\",\n    \"sigortaEttirenSifati\" : \"01\", //for qk\n    \"binaninToplamKatSayisi\" : \"6\",//\"A\", // 6 qk\n    \"dainiMurtehinBanka\" : \"000\", //not required\n    \"dainiMurtehinFinansKurumValue\" : \"000\", //not required //DainiMurtehinFinansKurumValue\n    \"dainiMurtehinSubeKodu\" : \"00000\", //not required\n    \"dainiMurtehinSube\" : \"Bursa\", //not required\n    \"dainiMurtehinVarmi\" : \"HAYIR\",\n    \"metreKare\" : 120,\n    \"baslangicTarihi\" : \"2023-07-24\",\n    \"uavtKodu\" : \"3303415271\",   //1882012246,\n    \"binaInsaTarzi\" : \"4\", //\"A\", // 4 qk\n    \"binaInsaYili\" : \"8\", //8 qk\n    \"binaOncedenHasarGorduMu\" : \"A\",\n    \"daireKullanimSekli\": \"A\",\n    \"gsmNo\" : \"5303806344\"\n}\n\n",
+							"raw": "{\n    \"urunId\": 133,\n    \"tcKimlikNo\": \"18908499536\",\n    \"dogumTarihi\": \"1989-02-07\",\n    \"email\": \"yazilim@tamamliyo.com\",\n    \"binaninToplamKatSayisi\": \"A\",\n    \"dainiMurtehinBanka\": \"0100\",\n    \"dainiMurtehinFinansKurumValue\": \"339\", //DainiMurtehinFinansKurumValue\n    \"dainiMurtehinSubeKodu\": \"01297\",\n    \"dainiMurtehinSube\": \"Bursa\",\n    \"dainiMurtehinVarmi\": \"HAYIR\",\n    \"metreKare\": 120,\n    \"baslangicTarihi\": \"2023-08-15\",\n    \"uavtKodu\": 1882012246,\n    \"binaInsaTarzi\": \"A\",\n    \"binaInsaYili\": \"A\",\n    \"binaOncedenHasarGorduMu\": \"A\",\n    \"daireKullanimSekli\": \"A\",\n    \"gsmNo\": \"5303806344\"\n}\n// {quick sigorta\n//     \"urunId\": 133,\n//     \"tcKimlikNo\": \"18908499536\",\n//     \"dogumTarihi\": \"1989-02-07\",\n//     \"email\" : \"yazilim@tamamliyo.com\",\n//     \"sigortaEttirenSifati\" : \"01\", //for qk\n//     \"binaninToplamKatSayisi\" : \"6\",//\"A\", // 6 qk\n//     \"dainiMurtehinBanka\" : \"000\", //not required\n//     \"dainiMurtehinFinansKurumValue\" : \"000\", //not required //DainiMurtehinFinansKurumValue\n//     \"dainiMurtehinSubeKodu\" : \"00000\", //not required\n//     \"dainiMurtehinSube\" : \"Bursa\", //not required\n//     \"dainiMurtehinVarmi\" : \"HAYIR\",\n//     \"metreKare\" : 120,\n//     \"baslangicTarihi\" : \"2023-07-24\",\n//     \"uavtKodu\" : \"3303415271\",   //1882012246,\n//     \"binaInsaTarzi\" : \"4\", //\"A\", // 4 qk\n//     \"binaInsaYili\" : \"8\", //8 qk\n//     \"binaOncedenHasarGorduMu\" : \"A\",\n//     \"daireKullanimSekli\": \"A\",\n//     \"gsmNo\" : \"5303806344\"\n// }",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1374,7 +1701,7 @@
 								"header": [
 									{
 										"key": "token",
-										"value": "1a18886587c2efa7b720554ff646d482",
+										"value": "",
 										"type": "text"
 									},
 									{
@@ -1473,7 +1800,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "1a18886587c2efa7b720554ff646d482",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -1484,7 +1811,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"odemeTipi\" : 2,\n    \"teklifId\" : 40866,\n    \"krediKartiCvv\" : \"0111\",//\"401\",\n    \"krediKartiNo\" : \"40227805****0476\", //\"5235290466268433\",\n    \"krediKartiBitisTarihi\" : \"2050-07-01\",//\"2024-09-01\",\n    \"krediKartiAd\" : \"Musa\",\n    \"krediKartiSoyad\" : \"Swaray\",\n    \"ilId\" : 34,\n    \"ilceId\" : \"1\",\n    \"adres\" : \"test adresimm\"\n}\n",
+							"raw": "{\n    \"odemeTipi\" : 2,\n    \"teklifId\" : 43641,\n    \"krediKartiCvv\" : \"000\",//\"401\",\n    \"krediKartiNo\" : \"4355084355084358\", //\"5235290466268433\",\n    \"krediKartiBitisTarihi\" : \"2023-12-01\",//\"2024-09-01\",\n    \"krediKartiAd\" : \"Musa\",\n    \"krediKartiSoyad\" : \"Swaray\",\n    \"ilId\" : 34,\n    \"ilceId\" : \"1\",\n    \"adres\" : \"test adresimm\"\n}\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1492,10 +1819,10 @@
 							}
 						},
 						"url": {
-							"raw": "https://apitest.tamamliyo.com/partner/v1/dask-sigortasi/odeme-yap",
+							"raw": "https://api-test.tamamliyo.com/partner/v1/dask-sigortasi/odeme-yap",
 							"protocol": "https",
 							"host": [
-								"apitest",
+								"api-test",
 								"tamamliyo",
 								"com"
 							],
@@ -1516,7 +1843,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "1a18886587c2efa7b720554ff646d482",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -1559,7 +1886,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "1a18886587c2efa7b720554ff646d482",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -1602,7 +1929,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "1a18886587c2efa7b720554ff646d482",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -1645,7 +1972,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "1a18886587c2efa7b720554ff646d482",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -1682,7 +2009,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "1a18886587c2efa7b720554ff646d482",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -1728,7 +2055,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "1a18886587c2efa7b720554ff646d482",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -1774,7 +2101,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "1a18886587c2efa7b720554ff646d482",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -1820,7 +2147,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "1a18886587c2efa7b720554ff646d482",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -1866,7 +2193,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "1a18886587c2efa7b720554ff646d482",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -1914,13 +2241,13 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"sigortaEttiren\": {\r\n        \"dogumTarihi\": \"1992-06-10\",\r\n        \"tcKimlikNo\": \"26350861214\"\r\n    },\r\n    \"baslangicTarihi\": \"2023-08-17\",\r\n    \"cinsId\": \"2\",\r\n    \"turId\": \"14\",\r\n    \"cinsiyetId\": \"1\",\r\n    \"yasGrubuId\": \"6\",\r\n    \"evcilHayvanAdi\": \"test\",\r\n    \"gsmNo\": \"5363464081\",\r\n    \"email\": \"test@mail.com\",\r\n    \"urunId\": \"113\"\r\n}",
+							"raw": "{\r\n    \"sigortaEttiren\" : {\r\n        \"tcKimlikNo\" : \"18908499536\",\r\n        \"dogumTarihi\" : \"1989-02-07\"\r\n    },\r\n    \"cinsId\" : 1,\r\n    \"cinsiyetId\" : 1,\r\n    \"turId\" : 294,\r\n    \"baslangicTarihi\" : \"2023-07-28\",\r\n    \"yasGrubuId\" : 2,\r\n    \"evcilHayvanAdi\" : \"test\",\r\n    \"urunId\" : 113,\r\n    \"gsmNo\" : \"5357864320\",\r\n    \"email\":\"test@tamamliyo.com\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1928,10 +2255,10 @@
 							}
 						},
 						"url": {
-							"raw": "https://api.tamamliyo.com/partner/v2/pati-sigortasi/teklif-olustur",
+							"raw": "https://api-test.tamamliyo.com/partner/v2/pati-sigortasi/teklif-olustur",
 							"protocol": "https",
 							"host": [
-								"api",
+								"api-test",
 								"tamamliyo",
 								"com"
 							],
@@ -1952,7 +2279,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -1990,13 +2317,13 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"odemeTipi\" : 1,\r\n    \"teklifId\" : 20353,\r\n    \"krediKartiCvv\" : \"401\",\r\n    \"krediKartiNo\" : \"5235290466268433\",\r\n    \"krediKartiBitisTarihi\" : \"2024-09-01\",\r\n    \"krediKartiAd\" : \"SONER\",\r\n    \"krediKartiSoyad\" : \"TUĞAN\",\r\n    \"donusUrl\" : \"https://dev.tamamliyo.com/AkSigortaPatiSoner/geriDonusUrl.php\"\r\n}",
+							"raw": "{\r\n    \"odemeTipi\" : 1,\r\n    \"teklifId\" : 43488,\r\n    \"krediKartiCvv\" : \"401\",\r\n    \"krediKartiNo\" : \"5404355404355405\",\r\n    \"krediKartiBitisTarihi\" : \"2040-12-01\",\r\n    \"krediKartiAd\" : \"TURGAY\",\r\n    \"krediKartiSoyad\" : \"TEST\",\r\n    \"donusUrl\" : \"https://dev.tamamliyo.com/AkSigortaPatiSoner/geriDonusUrl.php\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2004,10 +2331,10 @@
 							}
 						},
 						"url": {
-							"raw": "https://api.tamamliyo.com/partner/v2/pati-sigortasi/odeme-yap",
+							"raw": "https://api-test.tamamliyo.com/partner/v2/pati-sigortasi/odeme-yap",
 							"protocol": "https",
 							"host": [
-								"api",
+								"api-test",
 								"tamamliyo",
 								"com"
 							],
@@ -2028,13 +2355,13 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"odemeTipi\" : 2,\r\n    \"teklifId\" : 20353,\r\n    \"krediKartiCvv\" : \"401\",\r\n    \"krediKartiNo\" : \"5235290466268433\",\r\n    \"krediKartiBitisTarihi\" : \"2024-09-01\",\r\n    \"krediKartiAd\" : \"SONER\",\r\n    \"krediKartiSoyad\" : \"TUĞAN\"\r\n}",
+							"raw": "{\r\n    \"odemeTipi\" : 2,\r\n    \"teklifId\" : 43491,\r\n    \"krediKartiCvv\" : \"401\",\r\n    \"krediKartiNo\" : \"4242424242424242\",\r\n    \"krediKartiBitisTarihi\" : \"2023-12-01\",\r\n    \"krediKartiAd\" : \"TURGAY\",\r\n    \"krediKartiSoyad\" : \"TEST\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2042,10 +2369,10 @@
 							}
 						},
 						"url": {
-							"raw": "https://api.tamamliyo.com/partner/v2/pati-sigortasi/odeme-yap",
+							"raw": "https://api-test.tamamliyo.com/partner/v2/pati-sigortasi/odeme-yap",
 							"protocol": "https",
 							"host": [
-								"api",
+								"api-test",
 								"tamamliyo",
 								"com"
 							],
@@ -2066,7 +2393,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -2104,7 +2431,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -2142,7 +2469,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -2180,7 +2507,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -2218,7 +2545,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -2263,7 +2590,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -2304,7 +2631,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -2345,7 +2672,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -2386,7 +2713,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -2432,7 +2759,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -2470,7 +2797,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "5ac96f1dbcc523873c902ccb0e445e25",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -2513,7 +2840,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "5ac96f1dbcc523873c902ccb0e445e25",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -2556,7 +2883,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -2594,13 +2921,13 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"sigortaEttiren\": {\r\n            \"tcKimlikNo\": \"14993697604\",\r\n            \"dogumTarihi\": \"2001-03-17\"\r\n    },\r\n    \"sigortali\": [\r\n        {\r\n            \"tcKimlikNo\": \"14993697604\",\r\n            \"dogumTarihi\": \"2001-03-17\",\r\n            \"relationTypeId\" : \"F\"\r\n        }\r\n    ],\r\n    \"baslangicTarihi\": \"2022-11-12\",\r\n    \"bitisTarihi\": \"2022-12-20\",\r\n    \"email\": \"bilgi@tamamliyo.com\",\r\n    \"gsmNo\": \"5448202338\",\r\n    \"urunKodu\" : 4,\r\n    \"teklifId\" : 14866\r\n}",
+							"raw": "{\r\n\r\n    \"teklifId\" : 14866\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2632,7 +2959,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -2670,7 +2997,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -2708,7 +3035,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -2755,7 +3082,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "5ac96f1dbcc523873c902ccb0e445e25",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -2774,10 +3101,10 @@
 							}
 						},
 						"url": {
-							"raw": "https://api.tamamliyo.com/partner/v1/cep-telefonu-sigortasi/teklif-olustur",
+							"raw": "https://apitest.tamamliyo.com/partner/v1/cep-telefonu-sigortasi/teklif-olustur",
 							"protocol": "https",
 							"host": [
-								"api",
+								"apitest",
 								"tamamliyo",
 								"com"
 							],
@@ -2790,7 +3117,7 @@
 							"query": [
 								{
 									"key": "token",
-									"value": "31236467a9554a92e0930c457b329f79",
+									"value": "",
 									"disabled": true
 								}
 							]
@@ -2815,13 +3142,13 @@
 							},
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"teklifId\" : \"20352\",\n    \"Email\" : \"sheriffmusa42@gmail.com\",\n    \"Phone\" : \"5357864320\",\n    \"kartNo\" : \"4799174799173828\",\n    \"kartSonKullanmaTarihi\" : \"2030-12-01\",\n    \"kartCvv\" : \"111\",\n    \"ReturnURL\" : \"null\"\n}\n",
+							"raw": "{\n    \"teklifId\" : \"43565\",\n    \"Email\" : \"sheriffmusa42@gmail.com\",\n    \"Phone\" : \"5357864320\",\n    \"kartNo\" : \"4799174799173828\",\n    \"kartSonKullanmaTarihi\" : \"2030-12-01\",\n    \"kartCvv\" : \"111\",\n    \"ReturnURL\" : \"null\"\n}\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2829,10 +3156,10 @@
 							}
 						},
 						"url": {
-							"raw": "https://api.tamamliyo.com/partner/v1/cep-telefonu-sigortasi/odeme-yap",
+							"raw": "https://apitest.tamamliyo.com/partner/v1/cep-telefonu-sigortasi/odeme-yap",
 							"protocol": "https",
 							"host": [
-								"api",
+								"apitest",
 								"tamamliyo",
 								"com"
 							],
@@ -2841,6 +3168,198 @@
 								"v1",
 								"cep-telefonu-sigortasi",
 								"odeme-yap"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "police-olustur",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"teklifId\" : \"43565\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://apitest.tamamliyo.com/partner/v1/cep-telefonu-sigortasi/police-olustur",
+							"protocol": "https",
+							"host": [
+								"apitest",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"cep-telefonu-sigortasi",
+								"police-olustur"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "police-pdf",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"teklifId\" : \"43565\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://apitest.tamamliyo.com/partner/v1/cep-telefonu-sigortasi/police-pdf",
+							"protocol": "https",
+							"host": [
+								"apitest",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"cep-telefonu-sigortasi",
+								"police-pdf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "makbuz-pdf",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"teklifId\" : \"43565\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://apitest.tamamliyo.com/partner/v1/cep-telefonu-sigortasi/police-olustur",
+							"protocol": "https",
+							"host": [
+								"apitest",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"cep-telefonu-sigortasi",
+								"police-olustur"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "teklif-bilgileri",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"teklifId\" : \"43565\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://apitest.tamamliyo.com/partner/v1/cep-telefonu-sigortasi/teklif-bilgileri",
+							"protocol": "https",
+							"host": [
+								"apitest",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"cep-telefonu-sigortasi",
+								"teklif-bilgileri"
 							]
 						}
 					},
@@ -2858,7 +3377,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -2869,7 +3388,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n     \"kimlikNo\": \"33535449488\", \r\n     \"dogumTarihi\": \"1998-12-31\",\r\n     \"imeiNo\": \"356452105592441\", \r\n     \"marka\": \"Iphone\", \r\n     \"model\": \"XR\",\r\n     \"telefonNo\" : \"05370117045\",\r\n     \"teminatTutari\": 1000, \r\n     \"email\": \"sheriffmusa42@gmail.com\" ,\r\n     \"ad\" : \"Yunus Emre\", \r\n     \"soyad\" : \"Çınar\"\r\n}",
+							"raw": "{\r\n     \"kimlikNo\": \"33535449488\", \r\n     \"dogumTarihi\": \"2001-05-26\",\r\n     \"imeiNo\": \"356452105592441\", \r\n     \"marka\": \"Iphone\", \r\n     \"model\": \"XR\",\r\n     \"telefonNo\" : \"05370117045\",\r\n     \"teminatTutari\": 1000, \r\n     \"email\": \"sheriffmusa42@gmail.com\" ,\r\n     \"ad\" : \"Yunus Emre\", \r\n     \"soyad\" : \"Çınar\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2877,10 +3396,10 @@
 							}
 						},
 						"url": {
-							"raw": "https://api.tamamliyo.com/partner/v1/cep-telefonu-sigortasi/fiyat-al",
+							"raw": "https://apitest.tamamliyo.com/partner/v1/cep-telefonu-sigortasi/fiyat-al",
 							"protocol": "https",
 							"host": [
-								"api",
+								"apitest",
 								"tamamliyo",
 								"com"
 							],
@@ -2916,7 +3435,7 @@
 							},
 							{
 								"key": "token",
-								"value": "5ac96f1dbcc523873c902ccb0e445e25",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -2964,7 +3483,7 @@
 							},
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -3007,7 +3526,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -3055,7 +3574,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -3103,7 +3622,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -3151,7 +3670,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -3199,7 +3718,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -3248,7 +3767,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -3299,7 +3818,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -3342,7 +3861,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -3376,7 +3895,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -3411,7 +3930,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -3462,7 +3981,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -3505,7 +4024,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -3543,7 +4062,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -3581,7 +4100,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -3624,7 +4143,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -3667,7 +4186,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -3710,7 +4229,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -3763,7 +4282,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "5ac96f1dbcc523873c902ccb0e445e25",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -3798,7 +4317,7 @@
 							"query": [
 								{
 									"key": "token",
-									"value": "31236467a9554a92e0930c457b329f79",
+									"value": "",
 									"disabled": true
 								}
 							]
@@ -3818,7 +4337,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "5ac96f1dbcc523873c902ccb0e445e25",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -3853,7 +4372,7 @@
 							"query": [
 								{
 									"key": "token",
-									"value": "31236467a9554a92e0930c457b329f79",
+									"value": "",
 									"disabled": true
 								}
 							]
@@ -3878,7 +4397,7 @@
 							},
 							{
 								"key": "token",
-								"value": "5ac96f1dbcc523873c902ccb0e445e25",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -3916,7 +4435,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "5ac96f1dbcc523873c902ccb0e445e25",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -3959,7 +4478,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "5ac96f1dbcc523873c902ccb0e445e25",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -4004,7 +4523,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "5ac96f1dbcc523873c902ccb0e445e25",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -4047,7 +4566,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "5ac96f1dbcc523873c902ccb0e445e25",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -4090,7 +4609,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "5ac96f1dbcc523873c902ccb0e445e25",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -4138,7 +4657,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "5ac96f1dbcc523873c902ccb0e445e25",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -4157,7 +4676,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://apitest.tamamliyo.com/tamamliyo/v1/tamamliyo-cep-koruma-paket/hasar-servis?token=31236467a9554a92e0930c457b329f79",
+							"raw": "https://apitest.tamamliyo.com/tamamliyo/v1/tamamliyo-cep-koruma-paket/hasar-servis?token=",
 							"protocol": "https",
 							"host": [
 								"apitest",
@@ -4173,7 +4692,7 @@
 							"query": [
 								{
 									"key": "token",
-									"value": "31236467a9554a92e0930c457b329f79"
+									"value": ""
 								}
 							]
 						}
@@ -4190,7 +4709,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "5ac96f1dbcc523873c902ccb0e445e25",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -4243,7 +4762,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "5ac96f1dbcc523873c902ccb0e445e25",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -4297,7 +4816,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "5ac96f1dbcc523873c902ccb0e445e25",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -4496,7 +5015,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -4507,7 +5026,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"tcKimlikNo\" : \"26350861214\",\r\n    \"dogumTarihi\" : \"1992-06-10\",\r\n    \"ulkeKodu\" : \"TR\", //örnek TR\r\n    \"urunId\" : \"129\",\r\n    \"gsmNo\" : \"5363464081\",\r\n    \"email\" : \"turgay@tamamliyo.com\"\r\n}",
+							"raw": "{\r\n    \"tcKimlikNo\" : \"43888576526\",\r\n    \"dogumTarihi\" : \"1986-02-07\",\r\n    \"ulkeKodu\" : \"TR\", //örnek TR\r\n    \"urunId\" : \"129\",\r\n    \"gsmNo\" : \"5438524999\",\r\n    \"email\" : \"musa@tamamliyo.com\"    \r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -4544,7 +5063,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -4592,7 +5111,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -4640,7 +5159,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -4688,7 +5207,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -4736,7 +5255,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -4785,7 +5304,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -4838,7 +5357,7 @@
 							},
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -4879,7 +5398,7 @@
 							},
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -4923,7 +5442,7 @@
 							},
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
