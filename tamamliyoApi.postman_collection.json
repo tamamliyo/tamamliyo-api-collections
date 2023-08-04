@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "722a3eef-dd60-41b6-8ad0-1394ef53b3ab",
+		"_postman_id": "71200f12-1bf8-4078-8ad3-4262ffa89a4f",
 		"name": "tamamliyoApi",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "22827499",
-		"_collection_link": "https://winter-meadow-734598.postman.co/workspace/Dev-APi-collectionstest~8eb6a77d-cc37-493d-b89d-bcc63e624b78/collection/22827499-722a3eef-dd60-41b6-8ad0-1394ef53b3ab?action=share&creator=22827499&source=collection_link"
+		"_collection_link": "https://winter-meadow-734598.postman.co/workspace/Dev-APi-collectionstest~8eb6a77d-cc37-493d-b89d-bcc63e624b78/collection/22827499-71200f12-1bf8-4078-8ad3-4262ffa89a4f?action=share&creator=22827499&source=collection_link"
 	},
 	"item": [
 		{
@@ -1039,6 +1039,137 @@
 					"response": []
 				},
 				{
+					"name": "odeme-link-olustur",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "xxxxxxxxxxxxxx",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\r\n    \"teklifId\" : 44932\r\n    \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/partner/v2/komplikasyon-sigortasi/odeme-link-olustur",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v2",
+								"komplikasyon-sigortasi",
+								"odeme-link-olustur"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "odeme-link-olustur",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "token",
+										"value": "xxxxxxxxxx",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\r\n    \"teklifId\" : 44932\r\n    \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://api-test.tamamliyo.com/partner/v2/komplikasyon-sigortasi/odeme-link-olustur",
+									"protocol": "https",
+									"host": [
+										"api-test",
+										"tamamliyo",
+										"com"
+									],
+									"path": [
+										"partner",
+										"v2",
+										"komplikasyon-sigortasi",
+										"odeme-link-olustur"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 25 Jul 2023 03:42:55 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.1.21"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "private, must-revalidate"
+								},
+								{
+									"key": "pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "expires",
+									"value": "-1"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Content-Encoding",
+									"value": "br"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"message\": \"Ödeme linki oluşturuldu.\",\n    \"data\": {\n        \"fiyat\": \"14953.90\",\n        \"ad\": \"Musa\",\n        \"soyad\": \"Swaray\",\n        \"gsmNo\": \"5448202338\"\n    },\n    \"odemeLinkAciklama\": \"Ödeme işlemini tamamlamak için lütfen aşağıdaki linke tıklayınız\",\n    \"odemeLink\": \"https://happ.tamamliyo.com/odeme/?teklifId=44932\"\n}"
+						}
+					]
+				},
+				{
 					"name": "police-pdf",
 					"request": {
 						"method": "POST",
@@ -1173,7 +1304,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"odemeTipi\" : 1,\r\n    \"teklifId\" : 14998,\r\n    \"krediKartiCvv\" : \"401\",\r\n    \"krediKartiNo\" : \"5235290466268433\",\r\n    \"krediKartiBitisTarihi\" : \"2024-09-01\",\r\n    \"krediKartiAd\" : \"SONER\",\r\n    \"krediKartiSoyad\" : \"TUĞAN\",\r\n    \"donusUrl\" : \"null\"\r\n}",
+							"raw": "{\r\n    \"odemeTipi\" : 2,\r\n    \"teklifId\" : 14998,\r\n    \"krediKartiCvv\" : \"401\",\r\n    \"krediKartiNo\" : \"5235290466268433\",\r\n    \"krediKartiBitisTarihi\" : \"2024-09-01\",\r\n    \"krediKartiAd\" : \"SONER\",\r\n    \"krediKartiSoyad\" : \"TUĞAN\",\r\n    \"donusUrl\" : \"null\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1415,6 +1546,47 @@
 										"v1",
 										"dask-sigortasi",
 										"get-uavt-city-list"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get-uavt-town-list",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "31236467a9554a92e0930c457b329f79 ",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"ilKodu\" :32\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://apitest.tamamliyo.com/partner/v1/dask-sigortasi/get-uavt-town-list",
+									"protocol": "https",
+									"host": [
+										"apitest",
+										"tamamliyo",
+										"com"
+									],
+									"path": [
+										"partner",
+										"v1",
+										"dask-sigortasi",
+										"get-uavt-town-list"
 									]
 								}
 							},
@@ -2020,7 +2192,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n   \"tcKimlikNo\": \"18908499536\", \n   \"dogumTarihi\": \"1989-02-07\",\n    \"email\" : \"yazilim@tamamliyo.com\",\n    \"binaninToplamKatSayisi\" : \"A\",\n    \"dainiMurtehinBanka\" : \"0100\",\n    \"dainiMurtehinFinansKurumValue\" : \"339\", //DainiMurtehinFinansKurumValue\n    \"dainiMurtehinSube\" : \"Bursa\",\n    \"dainiMurtehinVarmi\" : \"HAYIR\",\n    \"metreKare\" : 120,\n    \"baslangicTarihi\" : \"2023-06-15\",\n    \"uavtKodu\" : 1882012246,\n    \"binaInsaTarzi\" : \"A\",\n    \"binaInsaYili\" : \"A\",\n    \"binaOncedenHasarGorduMu\" : \"A\",\n    \"daireKullanimSekli\": \"A\",\n    \"gsmNo\" : \"5303806344\"\n\n}\n\n",
+							"raw": "\n\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2066,7 +2238,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n   \"tcKimlikNo\": \"18908499536\", \n   \"dogumTarihi\": \"1989-02-07\",\n    \"email\" : \"yazilim@tamamliyo.com\",\n    \"binaninToplamKatSayisi\" : \"A\",\n    \"dainiMurtehinBanka\" : \"0100\",\n    \"dainiMurtehinFinansKurumValue\" : \"339\", //DainiMurtehinFinansKurumValue\n    \"dainiMurtehinSube\" : \"Bursa\",\n    \"dainiMurtehinVarmi\" : \"HAYIR\",\n    \"metreKare\" : 120,\n    \"baslangicTarihi\" : \"2023-06-15\",\n    \"uavtKodu\" : 1882012246,\n    \"binaInsaTarzi\" : \"A\",\n    \"binaInsaYili\" : \"A\",\n    \"binaOncedenHasarGorduMu\" : \"A\",\n    \"daireKullanimSekli\": \"A\",\n    \"gsmNo\" : \"5303806344\"\n\n}\n\n",
+							"raw": "\n\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2112,7 +2284,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n   \"tcKimlikNo\": \"18908499536\", \n   \"dogumTarihi\": \"1989-02-07\",\n    \"email\" : \"yazilim@tamamliyo.com\",\n    \"binaninToplamKatSayisi\" : \"A\",\n    \"dainiMurtehinBanka\" : \"0100\",\n    \"dainiMurtehinFinansKurumValue\" : \"339\", //DainiMurtehinFinansKurumValue\n    \"dainiMurtehinSube\" : \"Bursa\",\n    \"dainiMurtehinVarmi\" : \"HAYIR\",\n    \"metreKare\" : 120,\n    \"baslangicTarihi\" : \"2023-06-15\",\n    \"uavtKodu\" : 1882012246,\n    \"binaInsaTarzi\" : \"A\",\n    \"binaInsaYili\" : \"A\",\n    \"binaOncedenHasarGorduMu\" : \"A\",\n    \"daireKullanimSekli\": \"A\",\n    \"gsmNo\" : \"5303806344\"\n\n}\n\n",
+							"raw": "\n\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2158,7 +2330,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n   \"tcKimlikNo\": \"18908499536\", \n   \"dogumTarihi\": \"1989-02-07\",\n    \"email\" : \"yazilim@tamamliyo.com\",\n    \"binaninToplamKatSayisi\" : \"A\",\n    \"dainiMurtehinBanka\" : \"0100\",\n    \"dainiMurtehinFinansKurumValue\" : \"339\", //DainiMurtehinFinansKurumValue\n    \"dainiMurtehinSube\" : \"Bursa\",\n    \"dainiMurtehinVarmi\" : \"HAYIR\",\n    \"metreKare\" : 120,\n    \"baslangicTarihi\" : \"2023-06-15\",\n    \"uavtKodu\" : 1882012246,\n    \"binaInsaTarzi\" : \"A\",\n    \"binaInsaYili\" : \"A\",\n    \"binaOncedenHasarGorduMu\" : \"A\",\n    \"daireKullanimSekli\": \"A\",\n    \"gsmNo\" : \"5303806344\"\n\n}\n\n",
+							"raw": "\n\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2204,7 +2376,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n   \"tcKimlikNo\": \"18908499536\", \n   \"dogumTarihi\": \"1989-02-07\",\n    \"email\" : \"yazilim@tamamliyo.com\",\n    \"binaninToplamKatSayisi\" : \"A\",\n    \"dainiMurtehinBanka\" : \"0100\",\n    \"dainiMurtehinFinansKurumValue\" : \"339\", //DainiMurtehinFinansKurumValue\n    \"dainiMurtehinSube\" : \"Bursa\",\n    \"dainiMurtehinVarmi\" : \"HAYIR\",\n    \"metreKare\" : 120,\n    \"baslangicTarihi\" : \"2023-06-15\",\n    \"uavtKodu\" : 1882012246,\n    \"binaInsaTarzi\" : \"A\",\n    \"binaInsaYili\" : \"A\",\n    \"binaOncedenHasarGorduMu\" : \"A\",\n    \"daireKullanimSekli\": \"A\",\n    \"gsmNo\" : \"5303806344\"\n\n}\n\n",
+							"raw": "\n\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2247,7 +2419,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"sigortaEttiren\" : {\r\n        \"tcKimlikNo\" : \"18908499536\",\r\n        \"dogumTarihi\" : \"1989-02-07\"\r\n    },\r\n    \"cinsId\" : 1,\r\n    \"cinsiyetId\" : 1,\r\n    \"turId\" : 294,\r\n    \"baslangicTarihi\" : \"2023-07-28\",\r\n    \"yasGrubuId\" : 2,\r\n    \"evcilHayvanAdi\" : \"test\",\r\n    \"urunId\" : 113,\r\n    \"gsmNo\" : \"5357864320\",\r\n    \"email\":\"test@tamamliyo.com\"\r\n}",
+							"raw": "{\r\n    \"sigortaEttiren\": {\r\n        \"dogumTarihi\": \"2001-03-17\",\r\n        \"tcKimlikNo\": \"14993697604\"\r\n    },\r\n    \"baslangicTarihi\": \"2023-08-24\",\r\n    \"cinsId\": \"2\",\r\n    \"turId\": \"14\",\r\n    \"cinsiyetId\": \"1\",\r\n    \"yasGrubuId\": \"6\",\r\n    \"evcilHayvanAdi\": \"test\",\r\n    \"gsmNo\": \"5467147063\",\r\n    \"email\": \"soner@mail.com\",\r\n    \"urunId\": \"113\",\r\n    \"petRenk\": \"golden\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
