@@ -899,7 +899,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"sigortaEttiren\": {\r\n        \"tcKimlikNo\": \"26350861214\",\r\n        \"dogumTarihi\": \"1992-06-10\",\r\n        \"ad\": \"Turgay\",\r\n        \"soyad\": \"ULUDAG\",\r\n        \"cinsiyet\": \"E\",\r\n        \"uyruk\": \"33\"\r\n    },\r\n    \"sigortali\": [\r\n        {\r\n            \"tcKimlikNo\": \"26350861214\",\r\n            \"dogumTarihi\": \"1992-06-10\",\r\n            \"ad\": \"Turgay\",\r\n            \"soyad\": \"ULUDAG\",\r\n            \"cinsiyet\": \"E\",\r\n            \"uyruk\": \"33\",\r\n            \"relationTypeId\" : \"F\"\r\n        }\r\n    ],\r\n    \"baslangicTarihi\": \"2023-07-26\",\r\n    \"bitisTarihi\": \"2023-07-30\",\r\n    \"email\": \"turgay@tamamliyo.com\",\r\n    \"gsmNo\": \"5363464081\",\r\n    \"urunId\": 111,\r\n    \"sorguTipi\" : 1,\r\n    \"komplikasyonTuru\" : 12\r\n}",
+							"raw": "{\r\n    \"sigortaEttiren\": {\r\n        \"tcKimlikNo\": \"26350861214\",\r\n        \"dogumTarihi\": \"1992-06-10\",\r\n        \"ad\": \"Turgay\",\r\n        \"soyad\": \"ULUDAG\",\r\n        \"cinsiyet\": \"E\",\r\n        \"uyruk\": \"33\"\r\n    },\r\n    \"sigortali\": [\r\n        {\r\n            \"tcKimlikNo\": \"26350861214\",\r\n            \"dogumTarihi\": \"1992-06-10\",\r\n            \"ad\": \"Turgay\",\r\n            \"soyad\": \"ULUDAG\",\r\n            \"cinsiyet\": \"E\",\r\n            \"uyruk\": \"33\",\r\n            \"relationTypeId\" : \"F\"\r\n        }\r\n    ],\r\n    \"baslangicTarihi\": \"2023-07-26\",\r\n    \"bitisTarihi\": \"2023-07-30\",\r\n    \"email\": \"turgay@tamamliyo.com\",\r\n    \"gsmNo\": \"5363464081\",\r\n    \"urunId\": 110,\r\n    \"sorguTipi\" : 1,\r\n    \"komplikasyonTuru\" : 12\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2457,7 +2457,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"sigortaEttiren\": {\r\n        \"dogumTarihi\": \"1992-06-10\",\r\n        \"tcKimlikNo\": \"26350861214\"\r\n    },\r\n    \"baslangicTarihi\": \"2023-08-24\",\r\n    \"cinsId\": \"2\",\r\n    \"turId\": \"14\",\r\n    \"cinsiyetId\": \"1\",\r\n    \"yasGrubuId\": \"6\",\r\n    \"evcilHayvanAdi\": \"test\",\r\n    \"gsmNo\": \"5363464081\",\r\n    \"email\": \"mail@mail.com\",\r\n    \"urunId\": 55\r\n}",
+							"raw": "{\r\n    \"sigortaEttiren\": {\r\n        \"dogumTarihi\": \"1992-06-10\",\r\n        \"tcKimlikNo\": \"26350861214\"\r\n    },\r\n    \"baslangicTarihi\": \"2023-08-24\",\r\n    \"cinsId\": \"2\",\r\n    \"turId\": \"14\",\r\n    \"cinsiyetId\": \"1\",\r\n    \"yasGrubuId\": \"6\",\r\n    \"evcilHayvanAdi\": \"test\",\r\n    \"gsmNo\": \"5363464081\",\r\n    \"email\": \"mail@mail.com\",\r\n    \"urunId\": 55,\r\n    \"petRenk\":\"golden\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
