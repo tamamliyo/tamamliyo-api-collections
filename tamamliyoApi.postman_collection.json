@@ -1,9 +1,10 @@
 {
 	"info": {
-		"_postman_id": "90a514c0-94ff-484e-83bf-f33465479e37",
+		"_postman_id": "71200f12-1bf8-4078-8ad3-4262ffa89a4f",
 		"name": "tamamliyoApi",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "13407317"
+		"_exporter_id": "22827499",
+		"_collection_link": "https://winter-meadow-734598.postman.co/workspace/Dev-APi-collectionstest~8eb6a77d-cc37-493d-b89d-bcc63e624b78/collection/22827499-71200f12-1bf8-4078-8ad3-4262ffa89a4f?action=share&source=collection_link&creator=22827499"
 	},
 	"item": [
 		{
@@ -30,7 +31,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v3/seyahat-saglik-sigortasi/teklif-olustur",
+							"raw": "https://api.tamamliyo.com/partner/v3/seyahat-saglik-sigortasi/teklif-olustur",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -67,7 +68,7 @@
 									}
 								},
 								"url": {
-									"raw": "https://api-test.tamamliyo.com/partner/v3/seyahat-saglik-sigortasi/teklif-olustur",
+									"raw": "https://api.tamamliyo.com/partner/v3/seyahat-saglik-sigortasi/teklif-olustur",
 									"protocol": "https",
 									"host": [
 										"api",
@@ -250,7 +251,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v2/konut-sigortasi/iller",
+							"raw": "https://api.tamamliyo.com/partner/v2/konut-sigortasi/iller",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -291,7 +292,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v2/konut-sigortasi/ilceler",
+							"raw": "https://api.tamamliyo.com/partner/v2/konut-sigortasi/ilceler",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -332,7 +333,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v2/konut-sigortasi/beldeler",
+							"raw": "https://api.tamamliyo.com/partner/v2/konut-sigortasi/beldeler",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -373,7 +374,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v2/konut-sigortasi/mahalleler",
+							"raw": "https://api.tamamliyo.com/partner/v2/konut-sigortasi/mahalleler",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -414,7 +415,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v2/konut-sigortasi/sokaklar",
+							"raw": "https://api.tamamliyo.com/partner/v2/konut-sigortasi/sokaklar",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -455,7 +456,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v2/konut-sigortasi/binalar",
+							"raw": "https://api.tamamliyo.com/partner/v2/konut-sigortasi/binalar",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -496,7 +497,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v2/konut-sigortasi/uavt-kodlari",
+							"raw": "https://api.tamamliyo.com/partner/v2/konut-sigortasi/uavt-kodlari",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -534,7 +535,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v2/konut-sigortasi/teklif-olustur",
+							"raw": "https://api.tamamliyo.com/partner/v2/konut-sigortasi/teklif-olustur",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -572,7 +573,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v2/konut-sigortasi/odeme-yap",
+							"raw": "https://api.tamamliyo.com/partner/v2/konut-sigortasi/odeme-yap",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -615,7 +616,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v2/konut-sigortasi/police-olustur",
+							"raw": "https://api.tamamliyo.com/partner/v2/konut-sigortasi/police-olustur",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -658,7 +659,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v2/konut-sigortasi/police-pdf",
+							"raw": "https://api.tamamliyo.com/partner/v2/konut-sigortasi/police-pdf",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -701,7 +702,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v2/incoming-sigortasi/teklif-olustur",
+							"raw": "https://api.tamamliyo.com/partner/v2/incoming-sigortasi/teklif-olustur",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -898,7 +899,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"sigortaEttiren\": {\r\n        \"tcKimlikNo\": \"26350861214\",\r\n        \"dogumTarihi\": \"1992-06-10\",\r\n        \"ad\": \"Turgay\",\r\n        \"soyad\": \"ULUDAG\",\r\n        \"cinsiyet\": \"E\",\r\n        \"uyruk\": \"33\"\r\n    },\r\n    \"sigortali\": [\r\n        {\r\n            \"tcKimlikNo\": \"26350861214\",\r\n            \"dogumTarihi\": \"1992-06-10\",\r\n            \"ad\": \"Turgay\",\r\n            \"soyad\": \"ULUDAG\",\r\n            \"cinsiyet\": \"E\",\r\n            \"uyruk\": \"33\",\r\n            \"relationTypeId\" : \"F\"\r\n        }\r\n    ],\r\n    \"baslangicTarihi\": \"2023-07-26\",\r\n    \"bitisTarihi\": \"2023-07-30\",\r\n    \"email\": \"turgay@tamamliyo.com\",\r\n    \"gsmNo\": \"5363464081\",\r\n    \"urunId\": 110,\r\n    \"sorguTipi\" : 1,\r\n    \"komplikasyonTuru\" : 12\r\n}",
+							"raw": "{\r\n    \"sigortaEttiren\": {\r\n        \"tcKimlikNo\": \"26350861214\",\r\n        \"dogumTarihi\": \"1992-06-10\",\r\n        \"ad\": \"Turgay\",\r\n        \"soyad\": \"ULUDAG\",\r\n        \"cinsiyet\": \"E\",\r\n        \"uyruk\": \"33\"\r\n    },\r\n    \"sigortali\": [\r\n        {\r\n            \"tcKimlikNo\": \"26350861214\",\r\n            \"dogumTarihi\": \"1992-06-10\",\r\n            \"ad\": \"Turgay\",\r\n            \"soyad\": \"ULUDAG\",\r\n            \"cinsiyet\": \"E\",\r\n            \"uyruk\": \"33\",\r\n            \"relationTypeId\" : \"F\"\r\n        }\r\n    ],\r\n    \"baslangicTarihi\": \"2023-07-26\",\r\n    \"bitisTarihi\": \"2023-07-30\",\r\n    \"email\": \"turgay@tamamliyo.com\",\r\n    \"gsmNo\": \"5363464081\",\r\n    \"urunId\": 111,\r\n    \"sorguTipi\" : 1,\r\n    \"komplikasyonTuru\" : 12\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -906,7 +907,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v2/komplikasyon-sigortasi/teklif-olustur",
+							"raw": "https://api.tamamliyo.com/partner/v2/komplikasyon-sigortasi/teklif-olustur",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -936,7 +937,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"sigortaEttiren\": {\r\n        \"pasaportNo\": \"307110789\",\r\n        \"dogumTarihi\": \"1996-10-13\",\r\n        \"ad\": \"DOUNIA\",\r\n        \"soyad\": \"BELKHIR\",\r\n        \"cinsiyet\": \"K\",\r\n        \"uyruk\": \"33\",\r\n        \"babaAdi\": \"MOHAMED HAIDAR\",\r\n        \"dogumYeri\": \"SETIF\"\r\n    },\r\n    \"sigortali\": [\r\n        {\r\n            \"pasaportNo\": \"307110789\",\r\n            \"dogumTarihi\": \"1996-10-13\",\r\n            \"ad\": \"DOUNIA\",\r\n            \"soyad\": \"BELKHIR\",\r\n            \"cinsiyet\": \"K\",\r\n            \"uyruk\": \"33\",\r\n            \"babaAdi\": \"MOHAMED HAIDAR\",\r\n            \"dogumYeri\": \"SETIF\",\r\n            \"relationTypeId\": \"F\"\r\n        }\r\n    ],\r\n    \"baslangicTarihi\": \"2023-04-26\",\r\n    \"bitisTarihi\": \"2023-04-30\",\r\n    \"email\": \"bilgi@tamamliyo.com\",\r\n    \"gsmNo\": \"5448202338\",\r\n    \"urunId\": 110,\r\n    \"sorguTipi\": 2,\r\n    \"komplikasyonTuru\" : 10\r\n\r\n}",
+							"raw": "{\r\n    \"sigortaEttiren\": {\r\n        \"pasaportNo\": \"307110789\",\r\n        \"dogumTarihi\": \"1996-10-13\",\r\n        \"ad\": \"DOUNIA\",\r\n        \"soyad\": \"BELKHIR\",\r\n        \"cinsiyet\": \"K\",\r\n        \"uyruk\": \"33\",\r\n        \"babaAdi\": \"MOHAMED HAIDAR\",\r\n        \"dogumYeri\": \"SETIF\"\r\n    },\r\n    \"sigortali\": [\r\n        {\r\n            \"pasaportNo\": \"307110789\",\r\n            \"dogumTarihi\": \"1996-10-13\",\r\n            \"ad\": \"DOUNIA\",\r\n            \"soyad\": \"BELKHIR\",\r\n            \"cinsiyet\": \"K\",\r\n            \"uyruk\": \"33\",\r\n            \"babaAdi\": \"MOHAMED HAIDAR\",\r\n            \"dogumYeri\": \"SETIF\",\r\n            \"relationTypeId\": \"F\"\r\n        }\r\n    ],\r\n    \"baslangicTarihi\": \"2023-04-26\",\r\n    \"bitisTarihi\": \"2023-04-30\",\r\n    \"email\": \"bilgi@tamamliyo.com\",\r\n    \"gsmNo\": \"5448202338\",\r\n    \"urunId\": 111,\r\n    \"sorguTipi\": 2,\r\n    \"komplikasyonTuru\" : 10\r\n\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1273,10 +1274,48 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v2/ogrenci-calisan-yurtdisi-sigortasi/teklif-olustur",
+							"raw": "https://api.tamamliyo.com/partner/v2/ogrenci-calisan-yurtdisi-sigortasi/teklif-olustur",
 							"protocol": "https",
 							"host": [
 								"api",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v2",
+								"ogrenci-calisan-yurtdisi-sigortasi",
+								"teklif-olustur"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "quick erasmus",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"sigortaEttiren\": {\r\n \"tcKimlikNo\": \"33535449488\",\r\n  \"dogumTarihi\": \"2001-05-26\"\r\n},\r\n\"sigortali\": [\r\n{\r\n      \"tcKimlikNo\": \"33535449488\",\r\n       \"dogumTarihi\": \"2001-05-26\",\r\n      \"relationTypeId\" : \"F\"\r\n}\r\n],\r\n\"baslangicTarihi\": \"2023-09-02\",\r\n\"email\": \"yazilim@tamamliyo.com\",\r\n\"gsmNo\": \"5363464081\",\r\n\"bitisTarihi\": \"2023-09-28\",\r\n\"adres\" : \"test adres\",\r\n\"urunId\": 112,\r\n\"sorguTipi\" : 1,\r\n\"bolge\" : 2,\r\n\"urunTipi\" : 1,\r\n\"sirketKodu\": \"QSS\",\r\n\"ulkeKodu\" : 276\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/partner/v2/ogrenci-calisan-yurtdisi-sigortasi/teklif-olustur",
+							"protocol": "https",
+							"host": [
+								"api-test",
 								"tamamliyo",
 								"com"
 							],
@@ -1433,7 +1472,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v2/ogrenci-calisan-yurtdisi-sigortasi/urunler",
+							"raw": "https://api.tamamliyo.com/partner/v2/ogrenci-calisan-yurtdisi-sigortasi/urunler",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -2464,7 +2503,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v2/pati-sigortasi/teklif-olustur",
+							"raw": "https://api.tamamliyo.com/partner/v2/pati-sigortasi/teklif-olustur",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -2578,7 +2617,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v2/pati-sigortasi/teklif-bilgileri",
+							"raw": "https://api.tamamliyo.com/partner/v2/pati-sigortasi/teklif-bilgileri",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -2616,7 +2655,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v2/pati-sigortasi/police-olustur",
+							"raw": "https://api.tamamliyo.com/partner/v2/pati-sigortasi/police-olustur",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -2654,7 +2693,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v2/pati-sigortasi/police-pdf",
+							"raw": "https://api.tamamliyo.com/partner/v2/pati-sigortasi/police-pdf",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -2692,7 +2731,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v2/pati-sigortasi/makbuz-pdf",
+							"raw": "https://api.tamamliyo.com/partner/v2/pati-sigortasi/makbuz-pdf",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -2726,7 +2765,7 @@
 							}
 						],
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v2/pati-sigortasi/urunler/",
+							"raw": "https://api.tamamliyo.com/partner/v2/pati-sigortasi/urunler/",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -2775,7 +2814,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v2/pati-sigortasi/turler",
+							"raw": "https://api.tamamliyo.com/partner/v2/pati-sigortasi/turler",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -2816,7 +2855,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v2/pati-sigortasi/cinsiyetler",
+							"raw": "https://api.tamamliyo.com/partner/v2/pati-sigortasi/cinsiyetler",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -2857,7 +2896,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v2/pati-sigortasi/cinsler",
+							"raw": "https://api.tamamliyo.com/partner/v2/pati-sigortasi/cinsler",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -2898,7 +2937,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v2/pati-sigortasi/yas-gruplari",
+							"raw": "https://api.tamamliyo.com/partner/v2/pati-sigortasi/yas-gruplari",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -2944,7 +2983,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v3/seyahat-saglik-sigortasi/urun-kodlari",
+							"raw": "https://api.tamamliyo.com/partner/v3/seyahat-saglik-sigortasi/urun-kodlari",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -2987,7 +3026,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v3/seyahat-saglik-sigortasi/teklif-olustur",
+							"raw": "https://api.tamamliyo.com/partner/v3/seyahat-saglik-sigortasi/teklif-olustur",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -3620,7 +3659,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v1/tamamlayici-saglik-sigortasi/teklif-olustur",
+							"raw": "https://api.tamamliyo.com/partner/v1/tamamlayici-saglik-sigortasi/teklif-olustur",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -3668,7 +3707,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v1/tamamlayici-saglik-sigortasi/odeme-yap",
+							"raw": "https://api.tamamliyo.com/partner/v1/tamamlayici-saglik-sigortasi/odeme-yap",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -3908,7 +3947,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v1/tamamlayici-saglik-sigortasi/teklif-bilgileri",
+							"raw": "https://api.tamamliyo.com/partner/v1/tamamlayici-saglik-sigortasi/teklif-bilgileri",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -3920,6 +3959,76 @@
 								"v1",
 								"tamamlayici-saglik-sigortasi",
 								"teklif-bilgileri"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "iller",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://apitest.tamamliyo.com/partner/v1/tamamlayici-saglik-sigortasi/iller",
+							"protocol": "https",
+							"host": [
+								"apitest",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"tamamlayici-saglik-sigortasi",
+								"iller"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ilceler",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"ilKodu\": \"041\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://apitest.tamamliyo.com/partner/v1/tamamlayici-saglik-sigortasi/ilceler",
+							"protocol": "https",
+							"host": [
+								"apitest",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"tamamlayici-saglik-sigortasi",
+								"ilceler"
 							]
 						}
 					},
@@ -3957,7 +4066,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v1/tamamlayici-saglik-sigortasi/urunler",
+							"raw": "https://api.tamamliyo.com/partner/v1/tamamlayici-saglik-sigortasi/urunler",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -3969,104 +4078,6 @@
 								"v1",
 								"tamamlayici-saglik-sigortasi",
 								"urunler"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "iller",
-					"protocolProfileBehavior": {
-						"disabledSystemHeaders": {
-							"accept": true
-						},
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "GET",
-						"header": [
-							{
-								"key": "token",
-								"value": "",
-								"type": "text"
-							},
-							{
-								"key": "Accept",
-								"value": "application/json",
-								"type": "text"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v1/tamamlayici-saglik-sigortasi/iller",
-							"protocol": "https",
-							"host": [
-								"api-test",
-								"tamamliyo",
-								"com"
-							],
-							"path": [
-								"partner",
-								"v1",
-								"tamamlayici-saglik-sigortasi",
-								"iller"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "ilceler",
-					"protocolProfileBehavior": {
-						"disabledSystemHeaders": {
-							"accept": true
-						},
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "GET",
-						"header": [
-							{
-								"key": "token",
-								"value": "",
-								"type": "text"
-							},
-							{
-								"key": "Accept",
-								"value": "application/json",
-								"type": "text"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "{\n    \"ilKodu\": \"041\"\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v1/tamamlayici-saglik-sigortasi/ilceler",
-							"protocol": "https",
-							"host": [
-								"api-test",
-								"tamamliyo",
-								"com"
-							],
-							"path": [
-								"partner",
-								"v1",
-								"tamamlayici-saglik-sigortasi",
-								"ilceler"
 							]
 						}
 					},
@@ -4106,7 +4117,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/iptal-servis/v1/iptal-talepleri/beklemede",
+							"raw": "https://api.tamamliyo.com/iptal-servis/v1/iptal-talepleri/beklemede",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -4140,7 +4151,7 @@
 							}
 						],
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/iptal-servis/v1/iptal-talepleri/iptal-edildi",
+							"raw": "https://api.tamamliyo.com/iptal-servis/v1/iptal-talepleri/iptal-edildi",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -4218,7 +4229,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/iptal-servis/v1/iptal-talepleri/olustur",
+							"raw": "https://api.tamamliyo.com/iptal-servis/v1/iptal-talepleri/olustur",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -4269,7 +4280,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v1/yabanci-saglik-sigortasi/urunler",
+							"raw": "https://api.tamamliyo.com/partner/v1/yabanci-saglik-sigortasi/urunler",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -4388,7 +4399,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v1/yabanci-saglik-sigortasi/odeme-yap",
+							"raw": "https://api.tamamliyo.com/partner/v1/yabanci-saglik-sigortasi/odeme-yap",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -4431,7 +4442,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v1/yabanci-saglik-sigortasi/police-olustur",
+							"raw": "https://api.tamamliyo.com/partner/v1/yabanci-saglik-sigortasi/police-olustur",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -4474,7 +4485,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v1/yabanci-saglik-sigortasi/police-pdf",
+							"raw": "https://api.tamamliyo.com/partner/v1/yabanci-saglik-sigortasi/police-pdf",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -4517,7 +4528,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v1/yabanci-saglik-sigortasi/police-pdf",
+							"raw": "https://api.tamamliyo.com/partner/v1/yabanci-saglik-sigortasi/police-pdf",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -4570,7 +4581,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/tamamliyo/v1/tamamliyo-cep-koruma-paket/teklif-olustur",
+							"raw": "https://api.tamamliyo.com/tamamliyo/v1/tamamliyo-cep-koruma-paket/teklif-olustur",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -4811,7 +4822,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/tamamliyo/v1/tamamliyo-cep-koruma-paket/police-olustur",
+							"raw": "https://api.tamamliyo.com/tamamliyo/v1/tamamliyo-cep-koruma-paket/police-olustur",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -5725,7 +5736,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api-test.tamamliyo.com/partner/v1/customer-pdf",
+							"raw": "https://api.tamamliyo.com/partner/v1/customer-pdf",
 							"protocol": "https",
 							"host": [
 								"api",
