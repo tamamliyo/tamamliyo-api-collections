@@ -23,7 +23,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"sigortaEttiren\": {\r\n            \"tcKimlikNo\": \"26350861214\",\r\n            \"dogumTarihi\": \"1992-06-10\"\r\n    },\r\n    \"sigortali\": [\r\n        {\r\n            \"tcKimlikNo\": \"26350861214\",   //\"20279244134\",  //\"43885576680\",\r\n            \"dogumTarihi\": \"1992-06-10\"  //\"1988-06-24\"\r\n        }\r\n    ],\r\n    \"baslangicTarihi\": \"2023-07-20\",\r\n    \"bitisTarihi\": \"2023-07-21\",\r\n    \"email\": \"turgay@tamamliyo.com\",\r\n    \"gsmNo\": \"5363464081\",\r\n    \"urunKodu\" : 1,\r\n    \"ilKodu\" : \"34\" //this will be use for quick sigorta only\r\n}",
+							"raw": "{\r\n    \"sigortaEttiren\": {\r\n            \"tcKimlikNo\": \"26350861214\",\r\n            \"dogumTarihi\": \"1992-06-10\"\r\n    },\r\n    \"sigortali\": [\r\n        {\r\n            \"tcKimlikNo\": \"26350861214\",   //\"20279244134\",  //\"43885576680\",\r\n            \"dogumTarihi\": \"1992-06-10\"  //\"1988-06-24\"\r\n        }\r\n    ],\r\n    \"baslangicTarihi\": \"2023-11-20\",\r\n    \"bitisTarihi\": \"2023-11-21\",\r\n    \"email\": \"turgay@tamamliyo.com\",\r\n    \"gsmNo\": \"5363464081\",\r\n    \"urunKodu\" : 1,\r\n    \"ilKodu\" : \"34\" //this will be use for quick sigorta only\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -159,7 +159,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"odemeTipi\" : \"2\",\r\n    \"teklifId\" : \"42095\",\r\n    \"krediKartiCvv\" : \"000\",\r\n    \"krediKartiNo\" : \"4546711234567894\",\r\n    \"krediKartiBitisTarihi\" : \"2026-12-01\",\r\n    \"krediKartiAd\" : \"Musa\",\r\n    \"krediKartiSoyad\" : \"Swaray\",\r\n    \"ilId\" : 34,\r\n    \"ilceId\" : \"1\",\r\n    \"adres\" : \"test adresimm\"\r\n}",
+							"raw": "{\r\n    \"odemeTipi\" : \"2\",\r\n    \"teklifId\" : \"42095\",\r\n    \"krediKartiCvv\" : \"000\",\r\n    \"krediKartiNo\" : \"4355084355084358\",\r\n    \"krediKartiBitisTarihi\" : \"2023-12-01\",\r\n    \"krediKartiAd\" : \"Musa\",\r\n    \"krediKartiSoyad\" : \"Swaray\",\r\n    \"ilId\" : 34,\r\n    \"ilceId\" : \"1\",\r\n    \"adres\" : \"test adresimm\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -3018,7 +3018,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"sigortaEttiren\": {\r\n            \"tcKimlikNo\": \"26350861214\",\r\n            \"dogumTarihi\": \"1992-06-10\"\r\n    },\r\n    \"sigortali\": [\r\n        {\r\n            \"tcKimlikNo\": \"26350861214\",\r\n            \"dogumTarihi\": \"1992-06-10\",\r\n            \"relationTypeId\" : \"F\"\r\n        }\r\n    ],\r\n    \"baslangicTarihi\": \"2023-07-23\",\r\n    \"bitisTarihi\": \"2023-07-30\",\r\n    \"email\": \"turgay@tamamliyo.com\",\r\n    \"gsmNo\": \"+05363464081\",\r\n    \"birdenFazlaFiyat\": \"EVET\",\r\n    \"urunKodu\" : 2\r\n}",
+							"raw": "{\r\n    \"sigortaEttiren\": {\r\n        \"tcKimlikNo\": \"26350861214\",\r\n        \"dogumTarihi\": \"1992-06-10\"\r\n    },\r\n    \"sigortali\": [\r\n        {\r\n            \"tcKimlikNo\": \"26350861214\",\r\n            \"dogumTarihi\": \"1992-06-10\",\r\n            \"relationTypeId\": \"F\"\r\n        }\r\n    ],\r\n    \"baslangicTarihi\": \"2023-10-28\",\r\n    \"bitisTarihi\": \"2023-10-30\",\r\n    \"email\": \"yazilim@tamamliyo.com\",\r\n    \"gsmNo\": \"+05363464081\",\r\n    \"turna\": \"EVET\",\r\n    // \"birdenFazlaFiyat\": \"EVET\",\r\n    \"urunKodu\": 10,\r\n    \"ulkeKodu\": 56\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -3061,7 +3061,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"odemeTipi\" : \"2\",\r\n    \"teklifId\" : \"41082\",\r\n    \"krediKartiCvv\" : \"401\",\r\n    \"krediKartiNo\" : \"4355084355084358\",\r\n    \"krediKartiBitisTarihi\" : \"2023-07-07\",\r\n    \"krediKartiAd\" : \"Turgay\",\r\n    \"krediKartiSoyad\" : \"Uludag\",\r\n    \"ilId\" : 34,\r\n    \"ilceId\" : \"1\",\r\n    \"adres\" : \"test adresimm\",\r\n    \"donusUrl\" : \"null\"\r\n}",
+							"raw": "{\r\n    \"odemeTipi\" : \"2\",\r\n    \"teklifId\" : \"52008\",\r\n    \"krediKartiCvv\" : \"000\",\r\n    \"krediKartiNo\" : \"4355084355084358\",\r\n    \"krediKartiBitisTarihi\" : \"2023-12-07\",\r\n    \"krediKartiAd\" : \"Turgay\",\r\n    \"krediKartiSoyad\" : \"Uludag\",\r\n    \"ilId\" : 34,\r\n    \"ilceId\" : \"1\",\r\n    \"adres\" : \"test adresimm\",\r\n    \"donusUrl\" : \"null\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -3270,6 +3270,84 @@
 								"partner",
 								"v1",
 								"ilceler"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "countries",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/partner/v1/countries",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"countries"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "genel-odeme-yap",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"odemeTipi\" : 2,\r\n    \"teklifId\" : 49531,//47485,\r\n    \"krediKartiCvv\" : \"000\",  //\"401\",\r\n    \"krediKartiNo\" : \"4546711234567894\",   //\"4546711234567894\" ,      //5235290466268433,\r\n    \"krediKartiBitisTarihi\" : \"2023-12-01\",  //\"2026-12-01\",              //\"2024-09-01\",\r\n    \"krediKartiAd\" : \"Musa\",\r\n    \"krediKartiSoyad\" : \"Swaray\",\r\n    \"ilId\" : 34,\r\n    \"ilceId\" : \"1\",\r\n    \"adres\" : \"test adresimm\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/partner/v3/seyahat-saglik-sigortasi/genel-odeme-yap",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v3",
+								"seyahat-saglik-sigortasi",
+								"genel-odeme-yap"
 							]
 						}
 					},
@@ -3651,7 +3729,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"urunId\" : 2,\n    \"tcKimlikNo\": \"33535449488\",\n    \"dogumTarihi\": \"2001-05-26\",\n    \"gsmNo\" : \"5363464081\",\n    \"email\" : \"yazilim@tamamliyo.com\",\n    \"ilKodu\": 32,\n    \"boy\": 182,\n    \"kilo\": 80\n}",
+							"raw": "{\n    \"urunId\": 2, //mylocal135\n    \"tcKimlikNo\": \"26350861214\", //\"49279240052\",\n    \"dogumTarihi\": \"1992-06-10\",\n    \"gsmNo\": \"5363464081\",\n    \"boy\": 180,\n    \"kilo\": 80,\n    \"ilKodu\": 34,\n    \"email\": \"yazilim@tamamliyo.com\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -4078,6 +4156,54 @@
 								"v1",
 								"tamamlayici-saglik-sigortasi",
 								"urunler"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "teklif-olustur hamilelik",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"urunId\" : 2, //mylocal135\n    \"tcKimlikNo\": \"14530997884\",//\"49279240052\",\n    \"dogumTarihi\": \"2005-09-15\",\n    \"gsmNo\" : \"5372429986\",\n    \"boy\" : 180,\n    \"kilo\" : 89,\n    \"demirTss\" : \"EVET\",\n    \"hamilelikDurumu\" : 1,\n    //\"demirTss\" : \"EVET\", // // ill kodu girersek birden fazla fiyat gelecek\n    \"ilKodu\" : 34,\n    \"email\" : \"yazilim@tamamliyo.com\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.tamamliyo.com/partner/v1/tamamlayici-saglik-sigortasi/teklif-olustur",
+							"protocol": "https",
+							"host": [
+								"api",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"tamamlayici-saglik-sigortasi",
+								"teklif-olustur"
 							]
 						}
 					},
@@ -5753,6 +5879,43 @@
 					"response": []
 				}
 			]
+		},
+		{
+			"name": "ortak-link-olustur",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ortakId\" : 22\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api-test.tamamliyo.com/ortaklar/v1/ortak-link-olustur",
+					"protocol": "https",
+					"host": [
+						"api-test",
+						"tamamliyo",
+						"com"
+					],
+					"path": [
+						"ortaklar",
+						"v1",
+						"ortak-link-olustur"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
