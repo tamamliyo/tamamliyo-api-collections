@@ -3755,6 +3755,102 @@
 					"response": []
 				},
 				{
+					"name": "teklif-olustur Mlp",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"urunId\": 2, //mylocal135\n    \"tcKimlikNo\": \"26350861214\", //\"49279240052\",\n    \"dogumTarihi\": \"1992-06-10\",\n    \"gsmNo\": \"5363464081\",\n    \"boy\": 180,\n    \"kilo\": 80,\n    \"ilKodu\": 34,\n    \"email\": \"yazilim@tamamliyo.com\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.tamamliyo.com/partner/v1/tamamlayici-saglik-sigortasi/teklif-olustur",
+							"protocol": "https",
+							"host": [
+								"api",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"tamamlayici-saglik-sigortasi",
+								"teklif-olustur"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "teklif-olustur-soru",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{    \n    \"teklifId\": 52592,\n    \"odemeTipi\": 2,\n    \"krediKartiNo\": \"4355084355084358\",\n    \"krediKartiBitisTarihi\": \"2023-12-01\",\n    \"krediKartiCvv\": \"000\",\n    \"krediKartiAd\": \"Musa\",\n    \"krediKartiSoyad\": \"Tamamliyo\",\n    \"donusUrl\": \"https://wwww.adres.com/\",\n    \"ulkeId\": 1, \n    \"ilId\": 7,\n    \"ilceId\": 177,\n    \"adres\": \" nilüfer\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/partner/v1/tamamlayici-saglik-sigortasi/teklif-olustur-soru",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"tamamlayici-saglik-sigortasi",
+								"teklif-olustur-soru"
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "3D ile odeme-yap",
 					"protocolProfileBehavior": {
 						"disabledSystemHeaders": {
@@ -4072,12 +4168,54 @@
 					"response": []
 				},
 				{
-					"name": "ilceler",
+					"name": "hastaneler",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
 					"request": {
 						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"il\": \"kocaeli\",\r\n    \"network\": \"yeşil\",\r\n    \"sigortaSirketi\": \"quick\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.tamamliyo.com/partner/v1/hastaneler",
+							"protocol": "https",
+							"host": [
+								"api",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"hastaneler"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ilceler",
+					"request": {
+						"method": "POST",
 						"header": [
 							{
 								"key": "token",
@@ -5912,6 +6050,46 @@
 						"ortaklar",
 						"v1",
 						"ortak-link-olustur"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "countries",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api-test.tamamliyo.com/partner/v1/countries",
+					"protocol": "https",
+					"host": [
+						"api-test",
+						"tamamliyo",
+						"com"
+					],
+					"path": [
+						"partner",
+						"v1",
+						"countries"
 					]
 				}
 			},
