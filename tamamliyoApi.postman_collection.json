@@ -1,10 +1,9 @@
 {
 	"info": {
-		"_postman_id": "71200f12-1bf8-4078-8ad3-4262ffa89a4f",
-		"name": "tamamliyoApi",
+		"_postman_id": "409beec1-a794-4263-9b58-368a75077ca6",
+		"name": "tamamliyoApi github",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "22827499",
-		"_collection_link": "https://winter-meadow-734598.postman.co/workspace/Dev-APi-collectionstest~8eb6a77d-cc37-493d-b89d-bcc63e624b78/collection/22827499-71200f12-1bf8-4078-8ad3-4262ffa89a4f?action=share&source=collection_link&creator=22827499"
+		"_exporter_id": "13407317"
 	},
 	"item": [
 		{
@@ -4859,6 +4858,61 @@
 		{
 			"name": "Tamamliyo Cep Telefon Paket",
 			"item": [
+				{
+					"name": "fiyat-al",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"model\": 5\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.tamamliyo.com/tamamliyo/v1/tamamliyo-cep-koruma-paket/teklif-olustur",
+							"protocol": "https",
+							"host": [
+								"api",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"tamamliyo",
+								"v1",
+								"tamamliyo-cep-koruma-paket",
+								"teklif-olustur"
+							],
+							"query": [
+								{
+									"key": "token",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
 				{
 					"name": "teklif olustur",
 					"protocolProfileBehavior": {
