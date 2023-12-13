@@ -3212,7 +3212,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"sigortaliSayisi\" : 10,\r\n    \"baslangicTarihi\": \"2023-11-13\",\r\n    \"bitisTarihi\": \"2023-11-25\",\r\n    \"urunKodu\" : 2\r\n}",
+							"raw": "{\r\n    \"sigortaliSayisi\" : 10,\r\n    \"baslangicTarihi\": \"2023-11-13\",\r\n    \"bitisTarihi\": \"2023-11-25\",\r\n    \"tcKimlikNo\": \"3**********\",\r\n    \"dogumTarihi\": \"2***-**-**\",\r\n    \"gsm_no\": \"537*******\",\r\n    \"email\": \"**@***.com\",\r\n    \"ad\": \"Yunus Emre\",\r\n    \"soyad\": \"Çınar\",\r\n    \"urunKodu\" : 2\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
