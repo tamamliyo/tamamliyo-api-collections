@@ -3060,7 +3060,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"parameters\": {\r\n        \"ticketType\": \"0\", // 0 for bus, 1 for plane, 2 for ferry\r\n        \"pnrNo\": \"1231231\",\r\n        \"flightNumber\": \"42342342\",\r\n        \"company\": \"Turkish Airlines\",\r\n        \"departureLocation\": \"Antalya\",\r\n        \"arrivalLocation\": \"Canda\",\r\n        \"departureDateTime\": \"\"\r\n    },\r\n    \"odemeTipi\" : \"2\",\r\n    \"teklifId\" : \"52008\",\r\n    \"krediKartiCvv\" : \"000\",\r\n    \"krediKartiNo\" : \"4355084355084358\",\r\n    \"krediKartiBitisTarihi\" : \"2023-12-07\",\r\n    \"krediKartiAd\" : \"Turgay\",\r\n    \"krediKartiSoyad\" : \"Uludag\",\r\n    \"ilId\" : 34,\r\n    \"ilceId\" : \"1\",\r\n    \"adres\" : \"test adresimm\",\r\n    \"donusUrl\" : \"null\"\r\n}",
+							"raw": "{\r\n    \"parameters\": {\r\n        \"ticketType\": \"0\", // 0 for bus, 1 for plane, 2 for ferry\r\n        \"pnrNo\": \"1231231\",\r\n        \"flightNumber\": \"42342342\",\r\n        \"company\": \"Turkish Airlines\",\r\n        \"departureLocation\": \"Antalya\",\r\n        \"arrivalLocation\": \"Canda\",\r\n        \"departureDateTime\": \"2023-12-14 18:00:00\"\r\n    },\r\n    \"odemeTipi\" : \"2\",\r\n    \"teklifId\" : \"52008\",\r\n    \"krediKartiCvv\" : \"000\",\r\n    \"krediKartiNo\" : \"4355084355084358\",\r\n    \"krediKartiBitisTarihi\" : \"2023-12-07\",\r\n    \"krediKartiAd\" : \"Turgay\",\r\n    \"krediKartiSoyad\" : \"Uludag\",\r\n    \"ilId\" : 34,\r\n    \"ilceId\" : \"1\",\r\n    \"adres\" : \"test adresimm\",\r\n    \"donusUrl\" : \"null\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
