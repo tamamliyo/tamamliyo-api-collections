@@ -4889,7 +4889,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://api.tamamliyo.com/tamamliyo/v1/tamamliyo-cep-koruma-paket/teklif-olustur",
+							"raw": "https://api-test.tamamliyo.com/tamamliyo/v1/tamamliyo-cep-koruma-paket/fiyat-al",
 							"protocol": "https",
 							"host": [
 								"api",
