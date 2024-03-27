@@ -6188,6 +6188,804 @@
 			]
 		},
 		{
+			"name": "Bilet İptal Sigortasi",
+			"item": [
+				{
+					"name": "teklif olustur",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"sigortaEttiren\": {\r\n        \"tcKimlikNo\": \"xxxxxx\",\r\n        \"dogumTarihi\": \"1992-xx-xx\"\r\n    },\r\n    \"sigortali\": [\r\n        {\r\n            \"tcKimlikNo\": \"xxxxxxxxxx\", //\"20279244134\",  //\"43885576680\",\r\n            \"dogumTarihi\": \"1992-xx-xx\" //\"1988-06-24\"\r\n        }\r\n    ],\r\n    \"baslangicTarihi\": \"2024-02-25\",\r\n    \"bitisTarihi\": \"2024-02-26\",\r\n    \"email\": \"turgay@tamamliyo.com\",\r\n    \"gsmNo\": \"536xxxxxxxx\",\r\n    \"ticketPrice\": 1000,\r\n    \"ticketType\": 0,\r\n    \"ilKodu\": \"34\", //this will be use for quick sigorta only\r\n    \"test\": \"1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.tamamliyo.com/partner/v1/bilet-iptal-sigortasi/teklif-olustur",
+							"protocol": "https",
+							"host": [
+								"api",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"bilet-iptal-sigortasi",
+								"teklif-olustur"
+							]
+						},
+						"description": "\nThis API endpoint is used to create a travel health insurance quote. It sends an HTTP POST request to the specified URL: `https://apitest.tamamliyo.com/partner/v3/seyahat-saglik-sigortasi/teklif-olustur`.\n\nThe response from the last execution of this request had a status code of 200, indicating a successful response. The response body contains a JSON object with the following structure:\n\n```json\n{\n  \"success\": true,\n  \"data\": {\n    \"teklifBilgileri\": {\n      \"fiyat\": \"\",\n      \"fiyatEuro\": 0,\n      \"teklifId\": 0,\n      \"olusturulmaTarihi\": \"\"\n    },\n    \"urunBilgileri\": {\n      \"urunId\": 0,\n      \"urunAdi\": \"\",\n      \"urunTanimi\": \"\",\n      \"urunKategoriBaslik\": \"\",\n      \"urunKategoriAciklama\": \"\",\n      \"teminatlar\": {\n        \"tr\": {\n          \"Tıbbi Tedavi\": \"\",\n          \"Tıbbi Nakil\": \"\",\n          \"Mezar Kalıntılarının Memleketine Nakli\": \"\",\n          \"Tıbbi Bilgi ve Danışmanlık\": \"\"\n        },\n        \"en\": {\n          \"Medical Treatment\": \"\",\n          \"Medical Transfer\": \"\",\n          \"Repatriation of Mortal Remains\": \"\",\n          \"Medical Information and Consultation\": \"\"\n        },\n        \"ar\": {\n          \"العلاج الطبي\": \"\",\n          \"نقل طبي\": \"\",\n          \"إعادة جثامين المتوفين إلى بلادهم\": \"\",\n          \"المعلومات الطبية والاستشارة\": \"\"\n        },\n        \"ru\": {\n          \"Медицинское лечение\": \"\",\n          \"Медицинская транспортировка\": \"\",\n          \"Репатриация останков\": \"\",\n          \"Медицинская информация и консультация\": \"\"\n        }\n      }\n    },\n    \"kisiselBilgiler\": {\n      \"ad\": \"\",\n      \"soyad\": \"\",\n      \"tcKimlikNo\": \"\",\n      \"dogumTarihi\": \"\",\n      \"cinsiyet\": \"\",\n      \"gsmNo\": \"\",\n      \"email\": \"\"\n    },\n    \"sigortaSirketiBilgileri\": {\n      \"sigortaSirketiId\": 0,\n      \"kisaAdi\": \"\",\n      \"tamAdi\": \"\",\n      \"yayinci\": \"\"\n    }\n  }\n}\n```\n\nPlease add more specific instructions on what kind of documentation you would like to include for this API endpoint.\n"
+					},
+					"response": []
+				},
+				{
+					"name": "odeme yap",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"parameters\": {\r\n        \"ticketType\": \"0\", // 0 for bus, 1 for plane,2 feribot\r\n        \"pnrNo\": \"1231231\",\r\n        \"flightNumber\": \"42342342\",\r\n        \"company\": \"Turkish Airlines\",\r\n        \"departureLocation\": \"Antalya\",\r\n        \"arrivalLocation\": \"Canda\",\r\n        \"departureDateTime\": \"2024-02-01 12:00:00\"\r\n    },\r\n    \"odemeTipi\": \"2\",\r\n    \"teklifId\": \"56041\",\r\n    \"krediKartiCvv\": \"000\",\r\n    \"krediKartiNo\": \"5571135571135575\",\r\n    \"krediKartiBitisTarihi\": \"2026-12-01\",\r\n    \"krediKartiAd\": \"Test\",\r\n    \"krediKartiSoyad\": \"TEST\",\r\n    \"ilId\": 34,\r\n    \"ilceId\": \"1\",\r\n    \"adres\": \"test adresimm\",\r\n    \"donusUrl\": \"null\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/partner/v1/bilet-iptal-sigortasi/odeme-yap",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"bilet-iptal-sigortasi",
+								"odeme-yap"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "police olustur",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"teklifId\" : \"56041\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/partner/v1/bilet-iptal-sigortasi/police-olustur",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"bilet-iptal-sigortasi",
+								"police-olustur"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "teklif bilgileri",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"teklifId\" : \"81461\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/partner/v1/bilet-iptal-sigortasi/teklif-bilgileri",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"bilet-iptal-sigortasi",
+								"teklif-bilgileri"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "makbuz-pdf",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\r\n    \"teklifId\" : 125017\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/partner/v1/bilet-iptal-sigortasi/makbuz-pdf",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"bilet-iptal-sigortasi",
+								"makbuz-pdf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "police-pdf",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"teklifId\" : \"14866\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/partner/v1/bilet-iptal-sigortasi/police-pdf",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"bilet-iptal-sigortasi",
+								"police-pdf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "fiyat al",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"sigortaliSayisi\": 1,\r\n    \"baslangicTarihi\": \"2024-01-20\",\r\n    \"bitisTarihi\": \"2024-01-21\",\r\n    \"urunKodu\": 10,\r\n    \"tcKimlikNo\": \"33535449488\", // Optional\r\n    \"dogumTarihi\": \"2001-05-26\", // Optional\r\n    \"gsm_no\": \"5370117045\", // Optional\r\n    \"email\": \"yunus@tamamliyo.com\", // Optional\r\n    \"ad\": \"Yunus Emre\", // Optional\r\n    \"soyad\": \"Çınar\" // Optional\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.tamamliyo.com/partner/v1/bilet-iptal-sigortasi/fiyat-al",
+							"protocol": "https",
+							"host": [
+								"api",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"bilet-iptal-sigortasi",
+								"fiyat-al"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ülkeler",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/partner/v1/countries",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"countries"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "iller",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"ulkeId\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/partner/v1/iller",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"iller"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ilceler",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"ilId\" : 34\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/partner/v1/ilceler",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"ilceler"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Otel İptal Sigortası",
+			"item": [
+				{
+					"name": "fiyat al",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"hotelName\": \"\", // Otel ismi\r\n    \"adultCount\": 1, // Kişi Sayısı\r\n    \"reservationPrice\": 2000, // rezervasyon fiyatı\r\n    \"baslangicTarihi\": \"2024-02-02\",\r\n    \"bitisTarihi\": \"2024-02-03\",\r\n    \"tcKimlikNo\": \"xxxxxxxxx\", // Optional\r\n    \"dogumTarihi\": \"1992-xx-xx\", // Optional\r\n    \"gsm_no\": \"536xxxxxxxxxx\", // Optional\r\n    \"email\": \"turgay@tamamliyo.com\", // Optional\r\n    \"ad\": \"Turgay\", // Optional\r\n    \"soyad\": \"Uludağ\", // Optional\r\n    \"urunKodu\": 10,\r\n    \"sigortaliSayisi\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.tamamliyo.com/partner/v1/otel-iptal-sigortasi/fiyat-al",
+							"protocol": "https",
+							"host": [
+								"api",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"otel-iptal-sigortasi",
+								"fiyat-al"
+							]
+						},
+						"description": "\nThis API endpoint is used to create a travel health insurance quote. It sends an HTTP POST request to the specified URL: `https://apitest.tamamliyo.com/partner/v3/seyahat-saglik-sigortasi/teklif-olustur`.\n\nThe response from the last execution of this request had a status code of 200, indicating a successful response. The response body contains a JSON object with the following structure:\n\n```json\n{\n  \"success\": true,\n  \"data\": {\n    \"teklifBilgileri\": {\n      \"fiyat\": \"\",\n      \"fiyatEuro\": 0,\n      \"teklifId\": 0,\n      \"olusturulmaTarihi\": \"\"\n    },\n    \"urunBilgileri\": {\n      \"urunId\": 0,\n      \"urunAdi\": \"\",\n      \"urunTanimi\": \"\",\n      \"urunKategoriBaslik\": \"\",\n      \"urunKategoriAciklama\": \"\",\n      \"teminatlar\": {\n        \"tr\": {\n          \"Tıbbi Tedavi\": \"\",\n          \"Tıbbi Nakil\": \"\",\n          \"Mezar Kalıntılarının Memleketine Nakli\": \"\",\n          \"Tıbbi Bilgi ve Danışmanlık\": \"\"\n        },\n        \"en\": {\n          \"Medical Treatment\": \"\",\n          \"Medical Transfer\": \"\",\n          \"Repatriation of Mortal Remains\": \"\",\n          \"Medical Information and Consultation\": \"\"\n        },\n        \"ar\": {\n          \"العلاج الطبي\": \"\",\n          \"نقل طبي\": \"\",\n          \"إعادة جثامين المتوفين إلى بلادهم\": \"\",\n          \"المعلومات الطبية والاستشارة\": \"\"\n        },\n        \"ru\": {\n          \"Медицинское лечение\": \"\",\n          \"Медицинская транспортировка\": \"\",\n          \"Репатриация останков\": \"\",\n          \"Медицинская информация и консультация\": \"\"\n        }\n      }\n    },\n    \"kisiselBilgiler\": {\n      \"ad\": \"\",\n      \"soyad\": \"\",\n      \"tcKimlikNo\": \"\",\n      \"dogumTarihi\": \"\",\n      \"cinsiyet\": \"\",\n      \"gsmNo\": \"\",\n      \"email\": \"\"\n    },\n    \"sigortaSirketiBilgileri\": {\n      \"sigortaSirketiId\": 0,\n      \"kisaAdi\": \"\",\n      \"tamAdi\": \"\",\n      \"yayinci\": \"\"\n    }\n  }\n}\n```\n\nPlease add more specific instructions on what kind of documentation you would like to include for this API endpoint.\n"
+					},
+					"response": []
+				},
+				{
+					"name": "teklif olustur",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"sigortaEttiren\": {\r\n        \"tcKimlikNo\": \"xxxxxxxxxxx\",\r\n        \"dogumTarihi\": \"1992-xx-xx\"\r\n    },\r\n    \"sigortali\": [\r\n        {\r\n            \"tcKimlikNo\": \"xxxxxxxxx\", //\"20279244134\",  //\"43885576680\",\r\n            \"dogumTarihi\": \"1992-06-10\" //\"1988-06-24\"\r\n        }\r\n    ],\r\n    \"hotelName\": \"test\",\r\n    \"adultCount\":1,\r\n    \"reservationPrice\":1200,\r\n    \"baslangicTarihi\": \"2024-01-25\",\r\n    \"bitisTarihi\": \"2024-01-26\",\r\n    \"email\": \"turgay@tamamliyo.com\",\r\n    \"gsmNo\": \"536xxxxxxx\",\r\n    \"ilKodu\": \"34\", //this will be use for quick sigorta only\r\n    \"test\": \"1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.tamamliyo.com/partner/v1/otel-iptal-sigortasi/teklif-olustur",
+							"protocol": "https",
+							"host": [
+								"api",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"otel-iptal-sigortasi",
+								"teklif-olustur"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "odeme yap",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"parameters\": {\r\n        \"ticketType\": \"0\", // 0 for bus, 1 for plane, 2 for ferry\r\n        \"pnrNo\": \"1231231\",\r\n        \"flightNumber\": \"42342342\",\r\n        \"company\": \"Turkish Airlines\",\r\n        \"departureLocation\": \"Antalya\",\r\n        \"arrivalLocation\": \"Canda\",\r\n        \"departureDateTime\": \"2023-12-14 18:00:00\"\r\n    },\r\n    \"odemeTipi\": \"2\",\r\n    \"teklifId\": \"14929\",\r\n    \"krediKartiCvv\": \"xxx\",\r\n    \"krediKartiNo\": \"***\",\r\n    \"krediKartiBitisTarihi\": \"2023-04-01\",\r\n    \"krediKartiAd\": \"test\",\r\n    \"krediKartiSoyad\": \"test\",\r\n    \"ilId\": 34,\r\n    \"ilceId\": \"1\",\r\n    \"adres\": \"test adresimm\",\r\n    \"donusUrl\": \"null\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/partner/v1/otel-iptal-sigortasi/odeme-yap",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"otel-iptal-sigortasi",
+								"odeme-yap"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "police olustur",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"teklifId\" : \"56041\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/partner/v1/otel-iptal-sigortasi/police-olustur",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"otel-iptal-sigortasi",
+								"police-olustur"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "teklif bilgileri",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"teklifId\" : \"81461\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/partner/v1/otel-iptal-sigortasi/teklif-bilgileri",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"otel-iptal-sigortasi",
+								"teklif-bilgileri"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "makbuz-pdf",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\r\n    \"teklifId\" : 125017\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/partner/v1/otel-iptal-sigortasi/makbuz-pdf",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"otel-iptal-sigortasi",
+								"makbuz-pdf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "police-pdf",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"teklifId\" : \"14866\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/partner/v1/otel-iptal-sigortasi/police-pdf",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"otel-iptal-sigortasi",
+								"police-pdf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ülkeler",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/partner/v1/countries",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"countries"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "iller",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"ulkeId\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/partner/v1/iller",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"iller"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ilceler",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"ilId\" : 34\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-test.tamamliyo.com/partner/v1/ilceler",
+							"protocol": "https",
+							"host": [
+								"api-test",
+								"tamamliyo",
+								"com"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"ilceler"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
 			"name": "ortak-link-olustur",
 			"request": {
 				"method": "POST",
