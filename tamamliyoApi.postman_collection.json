@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "deadf9f1-8f6b-42bc-9455-a4a524ee2d79",
+		"_postman_id": "060ae086-2186-4c4e-b09d-7c97a3ac54b8",
 		"name": "tamamliyoApiCurrent",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "25357406"
@@ -16,18 +16,16 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
-								"uuid": "6dfc509f-987e-4aa4-8e2d-38e77920203f"
+								"value": "31236467a9554a92e0930c457b329f79"
 							},
 							{
 								"key": "Accept",
-								"value": "application/json",
-								"uuid": "f8309cd4-1f36-44e2-8933-86a743f3a522"
+								"value": "application/json"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"urun\": \"dask\",\n    \"tcKimlikNo\": \"12653529272\",\n    \"dogumTarihi\": \"1999-03-18\",\n    \"email\" : \"kerem@tamamliyo.com\",\n    \"binaninToplamKatSayisi\" : \"C\",\n    \"dainiMurtehinBanka\" : \"000\", //not required\n    \"dainiMurtehinFinansKurumValue\" : \"000\", //not required\n    \"dainiMurtehinSubeKodu\" : \"00000\", //not required\n    \"dainiMurtehinSube\" : \"Bursa\", //not required\n    \"dainiMurtehinVarmi\" : \"HAYIR\",\n    \"metreKare\" : 40,\n    \"baslangicTarihi\" : \"2024-05-24\", //max 30 gün sonraya alınabiliyor!!!\n    \"uavtKodu\" : 1791175563,\n    \"binaInsaTarzi\" : \"A\",\n    \"binaInsaYili\" : \"D\",\n    \"binaOncedenHasarGorduMu\" : \"A\",\n    \"daireKullanimSekli\": \"B\",\n    \"gsmNo\" : \"5423501899\"\n}\n",
+							"raw": "{\n    \"urun\": \"dask\",\n    \"tcKimlikNo\": \"12**\",\n    \"dogumTarihi\": \"1990-01-18\",\n    \"email\" : \"bilgi@tamamliyo.com\",\n    \"binaninToplamKatSayisi\" : \"C\",\n    \"dainiMurtehinBanka\" : \"000\", //not required\n    \"dainiMurtehinFinansKurumValue\" : \"000\", //not required\n    \"dainiMurtehinSubeKodu\" : \"00000\", //not required\n    \"dainiMurtehinSube\" : \"Bursa\", //not required\n    \"dainiMurtehinVarmi\" : \"HAYIR\",\n    \"metreKare\" : 40,\n    \"baslangicTarihi\" : \"2024-05-24\", //max 30 gün sonraya alınabiliyor!!!\n    \"uavtKodu\" : 1791111111,\n    \"binaInsaTarzi\" : \"A\",\n    \"binaInsaYili\" : \"D\",\n    \"binaOncedenHasarGorduMu\" : \"A\",\n    \"daireKullanimSekli\": \"B\",\n    \"gsmNo\" : \"542*******\"\n}\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -158,14 +156,12 @@
 							{
 								"key": "token",
 								"value": "31236467a9554a92e0930c457b329f79",
-								"type": "text",
-								"uuid": "428a02b9-5e25-4506-a8bc-aaefee0f0135"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "f480b0cc-6c89-4445-8ffe-ca03e3c5611d"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -203,14 +199,12 @@
 							{
 								"key": "token",
 								"value": "31236467a9554a92e0930c457b329f79",
-								"type": "text",
-								"uuid": "8f58aee3-47af-4d67-888e-fc54a40bf069"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "26f91709-5af6-4ed0-8cca-e951bf4b0b67"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -248,14 +242,12 @@
 							{
 								"key": "token",
 								"value": "1a18886587c2efa7b720554ff646d482",
-								"type": "text",
-								"uuid": "fc7976a6-310a-4b39-84ea-339ecda63580"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "194702db-b673-4a5a-8763-e476c9590861"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -293,14 +285,12 @@
 							{
 								"key": "token",
 								"value": "1a18886587c2efa7b720554ff646d482",
-								"type": "text",
-								"uuid": "877057e0-8eab-4540-8948-d1510e0270d3"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "c47e330b-f04a-421f-84c9-9f5da5232c42"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -338,14 +328,12 @@
 							{
 								"key": "token",
 								"value": "64280523ea2cd6d66c6f9d484d416a49",
-								"type": "text",
-								"uuid": "a7d02b5b-f818-4fd4-add4-52b450137e1b"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "afde94a0-086c-4341-8fb5-26e49240d613"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -383,14 +371,12 @@
 							{
 								"key": "token",
 								"value": "1a18886587c2efa7b720554ff646d482",
-								"type": "text",
-								"uuid": "3deebcff-41a2-4732-b464-a9aa5c2388a0"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "bc861240-2612-40d3-be91-5f863a259360"
+								"type": "text"
 							}
 						],
 						"url": {
@@ -419,14 +405,12 @@
 							{
 								"key": "token",
 								"value": "1a18886587c2efa7b720554ff646d482",
-								"type": "text",
-								"uuid": "fe6081ba-3d0e-41ed-b477-9422edff96d4"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "b8381a59-b74d-4580-8ebb-d568d12e5644"
+								"type": "text"
 							}
 						],
 						"url": {
@@ -455,14 +439,12 @@
 							{
 								"key": "token",
 								"value": "1a18886587c2efa7b720554ff646d482",
-								"type": "text",
-								"uuid": "bf8c5a79-5b7c-4685-ad8f-53d1992b4e23"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "a5e0fbb1-81fa-4b90-b02a-09276a9d04eb"
+								"type": "text"
 							}
 						],
 						"url": {
@@ -491,14 +473,12 @@
 							{
 								"key": "token",
 								"value": "1a18886587c2efa7b720554ff646d482",
-								"type": "text",
-								"uuid": "1aab2424-94d2-4d24-bd10-e6028453ae56"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "08f15c4b-705f-4b7f-8b5d-f06ea82898a5"
+								"type": "text"
 							}
 						],
 						"url": {
@@ -527,14 +507,12 @@
 							{
 								"key": "token",
 								"value": "1a18886587c2efa7b720554ff646d482",
-								"type": "text",
-								"uuid": "7772866a-c8d7-4193-9330-a5960d187569"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "62970e3a-2034-468e-94aa-b5065f40b3d2"
+								"type": "text"
 							}
 						],
 						"url": {
@@ -563,14 +541,12 @@
 							{
 								"key": "token",
 								"value": "1a18886587c2efa7b720554ff646d482",
-								"type": "text",
-								"uuid": "739acf9b-4b46-4c35-bf1b-8796acd638fd"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "6f301d9a-9fb2-4f3e-9b88-1b116bff2ff3"
+								"type": "text"
 							}
 						],
 						"url": {
@@ -599,14 +575,12 @@
 							{
 								"key": "token",
 								"value": "1a18886587c2efa7b720554ff646d482",
-								"type": "text",
-								"uuid": "20f89081-e59d-4930-8afe-a213ece409c4"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "5f065428-bc5a-4c14-b904-6933eaffa9f9"
+								"type": "text"
 							}
 						],
 						"url": {
@@ -640,13 +614,12 @@
 							{
 								"key": "token",
 								"value": "31236467a9554a92e0930c457b329f79",
-								"type": "text",
-								"uuid": "bcca7213-df0c-470b-886e-ab0bde73b248"
+								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"sigortaEttiren\": {\r\n        \"tcKimlikNo\": \"12653529272\",\r\n        \"dogumTarihi\": \"1999-03-18\"\r\n    },\r\n    \"sigortali\": [\r\n        {\r\n            \"tcKimlikNo\": \"12653529272\",\r\n            \"dogumTarihi\": \"1999-03-18\",\r\n            \"relationTypeId\" : \"F\"\r\n        }\r\n    ],\r\n    \"baslangicTarihi\": \"2023-07-25\",\r\n    \"email\": \"bilgi@tamamliyo.com\",\r\n    \"gsmNo\": \"5423501899\",\r\n    \"bitisTarihi\": \"2023-07-26\",\r\n    \"urunKodu\":2,\r\n    \"bolge\":3\r\n}",
+							"raw": "{\r\n    \"sigortaEttiren\": {\r\n        \"tcKimlikNo\": \"12***\",\r\n        \"dogumTarihi\": \"1999-03-30\"\r\n    },\r\n    \"sigortali\": [\r\n        {\r\n            \"tcKimlikNo\": \"12***\",\r\n            \"dogumTarihi\": \"1999-03-30\",\r\n            \"relationTypeId\" : \"F\"\r\n        }\r\n    ],\r\n    \"baslangicTarihi\": \"2023-07-25\",\r\n    \"email\": \"bilgi@tamamliyo.com\",\r\n    \"gsmNo\": \"542***\",\r\n    \"bitisTarihi\": \"2023-07-26\",\r\n    \"urunKodu\":2,\r\n    \"bolge\":3\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -680,14 +653,12 @@
 								"key": "token",
 								"value": "",
 								"type": "text",
-								"uuid": "5741e181-b363-4ee8-a331-675321a160a9",
 								"disabled": true
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "b9f77af6-2aa3-4bd4-9516-9d75abc95dbd"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -726,7 +697,6 @@
 								"key": "token",
 								"value": "",
 								"type": "text",
-								"uuid": "1af4599d-5e55-4b70-b29e-812f5a55220c",
 								"disabled": true
 							}
 						],
@@ -772,8 +742,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
-								"uuid": "38911ced-0bd6-419e-aeaf-11855eeaae02"
+								"value": "31236467a9554a92e0930c457b329f79"
 							}
 						],
 						"body": {
@@ -813,8 +782,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
-								"uuid": "4a17f4a3-7743-44b0-96e9-5943d9711a93"
+								"value": "31236467a9554a92e0930c457b329f79"
 							}
 						],
 						"body": {
@@ -856,7 +824,6 @@
 								"key": "token",
 								"value": "",
 								"type": "text",
-								"uuid": "4da4d5b7-6d0a-4878-916d-208f5aee9118",
 								"disabled": true
 							}
 						],
@@ -899,7 +866,6 @@
 								"key": "token",
 								"value": "",
 								"type": "text",
-								"uuid": "c8450b78-70ca-44e9-b867-083bfa8d4665",
 								"disabled": true
 							}
 						],
@@ -942,7 +908,6 @@
 								"key": "token",
 								"value": "",
 								"type": "text",
-								"uuid": "f255c6a9-832f-4db8-be97-3e8479a2a299",
 								"disabled": true
 							}
 						],
@@ -985,7 +950,6 @@
 								"key": "token",
 								"value": "",
 								"type": "text",
-								"uuid": "60d2d0fa-2982-4485-a33a-4b1fc97e843a",
 								"disabled": true
 							}
 						],
@@ -1027,8 +991,7 @@
 							{
 								"key": "token",
 								"value": "",
-								"type": "text",
-								"uuid": "c5fa47c6-72c1-483a-bb54-c0e24db16717"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -1069,8 +1032,7 @@
 							{
 								"key": "token",
 								"value": "",
-								"type": "text",
-								"uuid": "3f164f90-16ba-4a46-beb5-cb3a5d212710"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -1111,8 +1073,7 @@
 							{
 								"key": "token",
 								"value": "",
-								"type": "text",
-								"uuid": "09c04379-d1b7-4599-a927-a69dd00eec32"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -1149,13 +1110,12 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
-								"uuid": "d255d183-5eab-40d5-8ec5-42e809c93607"
+								"value": "31236467a9554a92e0930c457b329f79"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"sigortaEttiren\": {\r\n        \"tcKimlikNo\" : \"12653529272\",\r\n        \"dogumTarihi\": \"1999-03-18\"\r\n    },\r\n    \"artiTeminatIsteniyormu\" : true,\r\n    \"teminatKodu\"  : 1,\r\n    \"binaMetreKare\" : 50,\r\n    \"camKirilmasiBedeli\" : 1000,\r\n    \"yapiKodu\" : \"A\",\r\n    \"uavtKodu\" : \"2941938389\",\r\n    \"binaYanginBedeli\" : 655600,\r\n    \"esyaYanginBedeli\" : 200600,\r\n    \"dainiMurtehinVarmi\" : false,\r\n    \"dainiMurtehinKurumTipi\" : \"\",\r\n    \"dainiMurtehinBankaKodu\" : \"\",\r\n    \"dainiMurtehinBankaSubeKodu\" : \"\",\r\n    \"dainiMurtehinFinansKodu\" : \"\",\r\n    \"daskaTabimi\" : \"false\",\r\n    \"doluTeminatiIsteniyormu\" : false,\r\n    \"elektronikCihazBedeli\" : 500,\r\n    \"esyaDepremTeminatiIsteniyormu\": false,\r\n    \"ferdiKazaBedeli\" : 1000,\r\n    \"katKodu\" : \"Z\",\r\n    \"ucAydanFazlaBosmu\" : false,\r\n    \"ucuncuSahisSorumlulukBedeli\" : 1000,\r\n    \"makinaKirilmasiTeminatiIsteniyormu\" : true,\r\n    \"gsmNo\" : \"5423501899\",\r\n    \"email\" :\"kerem@tamamliyo.com\",\r\n    \"urun\" : \"konut\",\r\n    \"binaInsaYili\":\"2000\"\r\n}",
+							"raw": "{\r\n    \"sigortaEttiren\": {\r\n        \"tcKimlikNo\" : \"12***\",\r\n        \"dogumTarihi\": \"1990-03-18\"\r\n    },\r\n    \"artiTeminatIsteniyormu\" : true,\r\n    \"teminatKodu\"  : 1,\r\n    \"binaMetreKare\" : 50,\r\n    \"camKirilmasiBedeli\" : 1000,\r\n    \"yapiKodu\" : \"A\",\r\n    \"uavtKodu\" : \"2941938389\",\r\n    \"binaYanginBedeli\" : 655600,\r\n    \"esyaYanginBedeli\" : 200600,\r\n    \"dainiMurtehinVarmi\" : false,\r\n    \"dainiMurtehinKurumTipi\" : \"\",\r\n    \"dainiMurtehinBankaKodu\" : \"\",\r\n    \"dainiMurtehinBankaSubeKodu\" : \"\",\r\n    \"dainiMurtehinFinansKodu\" : \"\",\r\n    \"daskaTabimi\" : \"false\",\r\n    \"doluTeminatiIsteniyormu\" : false,\r\n    \"elektronikCihazBedeli\" : 500,\r\n    \"esyaDepremTeminatiIsteniyormu\": false,\r\n    \"ferdiKazaBedeli\" : 1000,\r\n    \"katKodu\" : \"Z\",\r\n    \"ucAydanFazlaBosmu\" : false,\r\n    \"ucuncuSahisSorumlulukBedeli\" : 1000,\r\n    \"makinaKirilmasiTeminatiIsteniyormu\" : true,\r\n    \"gsmNo\" : \"542***\",\r\n    \"email\" :\"bilgi@tamamliyo.com\",\r\n    \"urun\" : \"konut\",\r\n    \"binaInsaYili\":\"2000\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1188,8 +1148,7 @@
 							{
 								"key": "token",
 								"value": "",
-								"type": "text",
-								"uuid": "c88a2e67-96c4-4bd5-aa39-479a99c87dd9"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -1227,14 +1186,12 @@
 							{
 								"key": "token",
 								"value": "",
-								"type": "text",
-								"uuid": "25a074ae-3f7d-4134-a0a1-cf5822adcdaf"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "3a00c09e-e7cf-4758-8e3b-0a2450f56ed6"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -1272,14 +1229,12 @@
 							{
 								"key": "token",
 								"value": "",
-								"type": "text",
-								"uuid": "2246c332-6025-4ed1-af13-1b8df5b27d6f"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "1df2fb72-3861-4b8c-ac0a-f5e802288728"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -1323,20 +1278,17 @@
 								"key": "token",
 								"value": "a81529c9ed097a9d294505618ba14b6b",
 								"type": "text",
-								"uuid": "6beca639-f840-405b-867c-61ae750165bf",
 								"disabled": true
 							},
 							{
 								"key": "token",
 								"value": "1a18886587c2efa7b720554ff646d482",
-								"type": "text",
-								"uuid": "6beca639-f840-405b-867c-61ae750165bf"
+								"type": "text"
 							},
 							{
 								"key": "token",
 								"value": "3f8fedc7ac43c9f0ea366709e8f7e802",
 								"type": "text",
-								"uuid": "6beca639-f840-405b-867c-61ae750165bf",
 								"disabled": true
 							}
 						],
@@ -1375,8 +1327,7 @@
 							{
 								"key": "token",
 								"value": "1a18886587c2efa7b720554ff646d482",
-								"type": "text",
-								"uuid": "b0f1b935-dc8a-49a4-b053-3f00e84e11af"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -1416,14 +1367,12 @@
 							{
 								"key": "token",
 								"value": "a81529c9ed097a9d294505618ba14b6b",
-								"type": "text",
-								"uuid": "10f1e36b-f270-48ed-b346-e45f2fb36915"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "8853b62e-56ac-4a75-94dc-0904920289ba"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -1461,8 +1410,7 @@
 							{
 								"key": "token",
 								"value": "a81529c9ed097a9d294505618ba14b6b",
-								"type": "text",
-								"uuid": "a9761011-0b26-4d1e-bfd7-9bdc1d08535f"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -1505,14 +1453,12 @@
 							{
 								"key": "token",
 								"value": "a81529c9ed097a9d294505618ba14b6b",
-								"type": "text",
-								"uuid": "2334b67b-a85a-4ceb-bdc0-340539a968ed"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "8931d757-1aee-4994-b930-5a2742893fc5"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -1550,8 +1496,7 @@
 							{
 								"key": "token",
 								"value": "31236467a9554a92e0930c457b329f79",
-								"type": "text",
-								"uuid": "c37f6ddb-8e8d-4b3b-889e-c0c6d1e59a7d"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -1589,8 +1534,7 @@
 							{
 								"key": "token",
 								"value": "a81529c9ed097a9d294505618ba14b6b",
-								"type": "text",
-								"uuid": "544d41da-9806-46c4-bc34-f7ac8cd64313"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -1626,8 +1570,7 @@
 							{
 								"key": "token",
 								"value": "",
-								"type": "text",
-								"uuid": "3509b260-4d9b-47f3-b56a-d7cd4848b5d8"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -1665,8 +1608,7 @@
 							{
 								"key": "token",
 								"value": "",
-								"type": "text",
-								"uuid": "24e7dcce-f4e1-4560-b9dd-0c83ab0cfd8d"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -1704,8 +1646,7 @@
 							{
 								"key": "token",
 								"value": "",
-								"type": "text",
-								"uuid": "1b4616c4-55b1-40bc-8263-c84ac1e12fff"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -1746,8 +1687,7 @@
 							{
 								"key": "token",
 								"value": "a81529c9ed097a9d294505618ba14b6b",
-								"type": "text",
-								"uuid": "1afc6bb3-d7d7-4805-addf-83d34ccf1f15"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -1785,8 +1725,7 @@
 							{
 								"key": "token",
 								"value": "a81529c9ed097a9d294505618ba14b6b",
-								"type": "text",
-								"uuid": "bebe7893-d218-44e2-a265-512c07ba0eea"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -1824,8 +1763,7 @@
 							{
 								"key": "token",
 								"value": "a81529c9ed097a9d294505618ba14b6b",
-								"type": "text",
-								"uuid": "9e614c7e-bac9-4457-b14d-6b7efc1b9b33"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -1981,19 +1919,17 @@
 							{
 								"key": "token",
 								"value": "31236467a9554a92e0930c457b329f79",
-								"type": "text",
-								"uuid": "26fe9f08-f8cd-460e-9f10-14627baa37db"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "3d047faf-f0b4-40a3-9ad9-a7b07f8b4c8d"
+								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\"sigortaEttiren\": {\r\n \"tcKimlikNo\": \"12653529272\",\r\n  \"dogumTarihi\": \"1999-03-18\"\r\n},\r\n\"sigortali\": [\r\n{\r\n      \"tcKimlikNo\": \"12653529272\",\r\n        \"dogumTarihi\": \"1999-03-18\"\r\n        }\r\n],\r\n\"baslangicTarihi\": \"2023-09-06\",\r\n\"email\": \"bilgi@tamamliyo.com\",\r\n\"gsmNo\": \"5357864320\",\r\n\"bitisTarihi\": \"2023-09-28\",\r\n\"adres\" : \"test adres\",\r\n\"urunId\": \"112\",\r\n\"sorguTipi\" : \"1\",\r\n\"bolge\" : \"1\",\r\n\"urunTipi\" : \"1\",\r\n\"sirketKodu\": \"QSS\",\r\n\"ulkeKodu\" : 276\r\n}",
+							"raw": "{\r\n\"sigortaEttiren\": {\r\n \"tcKimlikNo\": \"12***\",\r\n  \"dogumTarihi\": \"1990-03-18\"\r\n},\r\n\"sigortali\": [\r\n{\r\n      \"tcKimlikNo\": \"12***\",\r\n        \"dogumTarihi\": \"1999-03-18\"\r\n        }\r\n],\r\n\"baslangicTarihi\": \"2023-09-06\",\r\n\"email\": \"bilgi@tamamliyo.com\",\r\n\"gsmNo\": \"535***\",\r\n\"bitisTarihi\": \"2023-09-28\",\r\n\"adres\" : \"test adres\",\r\n\"urunId\": \"112\",\r\n\"sorguTipi\" : \"1\",\r\n\"bolge\" : \"1\",\r\n\"urunTipi\" : \"1\",\r\n\"sirketKodu\": \"QSS\",\r\n\"ulkeKodu\" : 276\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2019,49 +1955,6 @@
 					"response": []
 				},
 				{
-					"name": "kimlik no ile Copy",
-					"request": {
-						"method": "POST",
-						"header": [
-							{
-								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
-								"type": "text",
-								"uuid": "34227268-b79d-49ac-b0b7-eb303d5bd45e"
-							},
-							{
-								"key": "Accept",
-								"value": "application/json",
-								"type": "text",
-								"uuid": "9739e29f-4b71-4eb7-8bcd-5ff8a0bb8a74"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "{\r\n    \"sigortaEttiren\": {\r\n        \"tcKimlikNo\": \"12653529272\",\r\n        \"dogumTarihi\": \"1999-03-18\"\r\n    },\r\n    \"sigortali\": [\r\n        {\r\n            \"tcKimlikNo\": \"12653529272\",\r\n            \"dogumTarihi\": \"1999-03-18\",\r\n            \"relationTypeId\" : \"F\"\r\n        }\r\n    ],\r\n    \"baslangicTarihi\": \"2023-09-06\",\r\n    \"email\": \"bilgi@tamamliyo.com\",\r\n    \"gsmNo\": \"5357864320\",\r\n    \"bitisTarihi\": \"2023-09-28\",\r\n    \"adres\" : \"test adres\",\r\n    \"urunId\": \"112\",\r\n    \"sorguTipi\" : \"1\",\r\n    \"bolge\" : \"3\",\r\n    \"urunTipi\" : \"1\",\r\n    \"sirketKodu\": \"QSS\",\r\n    \"ulkeKodu\" : 276\r\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": {
-							"raw": "https://dashboard.tamamliyo.com/api/erasmusTeklif",
-							"protocol": "https",
-							"host": [
-								"dashboard",
-								"tamamliyo",
-								"com"
-							],
-							"path": [
-								"api",
-								"erasmusTeklif"
-							]
-						}
-					},
-					"response": []
-				},
-				{
 					"name": "odeme yap",
 					"request": {
 						"method": "POST",
@@ -2069,8 +1962,7 @@
 							{
 								"key": "token",
 								"value": "1a18886587c2efa7b720554ff646d482",
-								"type": "text",
-								"uuid": "bb20ed96-53d7-49da-917e-65ead23748ef"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -2108,8 +2000,7 @@
 							{
 								"key": "token",
 								"value": "",
-								"type": "text",
-								"uuid": "2e0b3865-742b-4934-88f3-ce5eaa86ca42"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -2147,8 +2038,7 @@
 							{
 								"key": "token",
 								"value": "",
-								"type": "text",
-								"uuid": "6c1d773a-1006-4347-bd09-57830e02b27b"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -2189,14 +2079,12 @@
 							{
 								"key": "token",
 								"value": "",
-								"type": "text",
-								"uuid": "f5bdf391-3810-4cbb-9630-ddeda4e8aec5"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "e169c6ee-6927-4679-bfbd-f360f5bfe70a"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -2239,13 +2127,12 @@
 							{
 								"key": "token",
 								"value": "d3dd94c2f94f6eb3c3abe0c543056919",
-								"type": "text",
-								"uuid": "cfbf9bbe-ec29-48ed-958d-ef86908079d4"
+								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"sigortaEttiren\": {\r\n        \"dogumTarihi\": \"1999-03-18\",\r\n        \"tcKimlikNo\": \"12653529272\"\r\n    },\r\n    \"baslangicTarihi\": \"2023-08-22\",\r\n    \"cinsId\": \"1\",\r\n    \"turId\": \"295\",\r\n    \"cinsiyetId\": \"1\",\r\n    \"yasGrubuId\": \"6\",\r\n    \"evcilHayvanAdi\": \"test\",\r\n    \"gsmNo\": \"5423501899\",\r\n    \"email\": \"kerem@tamamliyo.com\",\r\n    \"urunId\": \"113\",\r\n    \"petRenk\": \"turuncu\"\r\n}",
+							"raw": "{\r\n    \"sigortaEttiren\": {\r\n        \"dogumTarihi\": \"1990-03-18\",\r\n        \"tcKimlikNo\": \"12***\"\r\n    },\r\n    \"baslangicTarihi\": \"2023-08-22\",\r\n    \"cinsId\": \"1\",\r\n    \"turId\": \"295\",\r\n    \"cinsiyetId\": \"1\",\r\n    \"yasGrubuId\": \"6\",\r\n    \"evcilHayvanAdi\": \"test\",\r\n    \"gsmNo\": \"542***\",\r\n    \"email\": \"bilgi@tamamliyo.com\",\r\n    \"urunId\": \"113\",\r\n    \"petRenk\": \"turuncu\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2278,13 +2165,12 @@
 							{
 								"key": "token",
 								"value": "31236467a9554a92e0930c457b329f79",
-								"type": "text",
-								"uuid": "001e2bc0-5d09-4c38-9898-0fa88d8a83fd"
+								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"sigortaEttiren\": {\r\n        \"dogumTarihi\": \"1999-03-18\",\r\n        \"tcKimlikNo\": \"12653529272\"\r\n    },\r\n    \"baslangicTarihi\": \"2023-07-22\",\r\n    \"cinsId\": \"2\",\r\n    \"turId\": \"14\",\r\n    \"cinsiyetId\": \"1\",\r\n    \"yasGrubuId\": \"6\",\r\n    \"evcilHayvanAdi\": \"test\",\r\n    \"gsmNo\": \"5423501899\",\r\n    \"email\": \"soner@mail.com\",\r\n    \"urunId\": \"55\"\r\n}",
+							"raw": "{\r\n    \"sigortaEttiren\": {\r\n        \"dogumTarihi\": \"1990-03-18\",\r\n        \"tcKimlikNo\": \"12***\"\r\n    },\r\n    \"baslangicTarihi\": \"2023-07-22\",\r\n    \"cinsId\": \"2\",\r\n    \"turId\": \"14\",\r\n    \"cinsiyetId\": \"1\",\r\n    \"yasGrubuId\": \"6\",\r\n    \"evcilHayvanAdi\": \"test\",\r\n    \"gsmNo\": \"542***\",\r\n    \"email\": \"bilgi@tamamliyo.com\",\r\n    \"urunId\": \"55\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2317,8 +2203,7 @@
 							{
 								"key": "token",
 								"value": "d3dd94c2f94f6eb3c3abe0c543056919",
-								"type": "text",
-								"uuid": "d8c19551-1301-4228-bd33-f8248c07032f"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -2356,8 +2241,7 @@
 							{
 								"key": "token",
 								"value": "",
-								"type": "text",
-								"uuid": "9089ee0e-33f3-4085-b4ed-b87055b4d2f1"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -2395,8 +2279,7 @@
 							{
 								"key": "token",
 								"value": "",
-								"type": "text",
-								"uuid": "a955800b-302a-4a58-8333-01b6a04f7e55"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -2434,8 +2317,7 @@
 							{
 								"key": "token",
 								"value": "",
-								"type": "text",
-								"uuid": "f0d985ee-8c4d-45ff-9dec-4e12dafdfd2d"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -2473,8 +2355,7 @@
 							{
 								"key": "token",
 								"value": "",
-								"type": "text",
-								"uuid": "7e1e634c-9690-4856-a58b-166147c8ede4"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -2512,8 +2393,7 @@
 							{
 								"key": "token",
 								"value": "",
-								"type": "text",
-								"uuid": "50960fac-4621-455e-a92c-68e3d5b17592"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -2551,14 +2431,12 @@
 							{
 								"key": "token",
 								"value": "",
-								"type": "text",
-								"uuid": "83f5c491-6460-46ea-8314-3d11cfe23256"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "f990f5a3-8c9e-4f47-82d6-fbd2007098d8"
+								"type": "text"
 							}
 						],
 						"url": {
@@ -2598,8 +2476,7 @@
 							{
 								"key": "token",
 								"value": "31236467a9554a92e0930c457b329f79",
-								"type": "text",
-								"uuid": "97765f7b-65c9-4691-9ab5-53fc877a27d6"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -2640,8 +2517,7 @@
 							{
 								"key": "token",
 								"value": "",
-								"type": "text",
-								"uuid": "d6b1cc49-d802-4fef-a96d-2e3e393190ad"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -2682,8 +2558,7 @@
 							{
 								"key": "token",
 								"value": "",
-								"type": "text",
-								"uuid": "b24906ba-90b1-4eff-8394-4b0334978bec"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -2724,8 +2599,7 @@
 							{
 								"key": "token",
 								"value": "",
-								"type": "text",
-								"uuid": "ebb4bb9c-20ee-4c8c-a227-22a3fbb880e3"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -2771,8 +2645,7 @@
 							{
 								"key": "token",
 								"value": "31236467a9554a92e0930c457b329f79",
-								"type": "text",
-								"uuid": "b74c1301-e2b0-4f74-af40-db64f8d85358"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -2811,39 +2684,34 @@
 								"key": "token",
 								"value": "31236467a9554a92e0930c457b329f79",
 								"type": "text",
-								"uuid": "793ebe68-0726-48aa-b3aa-8cda9541411e",
 								"disabled": true
 							},
 							{
 								"key": "token",
 								"value": "f389ff07f36ca116516b9af8dad9abfc",
-								"type": "text",
-								"uuid": "793ebe68-0726-48aa-b3aa-8cda9541411e"
+								"type": "text"
 							},
 							{
 								"key": "token",
 								"value": "0eca84d4756be0eca59b0b95d84f4584",
 								"type": "text",
-								"uuid": "793ebe68-0726-48aa-b3aa-8cda9541411e",
 								"disabled": true
 							},
 							{
 								"key": "token",
 								"value": "6e6abd68230a4b4e780192ef9dc87d1e",
 								"type": "text",
-								"uuid": "793ebe68-0726-48aa-b3aa-8cda9541411e",
 								"disabled": true
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "1d14fa5f-270f-43b1-b1e4-1d650244e4eb"
+								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"sigortaEttiren\": {\r\n            \"tcKimlikNo\": \"12653529272\",\r\n            \"dogumTarihi\": \"1999-03-18\"\r\n    },\r\n    \"sigortali\": [\r\n        {\r\n            \"tcKimlikNo\": \"12653529272\",\r\n            \"dogumTarihi\": \"1999-03-18\",\r\n            \"relationTypeId\" : \"F\"\r\n        }\r\n    ],\r\n    \"baslangicTarihi\": \"2024-04-26\",\r\n    \"bitisTarihi\": \"2024-04-27\",\r\n    \"email\": \"kerem@tamamliyo.com\",\r\n    \"gsmNo\": \"5423501899\",\r\n    \"urunKodu\" : 10,\r\n    \"ulkeKodu\":\"56\",\r\n    \"test\": 1 // test için\r\n}",
+							"raw": "{\r\n    \"sigortaEttiren\": {\r\n            \"dogumTarihi\": \"1990-03-18\",\r\n            \"tcKimlikNo\": \"12***\"       \r\n    },\r\n    \"sigortali\": [\r\n        {\r\n            \"dogumTarihi\": \"1990-03-18\",\r\n            \"tcKimlikNo\": \"12***\",\r\n            \"relationTypeId\" : \"F\"\r\n        }\r\n    ],\r\n    \"baslangicTarihi\": \"2024-04-26\",\r\n    \"bitisTarihi\": \"2024-04-27\",\r\n    \"email\": \"bilgi@tamamliyo.com\",\r\n    \"gsmNo\": \"542***\",\r\n    \"urunKodu\" : 10,\r\n    \"ulkeKodu\":\"56\",\r\n    \"test\": 1 // test için\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2876,13 +2744,12 @@
 							{
 								"key": "token",
 								"value": "f389ff07f36ca116516b9af8dad9abfc",
-								"type": "text",
-								"uuid": "9f125caa-ff50-453f-9f44-f98dbf2fce25"
+								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"sigortaEttiren\": {\r\n            \"tcKimlikNo\": \"12656529118\",\r\n            \"dogumTarihi\": \"1974-02-19\"\r\n    },\r\n    \"sigortali\": [\r\n        {\r\n            \"tcKimlikNo\": \"12656529118\",\r\n            \"dogumTarihi\": \"1974-02-19\",\r\n            \"relationTypeId\" : \"F\"\r\n        },\r\n        {\r\n            \"tcKimlikNo\": \"12653529272\",\r\n            \"dogumTarihi\": \"1999-03-18\",\r\n            \"relationTypeId\" : \"C\"\r\n        }\r\n        \r\n    ],\r\n    \"baslangicTarihi\": \"2023-08-22\",\r\n    \"bitisTarihi\": \"2023-08-30\",\r\n    \"email\": \"musa@tamamliyo.com\",\r\n    \"gsmNo\": \"5370117045\",\r\n    \"urunKodu\" : 2\r\n}",
+							"raw": "{\r\n    \"sigortaEttiren\": {\r\n            \"dogumTarihi\": \"1990-03-18\",\r\n            \"tcKimlikNo\": \"12***\"\r\n    },\r\n    \"sigortali\": [\r\n        {\r\n            \"dogumTarihi\": \"1990-03-18\",\r\n            \"tcKimlikNo\": \"12***\",\r\n            \"relationTypeId\" : \"F\"\r\n        },\r\n        {\r\n            \"dogumTarihi\": \"1990-03-18\",\r\n            \"tcKimlikNo\": \"12***\",\r\n            \"relationTypeId\" : \"C\"\r\n        }\r\n        \r\n    ],\r\n    \"baslangicTarihi\": \"2023-08-22\",\r\n    \"bitisTarihi\": \"2023-08-30\",\r\n    \"email\": \"bilgi@tamamliyo.com\",\r\n    \"gsmNo\": \"535***\",\r\n    \"urunKodu\" : 2\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2915,14 +2782,12 @@
 							{
 								"key": "token",
 								"value": "a81529c9ed097a9d294505618ba14b6b",
-								"type": "text",
-								"uuid": "4aa05ddb-67c3-4769-9777-175655ee28fc"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "36ce0974-0f09-4882-b4d4-ee353e8bef02"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -2960,14 +2825,12 @@
 							{
 								"key": "token",
 								"value": "31236467a9554a92e0930c457b329f79",
-								"type": "text",
-								"uuid": "3d57101e-38b4-4a86-9a1a-f71e3a18e1f0"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "923429c4-3313-464e-a863-81a21835e826"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -3005,8 +2868,7 @@
 							{
 								"key": "token",
 								"value": "",
-								"type": "text",
-								"uuid": "e181c5a8-8ccb-4178-822d-3cf3e7202f23"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -3045,14 +2907,12 @@
 								"key": "token",
 								"value": "a81529c9ed097a9d294505618ba14b6b",
 								"type": "text",
-								"uuid": "90fa4bd5-c5ee-4010-b6bb-5139a52facc5",
 								"disabled": true
 							},
 							{
 								"key": "token",
 								"value": "1a18886587c2efa7b720554ff646d482",
-								"type": "text",
-								"uuid": "90fa4bd5-c5ee-4010-b6bb-5139a52facc5"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -3090,8 +2950,7 @@
 							{
 								"key": "token",
 								"value": "a81529c9ed097a9d294505618ba14b6b",
-								"type": "text",
-								"uuid": "35084f69-7784-4db2-92cf-20c177faf3a7"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -3129,8 +2988,7 @@
 							{
 								"key": "token",
 								"value": "a81529c9ed097a9d294505618ba14b6b",
-								"type": "text",
-								"uuid": "145f96bc-9d9e-4e1f-819f-cfa534a31431"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -3167,13 +3025,12 @@
 							{
 								"key": "token",
 								"value": "a81529c9ed097a9d294505618ba14b6b",
-								"type": "text",
-								"uuid": "bfe993c5-de6e-4764-8bfe-a72dd456bd7b"
+								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"sigortaEttiren\": {\n            \"tcKimlikNo\": \"12656529118\",\n            \"dogumTarihi\": \"1974-02-19\"\n    },\n    \"sigortali\": [\n        {\n            \"tcKimlikNo\": \"12656529118\",\n            \"dogumTarihi\": \"1974-02-19\",\n            \"relationTypeId\" : \"F\"\n        },\n        {\n            \"tcKimlikNo\": \"12653529272\",\n            \"dogumTarihi\": \"1999-03-18\",\n            \"relationTypeId\" : \"C\"\n        }\n        \n    ],\n    \"baslangicTarihi\": \"2023-03-22\",\n    \"bitisTarihi\": \"2023-03-30\",\n    \"email\": \"musa@tamamliyo.com\",\n    \"gsmNo\": \"5370117045\",\n    \"urunKodu\" : 2\n}",
+							"raw": "{\n    \"sigortaEttiren\": {\n            \"dogumTarihi\": \"1990-03-18\",\n            \"tcKimlikNo\": \"12***\"\n    },\n    \"sigortali\": [\n        {\n            \"dogumTarihi\": \"1990-03-18\",\n            \"tcKimlikNo\": \"12***\",\n            \"relationTypeId\" : \"F\"\n        },\n        {\n            \"dogumTarihi\": \"1990-03-18\",\n            \"tcKimlikNo\": \"12***\",\n            \"relationTypeId\" : \"C\"\n        }\n        \n    ],\n    \"baslangicTarihi\": \"2023-03-22\",\n    \"bitisTarihi\": \"2023-03-30\",\n    \"email\": \"bilgi@tamamliyo.com\",\n    \"gsmNo\": \"535***\",\n    \"urunKodu\" : 2\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -3206,8 +3063,7 @@
 							{
 								"key": "token",
 								"value": "f389ff07f36ca116516b9af8dad9abfc",
-								"type": "text",
-								"uuid": "49297a24-ab5e-4aaa-ab7e-06cf943bda47"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -3255,19 +3111,17 @@
 							{
 								"key": "token",
 								"value": "",
-								"type": "text",
-								"uuid": "1a4777c3-9839-4e50-8eb5-8f55c6e630dc"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "31a217c3-22b3-4731-b57b-1b3160b8b093"
+								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n     \"kimlikNo\": \"33535449488\",\n     \"dogumTarihi\": \"2001-05-26\",\n     \"imeiNo\": \"35729309737144\",\n     \"marka\": \"Iphone\",\n     \"model\": \"XR\",\n     \"teminatTutari\": 1000,\n     \"telefonNo\" : \"5357864320\",\n     \"email\": \"sheriffmusa42@gmail.com\" ,\n     \"urunId\": \"87\",\n     \"cinsiyet\" : \"E\",\n     \"ad\" : \"Yunus Emre\",\n     \"soyad\" : \"Çinar\",\n     \"ilKodu\" : \"34\",\n     \"Ilce\" : \"KARTAL\",\n     \"semt\" : \"SEMT\",\n     \"mahalle\": \"mahalle\"\n}",
+							"raw": "{\n     \"kimlikNo\": \"33***\",\n     \"dogumTarihi\": \"2001-05-11\",\n     \"imeiNo\": \"35729309737144\",\n     \"marka\": \"Iphone\",\n     \"model\": \"XR\",\n     \"teminatTutari\": 1000,\n     \"telefonNo\" : \"5357864320\",\n     \"email\": \"sheriffmusa42@gmail.com\" ,\n     \"urunId\": \"87\",\n     \"cinsiyet\" : \"E\",\n     \"ad\" : \"Yunus Emre\",\n     \"soyad\" : \"Çinar\",\n     \"ilKodu\" : \"34\",\n     \"Ilce\" : \"KARTAL\",\n     \"semt\" : \"SEMT\",\n     \"mahalle\": \"mahalle\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -3312,19 +3166,17 @@
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "2ec47ce9-0c79-41bc-969a-5b126e41e129"
+								"type": "text"
 							},
 							{
 								"key": "token",
 								"value": "",
-								"type": "text",
-								"uuid": "ebabf5e0-6451-4819-8c8f-f942218365a0"
+								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"teklifId\" : \"15636\",\n    \"Email\" : \"sheriffmusa42@gmail.com\",\n    \"Phone\" : \"5357864320\",\n    \"kartNo\" : \"4799174799173828\",\n    \"kartSonKullanmaTarihi\" : \"2030-12-01\",\n    \"kartCvv\" : \"111\",\n    \"ReturnURL\" : \"null\"\n}\n",
+							"raw": "{\n    \"teklifId\" : \"15636\",\n    \"Email\" : \"bilgi@gmail.com\",\n    \"Phone\" : \"545***\",\n    \"kartNo\" : \"4799174799173828\",\n    \"kartSonKullanmaTarihi\" : \"2030-12-01\",\n    \"kartCvv\" : \"111\",\n    \"ReturnURL\" : \"null\"\n}\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -3362,14 +3214,12 @@
 							{
 								"key": "token",
 								"value": "",
-								"type": "text",
-								"uuid": "52b8e379-25b9-4b81-9511-5a844edea59f"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "ff76e05b-8b97-4a14-9d48-1ac4ed6ea130"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -3412,19 +3262,17 @@
 							{
 								"key": "token",
 								"value": "31236467a9554a92e0930c457b329f79",
-								"type": "text",
-								"uuid": "90c7fdab-ba2d-4e02-9a7a-cc68bc41b848"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "50cb756e-7ec0-4520-b172-85768123d1dc"
+								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n     \"urunId\": \"87\",\r\n     \"kimlikNo\": \"12653529272\",\r\n     \"dogumTarihi\": \"1999-03-18\",\r\n     \"imeiNo\": \"353241892214332\",\r\n     \"marka\": \"1\",\r\n     \"model\": \"4\",\r\n     \"teminatTutari\": 25000,\r\n     \"email\": \"kerem@tamamliyo.com\",\r\n     \"ilKodu\" : \"35\",\r\n     \"Ilce\" : \"2\",\r\n     \"telefonNo\" : \"5423501899\"\r\n}",
+							"raw": "{\r\n     \"urunId\": \"87\",\r\n     \"kimlikNo\": \"12***\",\r\n     \"dogumTarihi\": \"1990-03-18\",\r\n     \"imeiNo\": \"***\",\r\n     \"marka\": \"1\",\r\n     \"model\": \"4\",\r\n     \"teminatTutari\": 25000,\r\n     \"email\": \"bilgi@tamamliyo.com\",\r\n     \"ilKodu\" : \"35\",\r\n     \"Ilce\" : \"2\",\r\n     \"telefonNo\" : \"542***\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -3457,19 +3305,17 @@
 							{
 								"key": "token",
 								"value": "31236467a9554a92e0930c457b329f79",
-								"type": "text",
-								"uuid": "ac117e6f-a24a-40f2-84e2-a0693653fd06"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "d997a30f-3728-4e77-9591-8c3f4c1ea219"
+								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n     \"urunId\": \"127\",\r\n     \"kimlikNo\": \"12653529272\", \r\n     \"dogumTarihi\": \"1999-03-18\",\r\n     \"imeiNo\": \"35729309737144\", \r\n     \"marka\": \"1\", \r\n     \"model\": \"6\",\r\n     \"email\": \"kerem@tamamliyo.com\",\r\n     \"ilKodu\" : \"34\",\r\n     \"ilceKodu\" : \"16\",\r\n     \"telefonNo\" : \"5423501899\"\r\n}",
+							"raw": "{\r\n     \"urunId\": \"127\",\r\n     \"kimlikNo\": \"12***\", \r\n     \"dogumTarihi\": \"1990-03-18\",\r\n     \"imeiNo\": \"***\", \r\n     \"marka\": \"1\", \r\n     \"model\": \"6\",\r\n     \"email\": \"bilgi@tamamliyo.com\",\r\n     \"ilKodu\" : \"34\",\r\n     \"ilceKodu\" : \"16\",\r\n     \"telefonNo\" : \"542***\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -3507,19 +3353,17 @@
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "4d26a7ba-34cd-4370-ad4f-d86d32643817"
+								"type": "text"
 							},
 							{
 								"key": "token",
 								"value": "31236467a9554a92e0930c457b329f79",
-								"type": "text",
-								"uuid": "5492bad6-b9ee-4c0c-8124-3547962c63e3"
+								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"teklifId\": 194181,\n    \"odemeTipi\" : 2,\n    \"kartNo\" : \"5269110264377096\", //sanal\n    \"kartSonKullanmaTarihi\" : \"2028-02-01\",\n    \"kartSahibi\" : \"Kerem Çıkar\",\n    \"kartCvv\" : \"798\",\n    \"cancelUrl\" : \"https://kirilmiyo.com/satin-al\",\n    \"successUrl\": \"http://127.0.0.1:5173/police\",\n    \"taksitSayisi\":1,\n    \"adres\":\"adres test\",\n    \"kupon\":\"EKIP\"\n}",
+							"raw": "{\n    \"teklifId\": 194181,\n    \"odemeTipi\" : 2,\n    \"kartNo\" : \"***\", //sanal\n    \"kartSonKullanmaTarihi\" : \"2024-10-01\",\n    \"kartSahibi\" : \"Kerem Çıkar\",\n    \"kartCvv\" : \"111\",\n    \"cancelUrl\" : \"https://kirilmiyo.com/satin-al\",\n    \"successUrl\": \"http://127.0.0.1:5173/police\",\n    \"taksitSayisi\":1,\n    \"adres\":\"adres test\",\n    \"kupon\":\"TEST\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -3550,139 +3394,59 @@
 						"method": "POST",
 						"header": [
 							{
-								"name": "cache-control",
-								"sortOrder": 2,
-								"infoTitle": "We recommend using this header",
-								"info": "Postman added \"Cache-Control: no-cache\" as a precautionary measure to prevent the server from returning stale response when one makes repeated requests.\n\nYou can remove this header in the app settings or enter a new one with a different value.",
-								"allowedToToggle": false,
-								"disableEdit": true,
-								"previewSettingsLink": "Go to settings",
 								"key": "Cache-Control",
 								"value": "no-cache",
-								"system": true,
-								"type": "text",
-								"uuid": "0f6e8e7d-206d-4e7c-b16d-1ec78cd4500b"
+								"type": "text"
 							},
 							{
-								"name": "postman-token",
-								"sortOrder": 3,
-								"infoTitle": "We recommend using this header",
-								"info": "The Postman-Token header appends a random UUID to every outgoing request. Postman adds this header for API developers to better debug requests sent and to ensure separate requests appear distinct to the receiving server.\n\nYou can remove this header in the app settings.",
-								"allowedToToggle": false,
-								"disableEdit": true,
-								"previewSettingsLink": "Go to settings",
 								"key": "Postman-Token",
 								"value": "<calculated when request is sent>",
-								"system": true,
-								"type": "text",
-								"uuid": "fb7edbb7-3b13-43af-b95d-44ceb55ffc65"
+								"type": "text"
 							},
 							{
-								"name": "content-type",
-								"sortOrder": 4,
-								"infoTitle": "This header was automatically added",
-								"info": "The Content-Type header is added to help the server identify the media type of the request body that is present in this request.\n\nUse the request body tab to control the value or to remove this header.",
-								"allowedToToggle": true,
-								"disableEdit": true,
-								"previewSettingsLink": "Go to body",
 								"key": "Content-Type",
 								"value": "application/json",
-								"system": true,
-								"type": "text",
-								"uuid": "d6170bdf-8320-408b-8c4f-c2dcb806e031"
+								"type": "text"
 							},
 							{
-								"name": "content-length",
-								"sortOrder": 5,
-								"infoTitle": "This header was automatically added",
-								"info": "The Content-Length header was added to indicate to the server the size of the request body that is added to this request. Server uses this value to parse the request body accurately.\n\nYou can remove the header or enter a new one with a different value.",
-								"allowedToToggle": true,
-								"disableEdit": true,
-								"previewSettingsLink": "Go to body",
 								"key": "Content-Length",
 								"value": "<calculated when request is sent>",
-								"system": true,
-								"type": "text",
-								"uuid": "a27516f4-8a3c-48a8-a3a5-15305c8af8eb"
+								"type": "text"
 							},
 							{
-								"name": "host",
-								"sortOrder": 6,
-								"infoTitle": "We recommend using this header",
-								"info": "The Host header is added to identify the domain name for which a request is being sent to the server. This header is implicitly sent by every HTTP client.\n\nYou can remove the header or enter a new one with a different value. It is most likely that without this header, your request will return an HTTP 400 error.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "Host",
 								"value": "<calculated when request is sent>",
-								"system": true,
-								"type": "text",
-								"uuid": "891f372f-07f8-4401-adce-9126c52788e5"
+								"type": "text"
 							},
 							{
-								"name": "user-agent",
-								"sortOrder": 7,
-								"infoTitle": "We recommend using this header",
-								"info": "The User-Agent header is added to help the server identify Postman as the HTTP requesting application or client.\n\nIt is recommended that this header be sent, but you can remove the header or enter a new one with a different value.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "User-Agent",
 								"value": "PostmanRuntime/7.32.1",
-								"system": true,
-								"type": "text",
-								"uuid": "0ac8bd44-8012-4082-82e0-da360b7ed198"
+								"type": "text"
 							},
 							{
-								"name": "accept",
-								"sortOrder": 8,
-								"infoTitle": "We recommend using this header",
-								"info": "The \"Accept: */*\" header is added to tell the server that Postman can understand and process all forms of response content types.\n\nIt is recommended that this header be sent, but you can remove the header or enter a new one with a different value.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "Accept",
 								"value": "*/*",
-								"system": true,
-								"type": "text",
-								"uuid": "3ad34f78-5e1c-4fe9-a01f-3467fbf944f7"
+								"type": "text"
 							},
 							{
-								"name": "accept-encoding",
-								"sortOrder": 9,
-								"infoTitle": "We recommend using this header",
-								"info": "The Accept-Encoding header is added to indicate to the server that Postman HTTP client supports a defined list of content-encoding or compression algorithms as response.\n\nYou can remove the header or enter a new one with a different value. Doing that may not accurately render the response within the app.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "Accept-Encoding",
 								"value": "gzip, deflate, br",
-								"system": true,
-								"type": "text",
-								"uuid": "5b1e37ad-f3fa-44d1-b20c-a8b6b8bd6e91"
+								"type": "text"
 							},
 							{
-								"name": "connection",
-								"sortOrder": 10,
-								"infoTitle": "We recommend using this header",
-								"info": "Postman added the Connection header to indicate the server to keep the underlying network connection open once the current response is received. This allows Postman to reuse the same connection for faster response times in subsequent requests to the same server.\n\nYou can remove this header or enter a new one with a different value, such as `Connection: Close` to control this behaviour.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "Connection",
 								"value": "keep-alive",
-								"system": true,
-								"type": "text",
-								"uuid": "18d931d7-1877-448b-843e-0d94cbe30865"
+								"type": "text"
 							},
 							{
 								"key": "token",
 								"value": "f852dd540fe3574c8a657fbdf3695ddc",
-								"type": "text",
-								"id": 0,
-								"uuid": "3772bc83-f2b5-4f7e-bf71-ca482e1f061d"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"id": 1,
-								"uuid": "3ad34f78-5e1c-4fe9-a01f-3467fbf944f7"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -3718,139 +3482,59 @@
 						"method": "POST",
 						"header": [
 							{
-								"name": "cache-control",
-								"sortOrder": 2,
-								"infoTitle": "We recommend using this header",
-								"info": "Postman added \"Cache-Control: no-cache\" as a precautionary measure to prevent the server from returning stale response when one makes repeated requests.\n\nYou can remove this header in the app settings or enter a new one with a different value.",
-								"allowedToToggle": false,
-								"disableEdit": true,
-								"previewSettingsLink": "Go to settings",
 								"key": "Cache-Control",
 								"value": "no-cache",
-								"system": true,
-								"type": "text",
-								"uuid": "4e4fa0cf-0bf2-4ca9-aa85-ce1a5432fd8b"
+								"type": "text"
 							},
 							{
-								"name": "postman-token",
-								"sortOrder": 3,
-								"infoTitle": "We recommend using this header",
-								"info": "The Postman-Token header appends a random UUID to every outgoing request. Postman adds this header for API developers to better debug requests sent and to ensure separate requests appear distinct to the receiving server.\n\nYou can remove this header in the app settings.",
-								"allowedToToggle": false,
-								"disableEdit": true,
-								"previewSettingsLink": "Go to settings",
 								"key": "Postman-Token",
 								"value": "<calculated when request is sent>",
-								"system": true,
-								"type": "text",
-								"uuid": "b89209ce-5eff-41a5-926c-852196ebf4ca"
+								"type": "text"
 							},
 							{
-								"name": "content-type",
-								"sortOrder": 4,
-								"infoTitle": "This header was automatically added",
-								"info": "The Content-Type header is added to help the server identify the media type of the request body that is present in this request.\n\nUse the request body tab to control the value or to remove this header.",
-								"allowedToToggle": true,
-								"disableEdit": true,
-								"previewSettingsLink": "Go to body",
 								"key": "Content-Type",
 								"value": "application/json",
-								"system": true,
-								"type": "text",
-								"uuid": "f59734c1-8fdd-4780-9a2a-cc59fa9442dd"
+								"type": "text"
 							},
 							{
-								"name": "content-length",
-								"sortOrder": 5,
-								"infoTitle": "This header was automatically added",
-								"info": "The Content-Length header was added to indicate to the server the size of the request body that is added to this request. Server uses this value to parse the request body accurately.\n\nYou can remove the header or enter a new one with a different value.",
-								"allowedToToggle": true,
-								"disableEdit": true,
-								"previewSettingsLink": "Go to body",
 								"key": "Content-Length",
 								"value": "<calculated when request is sent>",
-								"system": true,
-								"type": "text",
-								"uuid": "0a9557cb-0d62-4f0a-952f-5f2e0467dbbc"
+								"type": "text"
 							},
 							{
-								"name": "host",
-								"sortOrder": 6,
-								"infoTitle": "We recommend using this header",
-								"info": "The Host header is added to identify the domain name for which a request is being sent to the server. This header is implicitly sent by every HTTP client.\n\nYou can remove the header or enter a new one with a different value. It is most likely that without this header, your request will return an HTTP 400 error.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "Host",
 								"value": "<calculated when request is sent>",
-								"system": true,
-								"type": "text",
-								"uuid": "bd8ca3e7-59f8-4199-bcb2-3d4a02005969"
+								"type": "text"
 							},
 							{
-								"name": "user-agent",
-								"sortOrder": 7,
-								"infoTitle": "We recommend using this header",
-								"info": "The User-Agent header is added to help the server identify Postman as the HTTP requesting application or client.\n\nIt is recommended that this header be sent, but you can remove the header or enter a new one with a different value.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "User-Agent",
 								"value": "PostmanRuntime/7.32.1",
-								"system": true,
-								"type": "text",
-								"uuid": "2ff9d6a8-8205-4a69-8b8e-3fc66943efcb"
+								"type": "text"
 							},
 							{
-								"name": "accept",
-								"sortOrder": 8,
-								"infoTitle": "We recommend using this header",
-								"info": "The \"Accept: */*\" header is added to tell the server that Postman can understand and process all forms of response content types.\n\nIt is recommended that this header be sent, but you can remove the header or enter a new one with a different value.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "Accept",
 								"value": "*/*",
-								"system": true,
-								"type": "text",
-								"uuid": "29a85e7b-4548-4a99-aa5e-530576a9460a"
+								"type": "text"
 							},
 							{
-								"name": "accept-encoding",
-								"sortOrder": 9,
-								"infoTitle": "We recommend using this header",
-								"info": "The Accept-Encoding header is added to indicate to the server that Postman HTTP client supports a defined list of content-encoding or compression algorithms as response.\n\nYou can remove the header or enter a new one with a different value. Doing that may not accurately render the response within the app.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "Accept-Encoding",
 								"value": "gzip, deflate, br",
-								"system": true,
-								"type": "text",
-								"uuid": "410761ed-53c5-4f4e-b9ab-7c096f61c343"
+								"type": "text"
 							},
 							{
-								"name": "connection",
-								"sortOrder": 10,
-								"infoTitle": "We recommend using this header",
-								"info": "Postman added the Connection header to indicate the server to keep the underlying network connection open once the current response is received. This allows Postman to reuse the same connection for faster response times in subsequent requests to the same server.\n\nYou can remove this header or enter a new one with a different value, such as `Connection: Close` to control this behaviour.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "Connection",
 								"value": "keep-alive",
-								"system": true,
-								"type": "text",
-								"uuid": "e9de2f77-b131-4960-a493-e2bee59cba2c"
+								"type": "text"
 							},
 							{
 								"key": "token",
 								"value": "31236467a9554a92e0930c457b329f79",
-								"type": "text",
-								"id": 0,
-								"uuid": "8c6473b5-400d-4b68-9ad7-463827482f26"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"id": 1,
-								"uuid": "29a85e7b-4548-4a99-aa5e-530576a9460a"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -3891,139 +3575,59 @@
 						"method": "POST",
 						"header": [
 							{
-								"name": "cache-control",
-								"sortOrder": 2,
-								"infoTitle": "We recommend using this header",
-								"info": "Postman added \"Cache-Control: no-cache\" as a precautionary measure to prevent the server from returning stale response when one makes repeated requests.\n\nYou can remove this header in the app settings or enter a new one with a different value.",
-								"allowedToToggle": false,
-								"disableEdit": true,
-								"previewSettingsLink": "Go to settings",
 								"key": "Cache-Control",
 								"value": "no-cache",
-								"system": true,
-								"type": "text",
-								"uuid": "7fc9435b-7f7b-4b38-8a7a-c20101488cfc"
+								"type": "text"
 							},
 							{
-								"name": "postman-token",
-								"sortOrder": 3,
-								"infoTitle": "We recommend using this header",
-								"info": "The Postman-Token header appends a random UUID to every outgoing request. Postman adds this header for API developers to better debug requests sent and to ensure separate requests appear distinct to the receiving server.\n\nYou can remove this header in the app settings.",
-								"allowedToToggle": false,
-								"disableEdit": true,
-								"previewSettingsLink": "Go to settings",
 								"key": "Postman-Token",
 								"value": "<calculated when request is sent>",
-								"system": true,
-								"type": "text",
-								"uuid": "fdaf210f-e932-48f7-9a2a-ba4ce65b56ec"
+								"type": "text"
 							},
 							{
-								"name": "content-type",
-								"sortOrder": 4,
-								"infoTitle": "This header was automatically added",
-								"info": "The Content-Type header is added to help the server identify the media type of the request body that is present in this request.\n\nUse the request body tab to control the value or to remove this header.",
-								"allowedToToggle": true,
-								"disableEdit": true,
-								"previewSettingsLink": "Go to body",
 								"key": "Content-Type",
 								"value": "application/json",
-								"system": true,
-								"type": "text",
-								"uuid": "211c1c8f-68b6-4765-9b65-f68e0e9335ac"
+								"type": "text"
 							},
 							{
-								"name": "content-length",
-								"sortOrder": 5,
-								"infoTitle": "This header was automatically added",
-								"info": "The Content-Length header was added to indicate to the server the size of the request body that is added to this request. Server uses this value to parse the request body accurately.\n\nYou can remove the header or enter a new one with a different value.",
-								"allowedToToggle": true,
-								"disableEdit": true,
-								"previewSettingsLink": "Go to body",
 								"key": "Content-Length",
 								"value": "<calculated when request is sent>",
-								"system": true,
-								"type": "text",
-								"uuid": "c5b5b06b-0d71-493d-8965-23cf3b63eb0d"
+								"type": "text"
 							},
 							{
-								"name": "host",
-								"sortOrder": 6,
-								"infoTitle": "We recommend using this header",
-								"info": "The Host header is added to identify the domain name for which a request is being sent to the server. This header is implicitly sent by every HTTP client.\n\nYou can remove the header or enter a new one with a different value. It is most likely that without this header, your request will return an HTTP 400 error.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "Host",
 								"value": "<calculated when request is sent>",
-								"system": true,
-								"type": "text",
-								"uuid": "007770ec-991d-46fe-a1bf-95fa3283fb7f"
+								"type": "text"
 							},
 							{
-								"name": "user-agent",
-								"sortOrder": 7,
-								"infoTitle": "We recommend using this header",
-								"info": "The User-Agent header is added to help the server identify Postman as the HTTP requesting application or client.\n\nIt is recommended that this header be sent, but you can remove the header or enter a new one with a different value.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "User-Agent",
 								"value": "PostmanRuntime/7.32.1",
-								"system": true,
-								"type": "text",
-								"uuid": "7da3ff0f-d071-4e23-92af-9eddeffdd079"
+								"type": "text"
 							},
 							{
-								"name": "accept",
-								"sortOrder": 8,
-								"infoTitle": "We recommend using this header",
-								"info": "The \"Accept: */*\" header is added to tell the server that Postman can understand and process all forms of response content types.\n\nIt is recommended that this header be sent, but you can remove the header or enter a new one with a different value.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "Accept",
 								"value": "*/*",
-								"system": true,
-								"type": "text",
-								"uuid": "f19b29ce-bdd0-4cf3-ac73-2360ebcca13d"
+								"type": "text"
 							},
 							{
-								"name": "accept-encoding",
-								"sortOrder": 9,
-								"infoTitle": "We recommend using this header",
-								"info": "The Accept-Encoding header is added to indicate to the server that Postman HTTP client supports a defined list of content-encoding or compression algorithms as response.\n\nYou can remove the header or enter a new one with a different value. Doing that may not accurately render the response within the app.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "Accept-Encoding",
 								"value": "gzip, deflate, br",
-								"system": true,
-								"type": "text",
-								"uuid": "af452fa0-f433-48b9-8558-ba57d21e6e31"
+								"type": "text"
 							},
 							{
-								"name": "connection",
-								"sortOrder": 10,
-								"infoTitle": "We recommend using this header",
-								"info": "Postman added the Connection header to indicate the server to keep the underlying network connection open once the current response is received. This allows Postman to reuse the same connection for faster response times in subsequent requests to the same server.\n\nYou can remove this header or enter a new one with a different value, such as `Connection: Close` to control this behaviour.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "Connection",
 								"value": "keep-alive",
-								"system": true,
-								"type": "text",
-								"uuid": "1b2e2035-e8af-4512-a177-1b76f2cd0736"
+								"type": "text"
 							},
 							{
 								"key": "token",
 								"value": "31236467a9554a92e0930c457b329f79",
-								"type": "text",
-								"id": 0,
-								"uuid": "a64bf43e-23ec-4a39-b1b4-8321dc90f600"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/pdf",
-								"type": "text",
-								"id": 1,
-								"uuid": "f19b29ce-bdd0-4cf3-ac73-2360ebcca13d"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -4061,14 +3665,12 @@
 							{
 								"key": "token",
 								"value": "31236467a9554a92e0930c457b329f79",
-								"type": "text",
-								"uuid": "7fa4f5da-d905-4cba-988f-0d3a7a601550"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "18d6656f-75bb-4d53-944e-623332521846"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -4106,14 +3708,12 @@
 							{
 								"key": "token",
 								"value": "31236467a9554a92e0930c457b329f79",
-								"type": "text",
-								"uuid": "20525b2f-9c8e-4b17-9216-9f6e4f3efdf0"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "8a36001f-5878-41d1-807a-1ad0ce91210e"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -4151,14 +3751,12 @@
 							{
 								"key": "token",
 								"value": "31236467a9554a92e0930c457b329f79",
-								"type": "text",
-								"uuid": "99c3b089-88ad-4bcd-bc87-4f58ab0e116f"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "b9832889-0f6b-4506-83d0-12d70d8d67c3"
+								"type": "text"
 							}
 						],
 						"url": {
@@ -4196,14 +3794,12 @@
 							{
 								"key": "token",
 								"value": "31236467a9554a92e0930c457b329f79",
-								"type": "text",
-								"uuid": "51a10356-34b5-477a-9057-0ccc676037e5"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "f581190e-9bdc-47a8-827f-31c390eb152b"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -4250,8 +3846,7 @@
 							{
 								"key": "token",
 								"value": "31236467a9554a92e0930c457b329f79",
-								"type": "text",
-								"uuid": "3f52d570-6e84-4b34-97c9-458393f9497e"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -4287,139 +3882,59 @@
 						"method": "POST",
 						"header": [
 							{
-								"name": "cache-control",
-								"sortOrder": 2,
-								"infoTitle": "We recommend using this header",
-								"info": "Postman added \"Cache-Control: no-cache\" as a precautionary measure to prevent the server from returning stale response when one makes repeated requests.\n\nYou can remove this header in the app settings or enter a new one with a different value.",
-								"allowedToToggle": false,
-								"disableEdit": true,
-								"previewSettingsLink": "Go to settings",
 								"key": "Cache-Control",
 								"value": "no-cache",
-								"system": true,
-								"type": "text",
-								"uuid": "0a1b3144-b658-4237-b25e-04e982187847"
+								"type": "text"
 							},
 							{
-								"name": "postman-token",
-								"sortOrder": 3,
-								"infoTitle": "We recommend using this header",
-								"info": "The Postman-Token header appends a random UUID to every outgoing request. Postman adds this header for API developers to better debug requests sent and to ensure separate requests appear distinct to the receiving server.\n\nYou can remove this header in the app settings.",
-								"allowedToToggle": false,
-								"disableEdit": true,
-								"previewSettingsLink": "Go to settings",
 								"key": "Postman-Token",
 								"value": "<calculated when request is sent>",
-								"system": true,
-								"type": "text",
-								"uuid": "f3649390-329b-43b3-b89f-574264d1094f"
+								"type": "text"
 							},
 							{
-								"name": "content-type",
-								"sortOrder": 4,
-								"infoTitle": "This header was automatically added",
-								"info": "The Content-Type header is added to help the server identify the media type of the request body that is present in this request.\n\nUse the request body tab to control the value or to remove this header.",
-								"allowedToToggle": true,
-								"disableEdit": true,
-								"previewSettingsLink": "Go to body",
 								"key": "Content-Type",
 								"value": "application/json",
-								"system": true,
-								"type": "text",
-								"uuid": "7f54ad23-66bb-4327-9d3c-06b981a1c252"
+								"type": "text"
 							},
 							{
-								"name": "content-length",
-								"sortOrder": 5,
-								"infoTitle": "This header was automatically added",
-								"info": "The Content-Length header was added to indicate to the server the size of the request body that is added to this request. Server uses this value to parse the request body accurately.\n\nYou can remove the header or enter a new one with a different value.",
-								"allowedToToggle": true,
-								"disableEdit": true,
-								"previewSettingsLink": "Go to body",
 								"key": "Content-Length",
 								"value": "<calculated when request is sent>",
-								"system": true,
-								"type": "text",
-								"uuid": "98098b72-d293-4e4c-9123-8b114bceb218"
+								"type": "text"
 							},
 							{
-								"name": "host",
-								"sortOrder": 6,
-								"infoTitle": "We recommend using this header",
-								"info": "The Host header is added to identify the domain name for which a request is being sent to the server. This header is implicitly sent by every HTTP client.\n\nYou can remove the header or enter a new one with a different value. It is most likely that without this header, your request will return an HTTP 400 error.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "Host",
 								"value": "<calculated when request is sent>",
-								"system": true,
-								"type": "text",
-								"uuid": "bdfe903c-d054-48fd-9d0b-e13359539f02"
+								"type": "text"
 							},
 							{
-								"name": "user-agent",
-								"sortOrder": 7,
-								"infoTitle": "We recommend using this header",
-								"info": "The User-Agent header is added to help the server identify Postman as the HTTP requesting application or client.\n\nIt is recommended that this header be sent, but you can remove the header or enter a new one with a different value.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "User-Agent",
 								"value": "PostmanRuntime/7.32.1",
-								"system": true,
-								"type": "text",
-								"uuid": "fd331ce3-820a-488f-b575-10fb177f248d"
+								"type": "text"
 							},
 							{
-								"name": "accept",
-								"sortOrder": 8,
-								"infoTitle": "We recommend using this header",
-								"info": "The \"Accept: */*\" header is added to tell the server that Postman can understand and process all forms of response content types.\n\nIt is recommended that this header be sent, but you can remove the header or enter a new one with a different value.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "Accept",
 								"value": "*/*",
-								"system": true,
-								"type": "text",
-								"uuid": "bcc8236c-6110-48fd-bfc2-986678f42e39"
+								"type": "text"
 							},
 							{
-								"name": "accept-encoding",
-								"sortOrder": 9,
-								"infoTitle": "We recommend using this header",
-								"info": "The Accept-Encoding header is added to indicate to the server that Postman HTTP client supports a defined list of content-encoding or compression algorithms as response.\n\nYou can remove the header or enter a new one with a different value. Doing that may not accurately render the response within the app.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "Accept-Encoding",
 								"value": "gzip, deflate, br",
-								"system": true,
-								"type": "text",
-								"uuid": "bb35ee87-cc44-465b-898e-6b1daa748132"
+								"type": "text"
 							},
 							{
-								"name": "connection",
-								"sortOrder": 10,
-								"infoTitle": "We recommend using this header",
-								"info": "Postman added the Connection header to indicate the server to keep the underlying network connection open once the current response is received. This allows Postman to reuse the same connection for faster response times in subsequent requests to the same server.\n\nYou can remove this header or enter a new one with a different value, such as `Connection: Close` to control this behaviour.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "Connection",
 								"value": "keep-alive",
-								"system": true,
-								"type": "text",
-								"uuid": "7021da04-d333-4d76-b76d-0cad28b519ca"
+								"type": "text"
 							},
 							{
 								"key": "token",
 								"value": "31236467a9554a92e0930c457b329f79",
-								"type": "text",
-								"id": 0,
-								"uuid": "3db25370-9cd8-4bd6-b58c-f6ef61bb24f3"
+								"type": "text"
 							},
 							{
 								"key": "accept",
 								"value": "application/json",
-								"type": "text",
-								"id": 1,
-								"uuid": "21d2f67b-7334-4747-9c47-0e590a56b008"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -4455,111 +3970,49 @@
 						"method": "POST",
 						"header": [
 							{
-								"name": "cache-control",
-								"sortOrder": 2,
-								"infoTitle": "We recommend using this header",
-								"info": "Postman added \"Cache-Control: no-cache\" as a precautionary measure to prevent the server from returning stale response when one makes repeated requests.\n\nYou can remove this header in the app settings or enter a new one with a different value.",
-								"allowedToToggle": false,
-								"disableEdit": true,
-								"previewSettingsLink": "Go to settings",
 								"key": "Cache-Control",
 								"value": "no-cache",
-								"system": true,
-								"type": "text",
-								"uuid": "c06e6f3b-e651-45c1-8e9f-0dace13894fd"
+								"type": "text"
 							},
 							{
-								"name": "postman-token",
-								"sortOrder": 3,
-								"infoTitle": "We recommend using this header",
-								"info": "The Postman-Token header appends a random UUID to every outgoing request. Postman adds this header for API developers to better debug requests sent and to ensure separate requests appear distinct to the receiving server.\n\nYou can remove this header in the app settings.",
-								"allowedToToggle": false,
-								"disableEdit": true,
-								"previewSettingsLink": "Go to settings",
 								"key": "Postman-Token",
 								"value": "<calculated when request is sent>",
-								"system": true,
-								"type": "text",
-								"uuid": "1edf370d-c592-47de-95e7-55c5c58fb3de"
+								"type": "text"
 							},
 							{
-								"name": "host",
-								"sortOrder": 6,
-								"infoTitle": "We recommend using this header",
-								"info": "The Host header is added to identify the domain name for which a request is being sent to the server. This header is implicitly sent by every HTTP client.\n\nYou can remove the header or enter a new one with a different value. It is most likely that without this header, your request will return an HTTP 400 error.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "Host",
 								"value": "<calculated when request is sent>",
-								"system": true,
-								"type": "text",
-								"uuid": "356a41e6-9aec-4ab2-8487-ea4625c96957"
+								"type": "text"
 							},
 							{
-								"name": "user-agent",
-								"sortOrder": 7,
-								"infoTitle": "We recommend using this header",
-								"info": "The User-Agent header is added to help the server identify Postman as the HTTP requesting application or client.\n\nIt is recommended that this header be sent, but you can remove the header or enter a new one with a different value.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "User-Agent",
 								"value": "PostmanRuntime/7.32.1",
-								"system": true,
-								"type": "text",
-								"uuid": "b1fcec97-a757-470e-9e72-22fc80c6446e"
+								"type": "text"
 							},
 							{
-								"name": "accept",
-								"sortOrder": 8,
-								"infoTitle": "We recommend using this header",
-								"info": "The \"Accept: */*\" header is added to tell the server that Postman can understand and process all forms of response content types.\n\nIt is recommended that this header be sent, but you can remove the header or enter a new one with a different value.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "Accept",
 								"value": "*/*",
-								"system": true,
-								"type": "text",
-								"uuid": "d25ee170-54ce-48bc-b5fa-f461d8c91fa9"
+								"type": "text"
 							},
 							{
-								"name": "accept-encoding",
-								"sortOrder": 9,
-								"infoTitle": "We recommend using this header",
-								"info": "The Accept-Encoding header is added to indicate to the server that Postman HTTP client supports a defined list of content-encoding or compression algorithms as response.\n\nYou can remove the header or enter a new one with a different value. Doing that may not accurately render the response within the app.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "Accept-Encoding",
 								"value": "gzip, deflate, br",
-								"system": true,
-								"type": "text",
-								"uuid": "d7d1050f-0b18-4e0d-8a87-31764af16c3a"
+								"type": "text"
 							},
 							{
-								"name": "connection",
-								"sortOrder": 10,
-								"infoTitle": "We recommend using this header",
-								"info": "Postman added the Connection header to indicate the server to keep the underlying network connection open once the current response is received. This allows Postman to reuse the same connection for faster response times in subsequent requests to the same server.\n\nYou can remove this header or enter a new one with a different value, such as `Connection: Close` to control this behaviour.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "Connection",
 								"value": "keep-alive",
-								"system": true,
-								"type": "text",
-								"uuid": "10acf470-c134-45bb-954d-f7b356fdb3cd"
+								"type": "text"
 							},
 							{
 								"key": "token",
 								"value": "31236467a9554a92e0930c457b329f79",
-								"type": "text",
-								"id": 0,
-								"uuid": "a86bd784-f523-4548-a37e-d59f04e4980b"
+								"type": "text"
 							},
 							{
 								"key": "accept",
 								"value": "application/json",
-								"type": "text",
-								"id": 1,
-								"uuid": "0665618f-47b1-4f7e-95b1-d003e646c8a1"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -4595,139 +4048,59 @@
 						"method": "POST",
 						"header": [
 							{
-								"name": "cache-control",
-								"sortOrder": 2,
-								"infoTitle": "We recommend using this header",
-								"info": "Postman added \"Cache-Control: no-cache\" as a precautionary measure to prevent the server from returning stale response when one makes repeated requests.\n\nYou can remove this header in the app settings or enter a new one with a different value.",
-								"allowedToToggle": false,
-								"disableEdit": true,
-								"previewSettingsLink": "Go to settings",
 								"key": "Cache-Control",
 								"value": "no-cache",
-								"system": true,
-								"type": "text",
-								"uuid": "8ce39349-e8d6-4692-89cf-1389cb7e2c22"
+								"type": "text"
 							},
 							{
-								"name": "postman-token",
-								"sortOrder": 3,
-								"infoTitle": "We recommend using this header",
-								"info": "The Postman-Token header appends a random UUID to every outgoing request. Postman adds this header for API developers to better debug requests sent and to ensure separate requests appear distinct to the receiving server.\n\nYou can remove this header in the app settings.",
-								"allowedToToggle": false,
-								"disableEdit": true,
-								"previewSettingsLink": "Go to settings",
 								"key": "Postman-Token",
 								"value": "<calculated when request is sent>",
-								"system": true,
-								"type": "text",
-								"uuid": "53dd873e-25a6-4c2a-99d3-d01a7e5e888f"
+								"type": "text"
 							},
 							{
-								"name": "content-type",
-								"sortOrder": 4,
-								"infoTitle": "This header was automatically added",
-								"info": "The Content-Type header is added to help the server identify the media type of the request body that is present in this request.\n\nUse the request body tab to control the value or to remove this header.",
-								"allowedToToggle": true,
-								"disableEdit": true,
-								"previewSettingsLink": "Go to body",
 								"key": "Content-Type",
 								"value": "application/json",
-								"system": true,
-								"type": "text",
-								"uuid": "2cf43218-2db6-4274-8779-5149333b06b2"
+								"type": "text"
 							},
 							{
-								"name": "content-length",
-								"sortOrder": 5,
-								"infoTitle": "This header was automatically added",
-								"info": "The Content-Length header was added to indicate to the server the size of the request body that is added to this request. Server uses this value to parse the request body accurately.\n\nYou can remove the header or enter a new one with a different value.",
-								"allowedToToggle": true,
-								"disableEdit": true,
-								"previewSettingsLink": "Go to body",
 								"key": "Content-Length",
 								"value": "<calculated when request is sent>",
-								"system": true,
-								"type": "text",
-								"uuid": "9d6499fa-40e4-43c6-a0e0-c5bdbc868bcc"
+								"type": "text"
 							},
 							{
-								"name": "host",
-								"sortOrder": 6,
-								"infoTitle": "We recommend using this header",
-								"info": "The Host header is added to identify the domain name for which a request is being sent to the server. This header is implicitly sent by every HTTP client.\n\nYou can remove the header or enter a new one with a different value. It is most likely that without this header, your request will return an HTTP 400 error.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "Host",
 								"value": "<calculated when request is sent>",
-								"system": true,
-								"type": "text",
-								"uuid": "931ba8ec-4a98-41e1-a77f-ac412a7fad4d"
+								"type": "text"
 							},
 							{
-								"name": "user-agent",
-								"sortOrder": 7,
-								"infoTitle": "We recommend using this header",
-								"info": "The User-Agent header is added to help the server identify Postman as the HTTP requesting application or client.\n\nIt is recommended that this header be sent, but you can remove the header or enter a new one with a different value.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "User-Agent",
 								"value": "PostmanRuntime/7.32.1",
-								"system": true,
-								"type": "text",
-								"uuid": "08f9ace3-a8c1-4574-8b21-e03ffb4e0fb9"
+								"type": "text"
 							},
 							{
-								"name": "accept",
-								"sortOrder": 8,
-								"infoTitle": "We recommend using this header",
-								"info": "The \"Accept: */*\" header is added to tell the server that Postman can understand and process all forms of response content types.\n\nIt is recommended that this header be sent, but you can remove the header or enter a new one with a different value.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "Accept",
 								"value": "*/*",
-								"system": true,
-								"type": "text",
-								"uuid": "c8804c04-f937-429d-be6b-1aa485e1a4cd"
+								"type": "text"
 							},
 							{
-								"name": "accept-encoding",
-								"sortOrder": 9,
-								"infoTitle": "We recommend using this header",
-								"info": "The Accept-Encoding header is added to indicate to the server that Postman HTTP client supports a defined list of content-encoding or compression algorithms as response.\n\nYou can remove the header or enter a new one with a different value. Doing that may not accurately render the response within the app.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "Accept-Encoding",
 								"value": "gzip, deflate, br",
-								"system": true,
-								"type": "text",
-								"uuid": "fb9a31fd-865e-4582-b901-0722a8676181"
+								"type": "text"
 							},
 							{
-								"name": "connection",
-								"sortOrder": 10,
-								"infoTitle": "We recommend using this header",
-								"info": "Postman added the Connection header to indicate the server to keep the underlying network connection open once the current response is received. This allows Postman to reuse the same connection for faster response times in subsequent requests to the same server.\n\nYou can remove this header or enter a new one with a different value, such as `Connection: Close` to control this behaviour.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "Connection",
 								"value": "keep-alive",
-								"system": true,
-								"type": "text",
-								"uuid": "53d082b1-9ea1-4a35-9a2e-d715ffc3fe69"
+								"type": "text"
 							},
 							{
 								"key": "token",
 								"value": "31236467a9554a92e0930c457b329f79",
-								"type": "text",
-								"id": 0,
-								"uuid": "82939f96-da42-41b8-a5a3-4de2e3626ca6"
+								"type": "text"
 							},
 							{
 								"key": "accept",
 								"value": "application/token",
-								"type": "text",
-								"id": 1,
-								"uuid": "aa228074-1231-4bac-8ec5-15a5d65545b2"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -4763,139 +4136,59 @@
 						"method": "POST",
 						"header": [
 							{
-								"name": "cache-control",
-								"sortOrder": 2,
-								"infoTitle": "We recommend using this header",
-								"info": "Postman added \"Cache-Control: no-cache\" as a precautionary measure to prevent the server from returning stale response when one makes repeated requests.\n\nYou can remove this header in the app settings or enter a new one with a different value.",
-								"allowedToToggle": false,
-								"disableEdit": true,
-								"previewSettingsLink": "Go to settings",
 								"key": "Cache-Control",
 								"value": "no-cache",
-								"system": true,
-								"type": "text",
-								"uuid": "71429abd-59b8-4cfb-9e3d-3c65b1254102"
+								"type": "text"
 							},
 							{
-								"name": "postman-token",
-								"sortOrder": 3,
-								"infoTitle": "We recommend using this header",
-								"info": "The Postman-Token header appends a random UUID to every outgoing request. Postman adds this header for API developers to better debug requests sent and to ensure separate requests appear distinct to the receiving server.\n\nYou can remove this header in the app settings.",
-								"allowedToToggle": false,
-								"disableEdit": true,
-								"previewSettingsLink": "Go to settings",
 								"key": "Postman-Token",
 								"value": "<calculated when request is sent>",
-								"system": true,
-								"type": "text",
-								"uuid": "17ca9cfc-fd3f-4fd2-a85e-13e1c7065b60"
+								"type": "text"
 							},
 							{
-								"name": "content-type",
-								"sortOrder": 4,
-								"infoTitle": "This header was automatically added",
-								"info": "The Content-Type header is added to help the server identify the media type of the request body that is present in this request.\n\nUse the request body tab to control the value or to remove this header.",
-								"allowedToToggle": true,
-								"disableEdit": true,
-								"previewSettingsLink": "Go to body",
 								"key": "Content-Type",
 								"value": "application/json",
-								"system": true,
-								"type": "text",
-								"uuid": "92180eb3-faf0-47b0-80bb-5bfc18e3b58b"
+								"type": "text"
 							},
 							{
-								"name": "content-length",
-								"sortOrder": 5,
-								"infoTitle": "This header was automatically added",
-								"info": "The Content-Length header was added to indicate to the server the size of the request body that is added to this request. Server uses this value to parse the request body accurately.\n\nYou can remove the header or enter a new one with a different value.",
-								"allowedToToggle": true,
-								"disableEdit": true,
-								"previewSettingsLink": "Go to body",
 								"key": "Content-Length",
 								"value": "<calculated when request is sent>",
-								"system": true,
-								"type": "text",
-								"uuid": "559ac937-1947-49e8-8180-fedfe35e69d5"
+								"type": "text"
 							},
 							{
-								"name": "host",
-								"sortOrder": 6,
-								"infoTitle": "We recommend using this header",
-								"info": "The Host header is added to identify the domain name for which a request is being sent to the server. This header is implicitly sent by every HTTP client.\n\nYou can remove the header or enter a new one with a different value. It is most likely that without this header, your request will return an HTTP 400 error.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "Host",
 								"value": "<calculated when request is sent>",
-								"system": true,
-								"type": "text",
-								"uuid": "97eb180c-b855-4d09-adf0-a9b38a7773a5"
+								"type": "text"
 							},
 							{
-								"name": "user-agent",
-								"sortOrder": 7,
-								"infoTitle": "We recommend using this header",
-								"info": "The User-Agent header is added to help the server identify Postman as the HTTP requesting application or client.\n\nIt is recommended that this header be sent, but you can remove the header or enter a new one with a different value.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "User-Agent",
 								"value": "PostmanRuntime/7.32.1",
-								"system": true,
-								"type": "text",
-								"uuid": "b08d9a24-413c-415e-a396-f9d3194c3ab8"
+								"type": "text"
 							},
 							{
-								"name": "accept",
-								"sortOrder": 8,
-								"infoTitle": "We recommend using this header",
-								"info": "The \"Accept: */*\" header is added to tell the server that Postman can understand and process all forms of response content types.\n\nIt is recommended that this header be sent, but you can remove the header or enter a new one with a different value.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "Accept",
 								"value": "*/*",
-								"system": true,
-								"type": "text",
-								"uuid": "68a47dc3-b43f-488f-8854-02263ef60190"
+								"type": "text"
 							},
 							{
-								"name": "accept-encoding",
-								"sortOrder": 9,
-								"infoTitle": "We recommend using this header",
-								"info": "The Accept-Encoding header is added to indicate to the server that Postman HTTP client supports a defined list of content-encoding or compression algorithms as response.\n\nYou can remove the header or enter a new one with a different value. Doing that may not accurately render the response within the app.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "Accept-Encoding",
 								"value": "gzip, deflate, br",
-								"system": true,
-								"type": "text",
-								"uuid": "614578f8-2f03-488d-8319-2d5aa2369a39"
+								"type": "text"
 							},
 							{
-								"name": "connection",
-								"sortOrder": 10,
-								"infoTitle": "We recommend using this header",
-								"info": "Postman added the Connection header to indicate the server to keep the underlying network connection open once the current response is received. This allows Postman to reuse the same connection for faster response times in subsequent requests to the same server.\n\nYou can remove this header or enter a new one with a different value, such as `Connection: Close` to control this behaviour.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "Connection",
 								"value": "keep-alive",
-								"system": true,
-								"type": "text",
-								"uuid": "1260fe15-5326-43c3-98e4-739a1b237c66"
+								"type": "text"
 							},
 							{
 								"key": "accept",
 								"value": "application/json",
-								"type": "text",
-								"id": 0,
-								"uuid": "2aba4529-2eec-4711-9dc4-a9a1e054081a"
+								"type": "text"
 							},
 							{
 								"key": "token",
 								"value": "31236467a9554a92e0930c457b329f79",
-								"type": "text",
-								"id": 1,
-								"uuid": "678bb01f-0a08-462b-b8e8-a822cdfb457f"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -4942,13 +4235,11 @@
 						"header": [
 							{
 								"key": "Accept",
-								"value": "application/json",
-								"uuid": "8fe34c31-2771-4f61-9688-bc0eb9248b9e"
+								"value": "application/json"
 							},
 							{
 								"key": "token",
-								"value": "a81529c9ed097a9d294505618ba14b6b",
-								"uuid": "dbe213c8-613c-4b08-a797-42f11aa85380"
+								"value": "a81529c9ed097a9d294505618ba14b6b"
 							}
 						],
 						"body": {
@@ -5109,14 +4400,12 @@
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "cd2e789c-5ea3-499b-9f3f-835000fdb48f"
+								"type": "text"
 							},
 							{
 								"key": "token",
 								"value": "a81529c9ed097a9d294505618ba14b6b",
-								"type": "text",
-								"uuid": "7c419f23-0380-4638-bc2b-de4458e4fdcb"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -5277,14 +4566,12 @@
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "e3e6b4c8-2608-4300-9da6-733c9a205ddb"
+								"type": "text"
 							},
 							{
 								"key": "token",
 								"value": "a81529c9ed097a9d294505618ba14b6b",
-								"type": "text",
-								"uuid": "4b3ec0c9-0786-4341-9e60-b99b74bb43e3"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -5326,13 +4613,11 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "a81529c9ed097a9d294505618ba14b6b",
-								"uuid": "bcd80731-be3c-42c8-868d-de9e1bd3b4f5"
+								"value": "a81529c9ed097a9d294505618ba14b6b"
 							},
 							{
 								"key": "Accept",
-								"value": "application/json",
-								"uuid": "d1200808-efe9-4a87-8cf5-4129dd3536bd"
+								"value": "application/json"
 							}
 						],
 						"body": {
@@ -5381,13 +4666,11 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "a81529c9ed097a9d294505618ba14b6b",
-								"uuid": "cb7e0cf8-b48d-48cc-8fb4-0ebb2bb2038f"
+								"value": "a81529c9ed097a9d294505618ba14b6b"
 							},
 							{
 								"key": "Accept",
-								"value": "application/json",
-								"uuid": "989b5bd5-bcd3-4c40-979c-bcce1ca6f922"
+								"value": "application/json"
 							}
 						],
 						"body": {
@@ -5436,13 +4719,11 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "a81529c9ed097a9d294505618ba14b6b",
-								"uuid": "c871ff3b-259d-4a12-80ff-310a2e146831"
+								"value": "a81529c9ed097a9d294505618ba14b6b"
 							},
 							{
 								"key": "Accept",
-								"value": "application/json",
-								"uuid": "de884cfb-2b68-40d7-b1d1-fb31563b91f8"
+								"value": "application/json"
 							}
 						],
 						"body": {
@@ -5485,14 +4766,12 @@
 							{
 								"key": "token",
 								"value": "a81529c9ed097a9d294505618ba14b6b",
-								"type": "text",
-								"uuid": "66ffcd19-a097-4398-864e-72df563a6c8c"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "efe7cc8f-4e33-41e9-b8f0-62042a2755d4"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -5535,14 +4814,12 @@
 							{
 								"key": "token",
 								"value": "",
-								"type": "text",
-								"uuid": "f349b1de-0bb5-45d9-ad4b-d446fda64c91"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "c06fa601-0830-4488-b8c2-ded9fbfb8099"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -5585,14 +4862,12 @@
 							{
 								"key": "token",
 								"value": "",
-								"type": "text",
-								"uuid": "c9555402-cb1d-444f-adf6-630aa16691ae"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "3ab015e3-8205-4f65-9183-990432bcb3c9"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -5636,14 +4911,12 @@
 							{
 								"key": "token",
 								"value": "",
-								"type": "text",
-								"uuid": "7546d1e9-c098-4687-9c52-d43f741fd4e0"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "804e87ab-15fb-4efb-a271-bd9d5e2e0c32"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -5689,14 +4962,12 @@
 							{
 								"key": "token",
 								"value": "",
-								"type": "text",
-								"uuid": "29d1b767-5fbe-48fa-8c82-ea16af324d4e"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "1fa6b923-3304-4bbd-880d-22879ddf4535"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -5734,14 +5005,12 @@
 							{
 								"key": "token",
 								"value": "",
-								"type": "text",
-								"uuid": "105ff0c3-9bb3-4f22-b0c3-1c186c2d3086"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "3bb0d2ba-c5ce-4933-8e5f-8290a7f79649"
+								"type": "text"
 							}
 						],
 						"url": {
@@ -5770,8 +5039,7 @@
 							{
 								"key": "token",
 								"value": "",
-								"type": "text",
-								"uuid": "85d24f96-6368-43d9-b738-f6d3eea7000a"
+								"type": "text"
 							}
 						],
 						"url": {
@@ -5802,144 +5070,64 @@
 						"method": "POST",
 						"header": [
 							{
-								"name": "cache-control",
-								"sortOrder": 2,
-								"infoTitle": "We recommend using this header",
-								"info": "Postman added \"Cache-Control: no-cache\" as a precautionary measure to prevent the server from returning stale response when one makes repeated requests.\n\nYou can remove this header in the app settings or enter a new one with a different value.",
-								"allowedToToggle": false,
-								"disableEdit": true,
-								"previewSettingsLink": "Go to settings",
 								"key": "Cache-Control",
 								"value": "no-cache",
-								"system": true,
-								"type": "text",
-								"uuid": "825de5e0-0876-4a93-a0fb-107f8efd80d3"
+								"type": "text"
 							},
 							{
-								"name": "postman-token",
-								"sortOrder": 3,
-								"infoTitle": "We recommend using this header",
-								"info": "The Postman-Token header appends a random UUID to every outgoing request. Postman adds this header for API developers to better debug requests sent and to ensure separate requests appear distinct to the receiving server.\n\nYou can remove this header in the app settings.",
-								"allowedToToggle": false,
-								"disableEdit": true,
-								"previewSettingsLink": "Go to settings",
 								"key": "Postman-Token",
 								"value": "<calculated when request is sent>",
-								"system": true,
-								"type": "text",
-								"uuid": "a611dac2-8cd9-4459-b7a0-eb38e8696e0f"
+								"type": "text"
 							},
 							{
-								"name": "content-type",
-								"sortOrder": 4,
-								"infoTitle": "This header was automatically added",
-								"info": "The Content-Type header is added to help the server identify the media type of the request body that is present in this request.\n\nUse the request body tab to control the value or to remove this header.",
-								"allowedToToggle": true,
-								"disableEdit": true,
-								"previewSettingsLink": "Go to body",
 								"key": "Content-Type",
 								"value": "application/json",
-								"system": true,
-								"type": "text",
-								"uuid": "69baf0be-f73e-448f-9355-2779c5302fc6"
+								"type": "text"
 							},
 							{
-								"name": "content-length",
-								"sortOrder": 5,
-								"infoTitle": "This header was automatically added",
-								"info": "The Content-Length header was added to indicate to the server the size of the request body that is added to this request. Server uses this value to parse the request body accurately.\n\nYou can remove the header or enter a new one with a different value.",
-								"allowedToToggle": true,
-								"disableEdit": true,
-								"previewSettingsLink": "Go to body",
 								"key": "Content-Length",
 								"value": "<calculated when request is sent>",
-								"system": true,
-								"type": "text",
-								"uuid": "4d20bbda-a98e-4baa-a44f-d02e5bb7a89d"
+								"type": "text"
 							},
 							{
-								"name": "host",
-								"sortOrder": 6,
-								"infoTitle": "We recommend using this header",
-								"info": "The Host header is added to identify the domain name for which a request is being sent to the server. This header is implicitly sent by every HTTP client.\n\nYou can remove the header or enter a new one with a different value. It is most likely that without this header, your request will return an HTTP 400 error.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "Host",
 								"value": "<calculated when request is sent>",
-								"system": true,
-								"type": "text",
-								"uuid": "a7ff9886-4ff4-4ef3-9ccf-a68532625ab6"
+								"type": "text"
 							},
 							{
-								"name": "user-agent",
-								"sortOrder": 7,
-								"infoTitle": "We recommend using this header",
-								"info": "The User-Agent header is added to help the server identify Postman as the HTTP requesting application or client.\n\nIt is recommended that this header be sent, but you can remove the header or enter a new one with a different value.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "User-Agent",
 								"value": "PostmanRuntime/7.32.1",
-								"system": true,
-								"type": "text",
-								"uuid": "a76e513c-fa67-4594-8ba8-5aa09f2dd52e"
+								"type": "text"
 							},
 							{
-								"name": "accept",
-								"sortOrder": 8,
-								"infoTitle": "We recommend using this header",
-								"info": "The \"Accept: */*\" header is added to tell the server that Postman can understand and process all forms of response content types.\n\nIt is recommended that this header be sent, but you can remove the header or enter a new one with a different value.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "Accept",
 								"value": "*/*",
-								"system": true,
-								"type": "text",
-								"uuid": "eeb410ab-568a-44e5-8bbd-27f7ba27ee6a"
+								"type": "text"
 							},
 							{
-								"name": "accept-encoding",
-								"sortOrder": 9,
-								"infoTitle": "We recommend using this header",
-								"info": "The Accept-Encoding header is added to indicate to the server that Postman HTTP client supports a defined list of content-encoding or compression algorithms as response.\n\nYou can remove the header or enter a new one with a different value. Doing that may not accurately render the response within the app.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "Accept-Encoding",
 								"value": "gzip, deflate, br",
-								"system": true,
-								"type": "text",
-								"uuid": "46091507-16c5-490b-9b7a-0b73e249260f"
+								"type": "text"
 							},
 							{
-								"name": "connection",
-								"sortOrder": 10,
-								"infoTitle": "We recommend using this header",
-								"info": "Postman added the Connection header to indicate the server to keep the underlying network connection open once the current response is received. This allows Postman to reuse the same connection for faster response times in subsequent requests to the same server.\n\nYou can remove this header or enter a new one with a different value, such as `Connection: Close` to control this behaviour.",
-								"allowedToToggle": true,
-								"disableEdit": true,
 								"key": "Connection",
 								"value": "keep-alive",
-								"system": true,
-								"type": "text",
-								"uuid": "4cb4a992-7749-434a-a9b0-bd9a0ee262f3"
+								"type": "text"
 							},
 							{
 								"key": "token",
 								"value": "31236467a9554a92e0930c457b329f79",
-								"type": "text",
-								"id": 0,
-								"uuid": "5057d7b8-96bf-42c7-aeb3-50c67cc81350"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"id": 1,
-								"uuid": "eeb410ab-568a-44e5-8bbd-27f7ba27ee6a"
+								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{ \n            \"teklif_id\" : 125017,\n            \"tc_kimlik_no\" : 12653529272,\n            \"musteri_adi\" : \"Kerem\",\n            \"musteri_email\" : \"kerem@tamamliyo.com\",\n            \"musteri_telefon\" : 5423501899,\n            \"partner_email\" : \"kerem@tamamliyo.com\"\n}",
+							"raw": "{ \n            \"teklif_id\" : 125017,\n            \"tc_kimlik_no\" : \"12***\",\n            \"musteri_adi\" : \"Kerem\",\n            \"musteri_email\" : \"bilgi@tamamliyo.com\",\n            \"musteri_telefon\" : \"542***\",\n            \"partner_email\" : \"bilgi@tamamliyo.com\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -5980,14 +5168,12 @@
 							{
 								"key": "token",
 								"value": "5ac96f1dbcc523873c902ccb0e445e25",
-								"type": "text",
-								"uuid": "b2ec5e0b-46e3-496a-a550-1d902379e1a0"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "31176b30-f161-4919-a5c4-2cb9fc460154"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -6025,8 +5211,7 @@
 							{
 								"key": "token",
 								"value": "",
-								"type": "text",
-								"uuid": "3699b4e6-2440-48b5-b624-eabab68067be"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -6064,8 +5249,7 @@
 							{
 								"key": "token",
 								"value": "31236467a9554a92e0930c457b329f79",
-								"type": "text",
-								"uuid": "83ff0ca8-af8d-4e46-908a-1ef911cb1c51"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -6103,14 +5287,12 @@
 							{
 								"key": "token",
 								"value": "",
-								"type": "text",
-								"uuid": "38bf7104-f6a8-412b-973c-a9f65cc91200"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "26292271-560f-474d-b3de-912c5673704d"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -6148,14 +5330,12 @@
 							{
 								"key": "token",
 								"value": "",
-								"type": "text",
-								"uuid": "3f941a04-622a-4409-9166-c9addda5fbf9"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "fb0f2799-70c5-4154-8782-9fa1ce0c24d0"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -6193,14 +5373,12 @@
 							{
 								"key": "token",
 								"value": "",
-								"type": "text",
-								"uuid": "6f1c645a-6bb8-4904-bb0e-9daf40ef8b1d"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "649f6e9a-bb86-4d36-8545-56cc30446af9"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -6238,14 +5416,12 @@
 							{
 								"key": "token",
 								"value": "",
-								"type": "text",
-								"uuid": "02385303-fedd-4536-915e-9c99f073be15"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "2c74bb72-f17e-4d12-a15f-81b17dc186da"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -6293,14 +5469,12 @@
 							{
 								"key": "token",
 								"value": "xxxxxxxxxxxxxxxxxxxxxxx",
-								"type": "text",
-								"uuid": "61455a33-4b78-44da-9579-e5ef68ac5b08"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "8d8b2155-6668-4e23-8569-d90dfdc54cc8"
+								"type": "text"
 							}
 						],
 						"url": {
@@ -6422,18 +5596,16 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
-								"uuid": "6e27a08b-1581-487f-9f16-fdb99372de8f"
+								"value": "31236467a9554a92e0930c457b329f79"
 							},
 							{
 								"key": "Accept",
-								"value": "application/json",
-								"uuid": "57d866c9-05e2-4334-9b26-ffab1388857e"
+								"value": "application/json"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"tcKimlikNo\" : \"43888576526\",\n    \"dogumTarihi\" : \"1986-02-07\",\n    \"ulkeKodu\" : \"TR\", //örnek TR\n    \"urun\" : \"scooter\",\n    \"gsmNo\" : \"5357864320\",\n    \"email\" : \"musa@tamamliyo.com\",\n    \"baslagicTarihi\":\"2024-05-23\",\n    \"bitisTarihi\" : \"2024-05-24\"\n}",
+							"raw": "{\n    \"tcKimlikNo\" : \"43***\",\n    \"dogumTarihi\" : \"1986-02-10\",\n    \"ulkeKodu\" : \"TR\", //örnek TR\n    \"urun\" : \"scooter\",\n    \"gsmNo\" : \"535***\",\n    \"email\" : \"bilgi@tamamliyo.com\",\n    \"baslagicTarihi\":\"2024-05-23\",\n    \"bitisTarihi\" : \"2024-05-24\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -6569,14 +5741,12 @@
 							{
 								"key": "token",
 								"value": "xxxxxxxxxxxxxxxxxxxxxx",
-								"type": "text",
-								"uuid": "fe25076e-608f-4b3c-9a02-a069c727be08"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "47eb7bd0-82f5-40bb-9975-01da6f701948"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -6619,14 +5789,12 @@
 							{
 								"key": "token",
 								"value": "xxxxxxxxxxxxxxxxxxxxx",
-								"type": "text",
-								"uuid": "1c25d5d5-1e1c-42c9-bf0e-d6e06270a34d"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "92545a01-7f5c-4492-8e55-3c6f4b3f89dd"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -6669,14 +5837,12 @@
 							{
 								"key": "token",
 								"value": "xxxxxxxxxxxxxxxxxxxx",
-								"type": "text",
-								"uuid": "29522e2f-0dfa-4d7a-99a8-1e695c90ba83"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "f299bc2e-8c5c-4dc1-a8ea-2d1121f1c354"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -6719,14 +5885,12 @@
 							{
 								"key": "token",
 								"value": "xxxxxxxxxxxxxxxxxxxx",
-								"type": "text",
-								"uuid": "70aa5499-5354-4185-a89e-f6cc0b4a280e"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "814aa09a-1fdd-4915-aef3-3567b2d72408"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -6769,14 +5933,12 @@
 							{
 								"key": "token",
 								"value": "xxxxxxxxxxxxxxxxxxxxx",
-								"type": "text",
-								"uuid": "3f074141-1ebd-49c1-b3c7-e1ceaeb8ce56"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "82ff8f75-887a-4ac4-913e-f7aa59e815d3"
+								"type": "text"
 							}
 						],
 						"body": {
@@ -6917,13 +6079,12 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
-								"uuid": "13f29bb2-b6e9-4852-b0f7-3210fb8dc3fa"
+								"value": "31236467a9554a92e0930c457b329f79"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"ad\": \"kerem\",\n    \"soyad\": \"tesst\",\n    \"kimlik_no\": \"12653653653\",\n    \"dogum_tarihi\": \"1999-09-19\",\n    \"cinsiyet\": \"E\",\n    \"gsm_no\": \"5423501899\",\n    \"email\": \"kerem@tamamliyo.com\",\n    \"plakaNo\": \"35AP0909\",\n    \"ruhsatSeriNo\": \"AD574004\",\n    \"vergiNo\":\"12345678900\",\n    \"emtea\":\"kişisel araba\",\n    \"tasiyanArac\":\"kamyon\",\n    \"seferTarihi\":\"2024-05-24\",\n    \"faturaBedeli\":\"1500000\",\n    \"aliciFirma\":\"Tamamliyo AŞ\",\n    \"baslangicIl\":\"İzmir\",\n    \"varisIl\":\"Ankara\",\n    \"notlar\":\"not test\"\n}",
+							"raw": "{\n    \"ad\": \"kerem\",\n    \"soyad\": \"tesst\",\n    \"kimlik_no\": \"12***\",\n    \"dogum_tarihi\": \"1990-09-19\",\n    \"cinsiyet\": \"E\",\n    \"gsm_no\": \"542***\",\n    \"email\": \"bilgi@tamamliyo.com\",\n    \"plakaNo\": \"35AP0909\",\n    \"ruhsatSeriNo\": \"AD574004\",\n    \"vergiNo\":\"12345678900\",\n    \"emtea\":\"kişisel araba\",\n    \"tasiyanArac\":\"kamyon\",\n    \"seferTarihi\":\"2024-05-24\",\n    \"faturaBedeli\":\"1500000\",\n    \"aliciFirma\":\"Tamamliyo AŞ\",\n    \"baslangicIl\":\"İzmir\",\n    \"varisIl\":\"Ankara\",\n    \"notlar\":\"not test\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -6956,13 +6117,12 @@
 							{
 								"key": "token",
 								"value": "31236467a9554a92e0930c457b329f79",
-								"type": "text",
-								"uuid": "1f6e4c91-fa87-43b0-a8f6-671b273b3e7f"
+								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"kimlik_no\": \"12653529272\",\n    \"dogum_tarihi\": \"1999-03-18\",\n    \"gsm_no\": \"5423501899\",\n    \"email\": \"kerem@tamamliyo.com\",\n    \"plakaNo\": \"35AP0909\",\n    \"ruhsatSeriNo\": \"AD574004\",\n    \"notlar\":\"not test\",\n    \"urun_adi\": 1\n}",
+							"raw": "{\n    \"kimlik_no\": \"12***\",\n    \"dogum_tarihi\": \"1990-03-18\",\n    \"gsm_no\": \"542***\",\n    \"email\": \"bilgi@tamamliyo.com\",\n    \"plakaNo\": \"35AP0909\",\n    \"ruhsatSeriNo\": \"AD574004\",\n    \"notlar\":\"not test\",\n    \"urun_adi\": 1\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -6999,8 +6159,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
-								"uuid": "603d8de4-9674-45e0-8758-5664632bc58d"
+								"value": "31236467a9554a92e0930c457b329f79"
 							}
 						],
 						"body": {
@@ -7045,19 +6204,17 @@
 							{
 								"key": "token",
 								"value": "31236467a9554a92e0930c457b329f79",
-								"type": "text",
-								"uuid": "ca673a5d-f2fb-4fda-ab2a-d2df4ae78e7f"
+								"type": "text"
 							},
 							{
 								"key": "Accept",
 								"value": "application/json",
-								"type": "text",
-								"uuid": "ec86d3af-2d14-4b73-9a75-1352b49f522b"
+								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"tcKimlikNo\": \"12653529272\",\n    \"dogumTarihi\": \"1999-03-18\",\n    \"ulkeKodu\": \"TR\",\n    \"urun\": \"etkinlik\",\n    \"gsmNo\": \"5423501899\",\n    \"email\": \"kerem@tamamliyo.com\"\n}",
+							"raw": "{\n    \"tcKimlikNo\": \"12***\",\n    \"dogumTarihi\": \"1990-03-18\",\n    \"ulkeKodu\": \"TR\",\n    \"urun\": \"etkinlik\",\n    \"gsmNo\": \"542***\",\n    \"email\": \"bilgi@tamamliyo.com\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -7085,6 +6242,237 @@
 			]
 		},
 		{
+			"name": "Bilet İptal Copy",
+			"item": [
+				{
+					"name": "Fiyat Al",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "token",
+								"value": "{{tamamliyoToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"sigortaliSayisi\": 2,\n    \"baslangicTarihi\": \"2024-07-20\",\n    \"bitisTarihi\": \"2024-07-22\",\n    \"parameters\" : {\n        \"ticketType\":  1,\n        \"ticketPrice\": \"1050.90\",\n        \"company\":\"Pegasus\",\n        \"departureLocation\": \"Antalya\",\n        \"departureAirport\": \"AYT\",\n        \"arrivalLocation\": \"Dublin\",\n        \"arrivalAirport\": \"DUB\",\n        \"departureDate\":\"2024-08-01 23:00\"\n    }\n}"
+						},
+						"url": {
+							"raw": "{{apitest}}/partner/v1/bilet-iptal-sigortasi/fiyat-al",
+							"host": [
+								"{{apitest}}"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"bilet-iptal-sigortasi",
+								"fiyat-al"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Teklif Olustur",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "token",
+								"value": "{{tamamliyoToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"sigortaEttiren\": {\n        \"tcKimlikNo\": \"111***\",\n        \"dogumTarihi\": \"1984-11-10\"\n    },\n    \"sigortali\": [\n        {\n            \"tcKimlikNo\": \"111***\",\n            \"dogumTarihi\": \"1984-11-10\"\n        },\n        {\n            \"tcKimlikNo\": \"12***\",\n            \"dogumTarihi\": \"1990-03-18\"\n        }\n    ],\n    \"email\": \"bilgi@tamamliyo.com\",\n    \"gsmNo\": \"5554323232\",\n    \"teklifId\":5\n}"
+						},
+						"url": {
+							"raw": "{{apitest}}/partner/v1/bilet-iptal-sigortasi/teklif-olustur",
+							"host": [
+								"{{apitest}}"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"bilet-iptal-sigortasi",
+								"teklif-olustur"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Odeme Yap 3D",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "token",
+								"value": "{{tamamliyoToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"parameters\": {\n        \"pnrNo\": \"A1B2C3\",\n        \"flightNumber\": \"AA1234\",\n        \"ticketNumber\": \"12345678\"\n    },\n    \"odemeTipi\" : 2,\n    \"teklifId\" : 3,\n    \"taksitSayisi\" : 1,\n    \"kartCvv\" : \"000\",\n    \"kartNo\" : \"4508034508034509\",\n    \"kartSonKullanmaTarihi\" : \"2026-12-01\",\n    \"kartSahibi\" : \"Sipay Test\",\n    \"ilId\" : 34,\n    \"ilceId\" : \"1\",\n    \"adres\" : \"test adresimm\",\n    \"cancelUrl\" : \"https://kirilmiyo.com/satin-al\",\n    \"successUrl\": \"http://tamamliyo.com\"\n    //\"kupon\":\"TEST\"\n}"
+						},
+						"url": {
+							"raw": "{{apitest}}/partner/v1/bilet-iptal-sigortasi/odeme-yap-3d",
+							"host": [
+								"{{apitest}}"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"bilet-iptal-sigortasi",
+								"odeme-yap-3d"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Odeme Onay",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "token",
+								"value": "{{tamamliyoToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"status_code\" : 100,\n    \"payment_status\" : \"Payment Successfully Completed\",\n    \"teklifId\" : 5,\n    \"parameters\": {\n        \"pnrNo\": \"A1B2C3\",\n        \"flightNumber\": \"AA1234\",\n        \"ticketNumber\": \"12345678\",\n        \"taksitSayisi\":1\n    }\n}"
+						},
+						"url": {
+							"raw": "{{apitest}}/partner/v1/bilet-iptal-sigortasi/odeme-onay",
+							"host": [
+								"{{apitest}}"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"bilet-iptal-sigortasi",
+								"odeme-onay"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "police olustur",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/pdf",
+								"type": "text"
+							},
+							{
+								"key": "token",
+								"value": "{{tamamliyoToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"teklifId\": 5\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{apitest}}/partner/v1/bilet-iptal-sigortasi/police-olustur",
+							"host": [
+								"{{apitest}}"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"bilet-iptal-sigortasi",
+								"police-olustur"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "police pdf",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/pdf",
+								"type": "text"
+							},
+							{
+								"key": "token",
+								"value": "{{tamamliyoToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"teklifId\": 5\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{apitest}}/partner/v1/bilet-iptal-sigortasi/police-pdf",
+							"host": [
+								"{{apitest}}"
+							],
+							"path": [
+								"partner",
+								"v1",
+								"bilet-iptal-sigortasi",
+								"police-pdf"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
 			"name": "police bulma",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -7093,132 +6481,54 @@
 				"method": "GET",
 				"header": [
 					{
-						"name": "cache-control",
-						"sortOrder": 2,
-						"infoTitle": "We recommend using this header",
-						"info": "Postman added \"Cache-Control: no-cache\" as a precautionary measure to prevent the server from returning stale response when one makes repeated requests.\n\nYou can remove this header in the app settings or enter a new one with a different value.",
-						"allowedToToggle": false,
-						"disableEdit": true,
-						"previewSettingsLink": "Go to settings",
 						"key": "Cache-Control",
 						"value": "no-cache",
-						"system": true,
-						"type": "text",
-						"uuid": "8cbb1269-d94a-497a-bbcd-233e4074a2f7"
+						"type": "text"
 					},
 					{
-						"name": "postman-token",
-						"sortOrder": 3,
-						"infoTitle": "We recommend using this header",
-						"info": "The Postman-Token header appends a random UUID to every outgoing request. Postman adds this header for API developers to better debug requests sent and to ensure separate requests appear distinct to the receiving server.\n\nYou can remove this header in the app settings.",
-						"allowedToToggle": false,
-						"disableEdit": true,
-						"previewSettingsLink": "Go to settings",
 						"key": "Postman-Token",
 						"value": "<calculated when request is sent>",
-						"system": true,
-						"type": "text",
-						"uuid": "89059549-9e84-4138-aa69-b30d0546fdf9"
+						"type": "text"
 					},
 					{
-						"name": "content-type",
-						"sortOrder": 4,
-						"infoTitle": "This header was automatically added",
-						"info": "The Content-Type header is added to help the server identify the media type of the request body that is present in this request.\n\nUse the request body tab to control the value or to remove this header.",
-						"allowedToToggle": true,
-						"disableEdit": true,
-						"previewSettingsLink": "Go to body",
 						"key": "Content-Type",
 						"value": "application/json",
-						"system": true,
-						"type": "text",
-						"uuid": "ca8a24da-3b90-49e6-accc-127d19602d00"
+						"type": "text"
 					},
 					{
-						"name": "content-length",
-						"sortOrder": 5,
-						"infoTitle": "This header was automatically added",
-						"info": "The Content-Length header was added to indicate to the server the size of the request body that is added to this request. Server uses this value to parse the request body accurately.\n\nYou can remove the header or enter a new one with a different value.",
-						"allowedToToggle": true,
-						"disableEdit": true,
-						"previewSettingsLink": "Go to body",
 						"key": "Content-Length",
 						"value": "<calculated when request is sent>",
-						"system": true,
-						"type": "text",
-						"uuid": "5672e6d3-5e1f-4798-bd31-a4b672bf1297"
+						"type": "text"
 					},
 					{
-						"name": "host",
-						"sortOrder": 6,
-						"infoTitle": "We recommend using this header",
-						"info": "The Host header is added to identify the domain name for which a request is being sent to the server. This header is implicitly sent by every HTTP client.\n\nYou can remove the header or enter a new one with a different value. It is most likely that without this header, your request will return an HTTP 400 error.",
-						"allowedToToggle": true,
-						"disableEdit": true,
 						"key": "Host",
 						"value": "<calculated when request is sent>",
-						"system": true,
-						"type": "text",
-						"uuid": "608f00ff-b2fa-4cdd-b1e3-f447d0f72302"
+						"type": "text"
 					},
 					{
-						"name": "user-agent",
-						"sortOrder": 7,
-						"infoTitle": "We recommend using this header",
-						"info": "The User-Agent header is added to help the server identify Postman as the HTTP requesting application or client.\n\nIt is recommended that this header be sent, but you can remove the header or enter a new one with a different value.",
-						"allowedToToggle": true,
-						"disableEdit": true,
 						"key": "User-Agent",
 						"value": "PostmanRuntime/7.32.1",
-						"system": true,
-						"type": "text",
-						"uuid": "fc61da19-514c-482c-a0f2-34e3887bfbc8"
+						"type": "text"
 					},
 					{
-						"name": "accept",
-						"sortOrder": 8,
-						"infoTitle": "We recommend using this header",
-						"info": "The \"Accept: */*\" header is added to tell the server that Postman can understand and process all forms of response content types.\n\nIt is recommended that this header be sent, but you can remove the header or enter a new one with a different value.",
-						"allowedToToggle": true,
-						"disableEdit": true,
 						"key": "Accept",
 						"value": "*/*",
-						"system": true,
-						"type": "text",
-						"uuid": "1d2cdd6a-a6aa-42eb-a7a0-975b3354d704"
+						"type": "text"
 					},
 					{
-						"name": "accept-encoding",
-						"sortOrder": 9,
-						"infoTitle": "We recommend using this header",
-						"info": "The Accept-Encoding header is added to indicate to the server that Postman HTTP client supports a defined list of content-encoding or compression algorithms as response.\n\nYou can remove the header or enter a new one with a different value. Doing that may not accurately render the response within the app.",
-						"allowedToToggle": true,
-						"disableEdit": true,
 						"key": "Accept-Encoding",
 						"value": "gzip, deflate, br",
-						"system": true,
-						"type": "text",
-						"uuid": "533d1552-8e4f-47c5-a783-63f1f7edec1e"
+						"type": "text"
 					},
 					{
-						"name": "connection",
-						"sortOrder": 10,
-						"infoTitle": "We recommend using this header",
-						"info": "Postman added the Connection header to indicate the server to keep the underlying network connection open once the current response is received. This allows Postman to reuse the same connection for faster response times in subsequent requests to the same server.\n\nYou can remove this header or enter a new one with a different value, such as `Connection: Close` to control this behaviour.",
-						"allowedToToggle": true,
-						"disableEdit": true,
 						"key": "Connection",
 						"value": "keep-alive",
-						"system": true,
-						"type": "text",
-						"uuid": "2262c8bd-e497-4db6-83a3-92be0e370a5e"
+						"type": "text"
 					},
 					{
 						"key": "token",
 						"value": "31236467a9554a92e0930c457b329f79",
-						"type": "text",
-						"id": 0,
-						"uuid": "411f8c4e-fcf9-42be-afd4-30df32132bb9"
+						"type": "text"
 					}
 				],
 				"body": {
@@ -7258,14 +6568,12 @@
 					{
 						"key": "token",
 						"value": "31236467a9554a92e0930c457b329f79",
-						"type": "text",
-						"uuid": "cc5da618-48e2-4b4a-9b97-539be250afd3"
+						"type": "text"
 					},
 					{
 						"key": "Accept",
 						"value": "application/json",
-						"type": "text",
-						"uuid": "2062ea9c-55fb-4f50-b5aa-15b5432ad7f8"
+						"type": "text"
 					}
 				],
 				"body": {
@@ -7309,14 +6617,12 @@
 					{
 						"key": "Accept",
 						"value": "application/json",
-						"type": "text",
-						"uuid": "3bac474e-b82e-4f91-bc61-3e160d39f296"
+						"type": "text"
 					},
 					{
 						"key": "token",
 						"value": "31236467a9554a92e0930c457b329f79",
-						"type": "text",
-						"uuid": "126258eb-501a-4cd0-9451-1dc57a8ff967"
+						"type": "text"
 					}
 				],
 				"url": {
@@ -7344,25 +6650,22 @@
 					{
 						"key": "Accept",
 						"value": "application/json",
-						"type": "text",
-						"uuid": "6da5b5ec-2b4f-4da6-af20-735e7c8713bb"
+						"type": "text"
 					},
 					{
 						"key": "userName",
 						"value": "0102034447",
-						"type": "text",
-						"uuid": "843797ad-f1a0-432e-8db7-59a5d468099d"
+						"type": "text"
 					},
 					{
 						"key": "password",
 						"value": "164631186",
-						"type": "text",
-						"uuid": "4ee99f0f-75e6-4eda-a03c-39a16cd44a50"
+						"type": "text"
 					}
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"birthDate\": \"18/03/1999\",\n    \"idNumber\": \"12653529272\",\n    \"salesManId\": \"1\"\n}",
+					"raw": "{\n    \"birthDate\": \"18/03/1990\",\n    \"idNumber\": \"12***\",\n    \"salesManId\": \"1\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -7394,9 +6697,7 @@
 					{
 						"key": "token",
 						"value": "31236467a9554a92e0930c457b329f79",
-						"type": "text",
-						"id": 0,
-						"uuid": "91701f4c-9993-4d52-9f25-3af192b6bc7c"
+						"type": "text"
 					}
 				],
 				"body": {
@@ -7431,139 +6732,59 @@
 				"method": "POST",
 				"header": [
 					{
-						"name": "cache-control",
-						"sortOrder": 2,
-						"infoTitle": "We recommend using this header",
-						"info": "Postman added \"Cache-Control: no-cache\" as a precautionary measure to prevent the server from returning stale response when one makes repeated requests.\n\nYou can remove this header in the app settings or enter a new one with a different value.",
-						"allowedToToggle": false,
-						"disableEdit": true,
-						"previewSettingsLink": "Go to settings",
 						"key": "Cache-Control",
 						"value": "no-cache",
-						"system": true,
-						"type": "text",
-						"uuid": "9677f4ef-81f0-4aa0-87b0-a338a3aec6de"
+						"type": "text"
 					},
 					{
-						"name": "postman-token",
-						"sortOrder": 3,
-						"infoTitle": "We recommend using this header",
-						"info": "The Postman-Token header appends a random UUID to every outgoing request. Postman adds this header for API developers to better debug requests sent and to ensure separate requests appear distinct to the receiving server.\n\nYou can remove this header in the app settings.",
-						"allowedToToggle": false,
-						"disableEdit": true,
-						"previewSettingsLink": "Go to settings",
 						"key": "Postman-Token",
 						"value": "<calculated when request is sent>",
-						"system": true,
-						"type": "text",
-						"uuid": "f15e0c7b-e1e4-43b9-8d53-2d96d729f5c6"
+						"type": "text"
 					},
 					{
-						"name": "content-type",
-						"sortOrder": 4,
-						"infoTitle": "This header was automatically added",
-						"info": "The Content-Type header is added to help the server identify the media type of the request body that is present in this request.\n\nUse the request body tab to control the value or to remove this header.",
-						"allowedToToggle": true,
-						"disableEdit": true,
-						"previewSettingsLink": "Go to body",
 						"key": "Content-Type",
 						"value": "application/json",
-						"system": true,
-						"type": "text",
-						"uuid": "0a62c2a0-896f-4094-993c-5e44370b1e9e"
+						"type": "text"
 					},
 					{
-						"name": "content-length",
-						"sortOrder": 5,
-						"infoTitle": "This header was automatically added",
-						"info": "The Content-Length header was added to indicate to the server the size of the request body that is added to this request. Server uses this value to parse the request body accurately.\n\nYou can remove the header or enter a new one with a different value.",
-						"allowedToToggle": true,
-						"disableEdit": true,
-						"previewSettingsLink": "Go to body",
 						"key": "Content-Length",
 						"value": "<calculated when request is sent>",
-						"system": true,
-						"type": "text",
-						"uuid": "a55c9ade-9243-4273-9b7d-307670e28143"
+						"type": "text"
 					},
 					{
-						"name": "host",
-						"sortOrder": 6,
-						"infoTitle": "We recommend using this header",
-						"info": "The Host header is added to identify the domain name for which a request is being sent to the server. This header is implicitly sent by every HTTP client.\n\nYou can remove the header or enter a new one with a different value. It is most likely that without this header, your request will return an HTTP 400 error.",
-						"allowedToToggle": true,
-						"disableEdit": true,
 						"key": "Host",
 						"value": "<calculated when request is sent>",
-						"system": true,
-						"type": "text",
-						"uuid": "c7442ada-e3ca-4d25-8480-1083843a0c98"
+						"type": "text"
 					},
 					{
-						"name": "user-agent",
-						"sortOrder": 7,
-						"infoTitle": "We recommend using this header",
-						"info": "The User-Agent header is added to help the server identify Postman as the HTTP requesting application or client.\n\nIt is recommended that this header be sent, but you can remove the header or enter a new one with a different value.",
-						"allowedToToggle": true,
-						"disableEdit": true,
 						"key": "User-Agent",
 						"value": "PostmanRuntime/7.32.1",
-						"system": true,
-						"type": "text",
-						"uuid": "10d76023-aa00-4a30-80bb-4778bc701b73"
+						"type": "text"
 					},
 					{
-						"name": "accept",
-						"sortOrder": 8,
-						"infoTitle": "We recommend using this header",
-						"info": "The \"Accept: */*\" header is added to tell the server that Postman can understand and process all forms of response content types.\n\nIt is recommended that this header be sent, but you can remove the header or enter a new one with a different value.",
-						"allowedToToggle": true,
-						"disableEdit": true,
 						"key": "Accept",
 						"value": "*/*",
-						"system": true,
-						"type": "text",
-						"uuid": "732e965f-d895-4dc5-b00d-4d12e37583ca"
+						"type": "text"
 					},
 					{
-						"name": "accept-encoding",
-						"sortOrder": 9,
-						"infoTitle": "We recommend using this header",
-						"info": "The Accept-Encoding header is added to indicate to the server that Postman HTTP client supports a defined list of content-encoding or compression algorithms as response.\n\nYou can remove the header or enter a new one with a different value. Doing that may not accurately render the response within the app.",
-						"allowedToToggle": true,
-						"disableEdit": true,
 						"key": "Accept-Encoding",
 						"value": "gzip, deflate, br",
-						"system": true,
-						"type": "text",
-						"uuid": "59a7a495-43c2-4d38-82f1-182d91f1d8b6"
+						"type": "text"
 					},
 					{
-						"name": "connection",
-						"sortOrder": 10,
-						"infoTitle": "We recommend using this header",
-						"info": "Postman added the Connection header to indicate the server to keep the underlying network connection open once the current response is received. This allows Postman to reuse the same connection for faster response times in subsequent requests to the same server.\n\nYou can remove this header or enter a new one with a different value, such as `Connection: Close` to control this behaviour.",
-						"allowedToToggle": true,
-						"disableEdit": true,
 						"key": "Connection",
 						"value": "keep-alive",
-						"system": true,
-						"type": "text",
-						"uuid": "671dca11-3ea7-4329-b583-5ae79dde12eb"
+						"type": "text"
 					},
 					{
 						"key": "token",
 						"value": "31236467a9554a92e0930c457b329f79",
-						"type": "text",
-						"id": 0,
-						"uuid": "c7b940b8-7665-40cf-aa05-daa4e862c5ba"
+						"type": "text"
 					},
 					{
 						"key": "accept",
 						"value": "application/json",
-						"type": "text",
-						"id": 1,
-						"uuid": "be62b6d2-6dbf-4d11-8905-9f7aa6c73822"
+						"type": "text"
 					}
 				],
 				"body": {
@@ -7603,8 +6824,7 @@
 					{
 						"key": "Accept",
 						"value": "application/json",
-						"type": "text",
-						"uuid": "c62c2691-32f5-4cc3-8e32-1a17abab48b5"
+						"type": "text"
 					}
 				],
 				"body": {
