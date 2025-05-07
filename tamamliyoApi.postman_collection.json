@@ -21,48 +21,6 @@
 			"key": "local",
 			"value": "http://127.0.0.1:8000",
 			"enabled": true
-		},
-		{
-			"key": "netgrup",
-			"value": "https://api.netgrupsigorta.com",
-			"enabled": true
-		},
-		{
-			"key": "kaskoline",
-			"value": "https://api.kaskoline.net",
-			"enabled": true
-		},
-		{
-			"key": "ncsigorta",
-			"value": "https://api.ncsigorta.com.tr",
-			"enabled": true
-		},
-		{
-			"key": "tamamliyoToken",
-			"value": "31236467a9554a92e0930c457b329f79",
-			"enabled": true
-		},
-		{
-			"key": "kaskolineToken",
-			"value": "c51a1698f9c2d503eb5af6c338ef1644",
-			"enabled": true
-		},
-		{
-			"key": "nettenToken",
-			"value": "6e6abd68230a4b4e780192ef9dc87d1e",
-			"enabled": true
-		},
-		{
-			"key": "turnaToken",
-			"value": "f389ff07f36ca116516b9af8dad9abfc",
-			"type": "default",
-			"enabled": true
-		},
-		{
-			"key": "biletcomToken",
-			"value": "3f8fedc7ac43c9f0ea366709e8f7e802",
-			"type": "default",
-			"enabled": true
 		}
 	],
 	"_postman_variable_scope": "environment",
