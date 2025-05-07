@@ -22,7 +22,7 @@
 								"header": [
 									{
 										"key": "token",
-										"value": "31236467a9554a92e0930c457b329f79",
+										"value": "",
 										"type": "text"
 									},
 									{
@@ -68,7 +68,7 @@
 								"header": [
 									{
 										"key": "token",
-										"value": "31236467a9554a92e0930c457b329f79",
+										"value": "",
 										"type": "text"
 									},
 									{
@@ -114,7 +114,7 @@
 								"header": [
 									{
 										"key": "token",
-										"value": "31236467a9554a92e0930c457b329f79 ",
+										"value": " ",
 										"type": "text"
 									}
 								],
@@ -155,7 +155,7 @@
 								"header": [
 									{
 										"key": "token",
-										"value": "31236467a9554a92e0930c457b329f79",
+										"value": "",
 										"type": "text"
 									},
 									{
@@ -201,7 +201,7 @@
 								"header": [
 									{
 										"key": "token",
-										"value": "31236467a9554a92e0930c457b329f79",
+										"value": "",
 										"type": "text"
 									},
 									{
@@ -247,7 +247,7 @@
 								"header": [
 									{
 										"key": "token",
-										"value": "31236467a9554a92e0930c457b329f79",
+										"value": "",
 										"type": "text"
 									},
 									{
@@ -339,7 +339,7 @@
 								"header": [
 									{
 										"key": "token",
-										"value": "31236467a9554a92e0930c457b329f79",
+										"value": "",
 										"type": "text"
 									},
 									{
@@ -388,17 +388,17 @@
 							},
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79"
+								"value": ""
 							},
 							{
 								"key": "token",
-								"value": "c51a1698f9c2d503eb5af6c338ef1644",
+								"value": "",
 								"description": "kaskoline",
 								"disabled": true
 							},
 							{
 								"key": "token",
-								"value": "a7786cedbf17f698cbf0a2b78873414a",
+								"value": "",
 								"description": "netgrup",
 								"type": "text",
 								"disabled": true
@@ -434,7 +434,7 @@
 								"header": [
 									{
 										"key": "token",
-										"value": "1a18886587c2efa7b720554ff646d482",
+										"value": "",
 										"type": "text"
 									},
 									{
@@ -533,7 +533,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -576,7 +576,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -619,7 +619,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "1a18886587c2efa7b720554ff646d482",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -662,7 +662,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "1a18886587c2efa7b720554ff646d482",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -705,7 +705,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "64280523ea2cd6d66c6f9d484d416a49",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -748,7 +748,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "1a18886587c2efa7b720554ff646d482",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -782,7 +782,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "1a18886587c2efa7b720554ff646d482",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -816,7 +816,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "1a18886587c2efa7b720554ff646d482",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -850,7 +850,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "1a18886587c2efa7b720554ff646d482",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -884,7 +884,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "1a18886587c2efa7b720554ff646d482",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -918,7 +918,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "1a18886587c2efa7b720554ff646d482",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -952,7 +952,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "1a18886587c2efa7b720554ff646d482",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -994,7 +994,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79"
+								"value": ""
 							}
 						],
 						"body": {
@@ -1034,7 +1034,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79"
+								"value": ""
 							}
 						],
 						"body": {
@@ -1362,18 +1362,18 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"disabled": true
 							},
 							{
 								"key": "token",
-								"value": "a7786cedbf17f698cbf0a2b78873414a",
+								"value": "",
 								"description": "netgrup",
 								"disabled": true
 							},
 							{
 								"key": "token",
-								"value": "c51a1698f9c2d503eb5af6c338ef1644",
+								"value": "",
 								"description": "kaskoline"
 							}
 						],
@@ -1537,18 +1537,18 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "a81529c9ed097a9d294505618ba14b6b",
+								"value": "",
 								"type": "text",
 								"disabled": true
 							},
 							{
 								"key": "token",
-								"value": "1a18886587c2efa7b720554ff646d482",
+								"value": "",
 								"type": "text"
 							},
 							{
 								"key": "token",
-								"value": "3f8fedc7ac43c9f0ea366709e8f7e802",
+								"value": "",
 								"type": "text",
 								"disabled": true
 							}
@@ -1587,7 +1587,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "1a18886587c2efa7b720554ff646d482",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -1627,7 +1627,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "a81529c9ed097a9d294505618ba14b6b",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -1670,7 +1670,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "a81529c9ed097a9d294505618ba14b6b",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -1713,7 +1713,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "{{nettenToken}}",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -1756,12 +1756,12 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
 								"key": "token",
-								"value": "{{nettenToken}}",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -1916,7 +1916,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "a81529c9ed097a9d294505618ba14b6b",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -1954,7 +1954,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "a81529c9ed097a9d294505618ba14b6b",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -1992,7 +1992,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "a81529c9ed097a9d294505618ba14b6b",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -2029,7 +2029,7 @@
 								"header": [
 									{
 										"key": "token",
-										"value": "a81529c9ed097a9d294505618ba14b6b",
+										"value": "",
 										"type": "text"
 									}
 								],
@@ -2148,7 +2148,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -2191,7 +2191,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "1a18886587c2efa7b720554ff646d482",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -2356,7 +2356,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "d3dd94c2f94f6eb3c3abe0c543056919",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -2394,7 +2394,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -2432,7 +2432,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "d3dd94c2f94f6eb3c3abe0c543056919",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -2705,7 +2705,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -2874,7 +2874,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -2912,12 +2912,12 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
 								"key": "token",
-								"value": "f389ff07f36ca116516b9af8dad9abfc",
+								"value": "",
 								"type": "text",
 								"disabled": true
 							}
@@ -2953,38 +2953,8 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
-								"description": "yazilim tamamliyo"
-							},
-							{
-								"key": "token",
-								"value": "a7786cedbf17f698cbf0a2b78873414a",
-								"description": "netgrup",
-								"disabled": true
-							},
-							{
-								"key": "token",
-								"value": "dd40c3dfc18c804447a6f059180e08e1",
-								"description": "enucuzuum",
-								"disabled": true
-							},
-							{
-								"key": "token",
-								"value": "6e6abd68230a4b4e780192ef9dc87d1e",
-								"description": "nettensigorta",
-								"disabled": true
-							},
-							{
-								"key": "token",
-								"value": "d81e76ab10f0d73373de820398811991",
-								"description": "ncsigorta",
-								"disabled": true
-							},
-							{
-								"key": "token",
-								"value": "f389ff07f36ca116516b9af8dad9abfc",
-								"description": "turna",
-								"disabled": true
+								"value": "",
+								"description": ""
 							},
 							{
 								"key": "Accept",
@@ -3021,38 +2991,8 @@
 								"header": [
 									{
 										"key": "token",
-										"value": "31236467a9554a92e0930c457b329f79",
-										"description": "yazilim tamamliyo"
-									},
-									{
-										"key": "token",
-										"value": "a7786cedbf17f698cbf0a2b78873414a",
-										"description": "netgrup",
-										"disabled": true
-									},
-									{
-										"key": "token",
-										"value": "c51a1698f9c2d503eb5af6c338ef1644",
-										"description": "kaskoline",
-										"disabled": true
-									},
-									{
-										"key": "token",
-										"value": "6e6abd68230a4b4e780192ef9dc87d1e",
-										"description": "nettensigorta",
-										"disabled": true
-									},
-									{
-										"key": "token",
-										"value": "d81e76ab10f0d73373de820398811991",
-										"description": "ncsigorta",
-										"disabled": true
-									},
-									{
-										"key": "token",
-										"value": "f389ff07f36ca116516b9af8dad9abfc",
-										"description": "turna",
-										"disabled": true
+										"value": "",
+										"description": ""
 									},
 									{
 										"key": "Accept",
@@ -3166,7 +3106,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79"
+								"value": ""
 							},
 							{
 								"key": "Accept",
@@ -3209,7 +3149,7 @@
 							},
 							{
 								"key": "token",
-								"value": "{{tamamliyoToken}}",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -3239,7 +3179,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "{{tamamliyoToken}}",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -3317,7 +3257,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "{{biletcomToken}}",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -3352,7 +3292,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "a81529c9ed097a9d294505618ba14b6b",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -3389,7 +3329,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -3585,7 +3525,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -3638,7 +3578,7 @@
 							},
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -3730,7 +3670,7 @@
 							},
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -3827,7 +3767,7 @@
 							},
 							{
 								"key": "token",
-								"value": "f852dd540fe3574c8a657fbdf3695ddc",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -3929,7 +3869,7 @@
 							},
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -3972,7 +3912,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -4015,7 +3955,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -4058,7 +3998,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -4101,7 +4041,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -4153,7 +4093,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -4245,7 +4185,7 @@
 							},
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -4330,7 +4270,7 @@
 							},
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -4427,7 +4367,7 @@
 							},
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -4529,7 +4469,7 @@
 							},
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -4572,7 +4512,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "{{tamamliyoToken}}",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -4607,7 +4547,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "{{tamamliyoToken}}",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -4647,7 +4587,7 @@
 							},
 							{
 								"key": "token",
-								"value": "{{tamamliyoToken}}",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -4685,7 +4625,7 @@
 							},
 							{
 								"key": "token",
-								"value": "{{tamamliyoToken}}",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -4728,7 +4668,7 @@
 							},
 							{
 								"key": "token",
-								"value": "{{tamamliyoToken}}",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -4777,12 +4717,12 @@
 							},
 							{
 								"key": "token",
-								"value": "{{tamamliyoToken}}",
+								"value": "",
 								"disabled": true
 							},
 							{
 								"key": "token",
-								"value": "{{kaskolineToken}}",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -4821,7 +4761,7 @@
 									},
 									{
 										"key": "token",
-										"value": "a81529c9ed097a9d294505618ba14b6b",
+										"value": "",
 										"type": "text"
 									}
 								],
@@ -4937,7 +4877,7 @@
 									},
 									{
 										"key": "token",
-										"value": "{{tamamliyoToken}}"
+										"value": ""
 									}
 								],
 								"body": {
@@ -5057,7 +4997,7 @@
 							},
 							{
 								"key": "token",
-								"value": "a81529c9ed097a9d294505618ba14b6b",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -5099,7 +5039,7 @@
 									},
 									{
 										"key": "token",
-										"value": "a81529c9ed097a9d294505618ba14b6b",
+										"value": "",
 										"type": "text"
 									}
 								],
@@ -5223,7 +5163,7 @@
 							},
 							{
 								"key": "token",
-								"value": "a81529c9ed097a9d294505618ba14b6b",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -5266,7 +5206,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "a81529c9ed097a9d294505618ba14b6b"
+								"value": ""
 							},
 							{
 								"key": "Accept",
@@ -5319,7 +5259,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "a81529c9ed097a9d294505618ba14b6b"
+								"value": ""
 							},
 							{
 								"key": "Accept",
@@ -5372,7 +5312,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "a81529c9ed097a9d294505618ba14b6b"
+								"value": ""
 							},
 							{
 								"key": "Accept",
@@ -5418,7 +5358,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "a81529c9ed097a9d294505618ba14b6b",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -5769,7 +5709,7 @@
 							},
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -5812,7 +5752,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "{{turnaToken}}",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -5855,7 +5795,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "5ac96f1dbcc523873c902ccb0e445e25",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -5936,7 +5876,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -6284,7 +6224,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79"
+								"value": ""
 							},
 							{
 								"key": "Accept",
@@ -6767,7 +6707,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79"
+								"value": ""
 							}
 						],
 						"body": {
@@ -6804,7 +6744,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -6847,7 +6787,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79"
+								"value": ""
 							}
 						],
 						"body": {
@@ -6886,7 +6826,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -6934,7 +6874,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79"
+								"value": ""
 							}
 						],
 						"body": {
@@ -6976,7 +6916,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "{{kaskolineToken}}",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -7017,7 +6957,7 @@
 								"header": [
 									{
 										"key": "token",
-										"value": "{{kaskolineToken}}",
+										"value": "",
 										"type": "text"
 									}
 								],
@@ -7137,7 +7077,7 @@
 								"header": [
 									{
 										"key": "token",
-										"value": "{{kaskolineToken}}",
+										"value": "",
 										"type": "text"
 									}
 								],
@@ -7257,7 +7197,7 @@
 								"header": [
 									{
 										"key": "token",
-										"value": "{{kaskolineToken}}",
+										"value": "",
 										"type": "text"
 									}
 								],
@@ -7377,7 +7317,7 @@
 								"header": [
 									{
 										"key": "token",
-										"value": "{{kaskolineToken}}",
+										"value": "",
 										"type": "text"
 									}
 								],
@@ -7497,7 +7437,7 @@
 								"header": [
 									{
 										"key": "token",
-										"value": "{{kaskolineToken}}",
+										"value": "",
 										"type": "text"
 									}
 								],
@@ -7622,7 +7562,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "{{kaskolineToken}}",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -7663,7 +7603,7 @@
 								"header": [
 									{
 										"key": "token",
-										"value": "{{kaskolineToken}}",
+										"value": "",
 										"type": "text"
 									}
 								],
@@ -7783,7 +7723,7 @@
 								"header": [
 									{
 										"key": "token",
-										"value": "{{kaskolineToken}}",
+										"value": "",
 										"type": "text"
 									}
 								],
@@ -7903,7 +7843,7 @@
 								"header": [
 									{
 										"key": "token",
-										"value": "{{kaskolineToken}}",
+										"value": "",
 										"type": "text"
 									}
 								],
@@ -8023,7 +7963,7 @@
 								"header": [
 									{
 										"key": "token",
-										"value": "{{kaskolineToken}}",
+										"value": "",
 										"type": "text"
 									}
 								],
@@ -8143,7 +8083,7 @@
 								"header": [
 									{
 										"key": "token",
-										"value": "{{kaskolineToken}}",
+										"value": "",
 										"type": "text"
 									}
 								],
@@ -8263,7 +8203,7 @@
 								"header": [
 									{
 										"key": "token",
-										"value": "{{kaskolineToken}}",
+										"value": "",
 										"type": "text"
 									}
 								],
@@ -8383,7 +8323,7 @@
 								"header": [
 									{
 										"key": "token",
-										"value": "{{kaskolineToken}}",
+										"value": "",
 										"type": "text"
 									}
 								],
@@ -8505,7 +8445,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "{{kaskolineToken}}"
+								"value": ""
 							},
 							{
 								"key": "Accept",
@@ -8542,7 +8482,7 @@
 								"header": [
 									{
 										"key": "token",
-										"value": "{{kaskolineToken}}"
+										"value": ""
 									},
 									{
 										"key": "Accept",
@@ -8660,7 +8600,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "{{kaskolineToken}}",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -8713,7 +8653,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "{{kaskolineToken}}",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -8769,7 +8709,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "{{kaskolineToken}}",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -8814,7 +8754,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "{{kaskolineToken}}",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -8856,7 +8796,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "{{kaskolineToken}}",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -8898,7 +8838,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "{{kaskolineToken}}",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -8939,7 +8879,7 @@
 								"header": [
 									{
 										"key": "token",
-										"value": "{{kaskolineToken}}",
+										"value": "",
 										"type": "text"
 									}
 								],
@@ -9064,7 +9004,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "{{kaskolineToken}}",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -9105,7 +9045,7 @@
 								"header": [
 									{
 										"key": "token",
-										"value": "{{kaskolineToken}}",
+										"value": "",
 										"type": "text"
 									}
 								],
@@ -9230,7 +9170,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "{{kaskolineToken}}",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -9280,12 +9220,12 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "{{kaskolineToken}}",
+								"value": "",
 								"type": "text"
 							},
 							{
 								"key": "token",
-								"value": "{{tamamliyoToken}}",
+								"value": "",
 								"type": "text",
 								"disabled": true
 							}
@@ -9327,7 +9267,7 @@
 								"header": [
 									{
 										"key": "token",
-										"value": "{{kaskolineToken}}",
+										"value": "",
 										"type": "text"
 									}
 								],
@@ -9447,7 +9387,7 @@
 								"header": [
 									{
 										"key": "token",
-										"value": "{{kaskolineToken}}",
+										"value": "",
 										"type": "text"
 									}
 								],
@@ -9567,7 +9507,7 @@
 								"header": [
 									{
 										"key": "token",
-										"value": "{{kaskolineToken}}",
+										"value": "",
 										"type": "text"
 									}
 								],
@@ -9687,7 +9627,7 @@
 								"header": [
 									{
 										"key": "token",
-										"value": "{{kaskolineToken}}",
+										"value": "",
 										"type": "text"
 									}
 								],
@@ -9807,7 +9747,7 @@
 								"header": [
 									{
 										"key": "token",
-										"value": "{{kaskolineToken}}",
+										"value": "",
 										"type": "text"
 									}
 								],
@@ -9927,7 +9867,7 @@
 								"header": [
 									{
 										"key": "token",
-										"value": "{{kaskolineToken}}",
+										"value": "",
 										"type": "text"
 									}
 								],
@@ -10047,12 +9987,12 @@
 								"header": [
 									{
 										"key": "token",
-										"value": "{{kaskolineToken}}",
+										"value": "",
 										"type": "text"
 									},
 									{
 										"key": "token",
-										"value": "{{tamamliyoToken}}",
+										"value": "",
 										"type": "text",
 										"disabled": true
 									}
@@ -10178,7 +10118,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "{{kaskolineToken}}",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -10223,7 +10163,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "{{kaskolineToken}}",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -10268,7 +10208,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "{{kaskolineToken}}",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -10313,7 +10253,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "{{kaskolineToken}}",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -10354,7 +10294,7 @@
 								"header": [
 									{
 										"key": "token",
-										"value": "{{kaskolineToken}}",
+										"value": "",
 										"type": "text"
 									}
 								],
@@ -10476,7 +10416,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "{{kaskolineToken}}",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -10517,7 +10457,7 @@
 								"header": [
 									{
 										"key": "token",
-										"value": "{{kaskolineToken}}",
+										"value": "",
 										"type": "text"
 									}
 								],
@@ -10639,7 +10579,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "{{kaskolineToken}}",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -10680,7 +10620,7 @@
 								"header": [
 									{
 										"key": "token",
-										"value": "{{kaskolineToken}}",
+										"value": "",
 										"type": "text"
 									}
 								],
@@ -10805,7 +10745,7 @@
 						"header": [
 							{
 								"key": "token",
-								"value": "{{kaskolineToken}}",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -10857,7 +10797,7 @@
 							},
 							{
 								"key": "token",
-								"value": "{{tamamliyoToken}}",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -10891,7 +10831,7 @@
 									},
 									{
 										"key": "token",
-										"value": "{{tamamliyoToken}}",
+										"value": "",
 										"type": "text"
 									}
 								],
@@ -11002,7 +10942,7 @@
 							},
 							{
 								"key": "token",
-								"value": "31236467a9554a92e0930c457b329f79",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -11036,7 +10976,7 @@
 									},
 									{
 										"key": "token",
-										"value": "{{tamamliyoToken}}",
+										"value": "",
 										"type": "text"
 									}
 								],
@@ -11147,7 +11087,7 @@
 							},
 							{
 								"key": "token",
-								"value": "{{tamamliyoToken}}",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -11181,7 +11121,7 @@
 									},
 									{
 										"key": "token",
-										"value": "{{tamamliyoToken}}",
+										"value": "",
 										"type": "text"
 									}
 								],
@@ -11274,7 +11214,7 @@
 									},
 									{
 										"key": "token",
-										"value": "{{tamamliyoToken}}",
+										"value": "",
 										"type": "text"
 									}
 								],
@@ -11367,7 +11307,7 @@
 									},
 									{
 										"key": "token",
-										"value": "{{tamamliyoToken}}",
+										"value": "",
 										"type": "text"
 									}
 								],
@@ -11462,7 +11402,7 @@
 							},
 							{
 								"key": "token",
-								"value": "{{tamamliyoToken}}",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -11497,7 +11437,7 @@
 							},
 							{
 								"key": "token",
-								"value": "{{tamamliyoToken}}",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -11535,7 +11475,7 @@
 							},
 							{
 								"key": "token",
-								"value": "{{tamamliyoToken}}",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -11578,7 +11518,7 @@
 							},
 							{
 								"key": "token",
-								"value": "{{tamamliyoToken}}",
+								"value": "",
 								"type": "text"
 							}
 						],
@@ -11663,7 +11603,7 @@
 					},
 					{
 						"key": "token",
-						"value": "31236467a9554a92e0930c457b329f79",
+						"value": "",
 						"type": "text"
 					}
 				],
@@ -11703,7 +11643,7 @@
 				"header": [
 					{
 						"key": "token",
-						"value": "31236467a9554a92e0930c457b329f79"
+						"value": ""
 					},
 					{
 						"key": "Accept",
@@ -11754,7 +11694,7 @@
 					},
 					{
 						"key": "token",
-						"value": "31236467a9554a92e0930c457b329f79"
+						"value": ""
 					}
 				],
 				"body": {
@@ -11839,7 +11779,7 @@
 				"header": [
 					{
 						"key": "token",
-						"value": "31236467a9554a92e0930c457b329f79",
+						"value": "",
 						"type": "text"
 					}
 				],
@@ -11930,7 +11870,7 @@
 					},
 					{
 						"key": "token",
-						"value": "31236467a9554a92e0930c457b329f79",
+						"value": "",
 						"type": "text"
 					},
 					{
@@ -12011,7 +11951,7 @@
 				"header": [
 					{
 						"key": "token",
-						"value": "31236467a9554a92e0930c457b329f79"
+						"value": ""
 					}
 				],
 				"body": {
